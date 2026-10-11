@@ -1,0 +1,120 @@
+/* ============================================================
+   V-Match 전역 다크 디자인 시스템
+   블랙 배경 + 얇은 그리드 + 네온 민트 — B2B 인텔리전스 무드
+   ============================================================ */
+:root {
+  --bg:        #070908;   /* 페이지 베이스 */
+  --bg-2:      #0a0e0c;   /* 살짝 들린 베이스 */
+  --surface:   #0e1311;   /* 카드 */
+  --surface-2: #121815;   /* 카드 위 요소 */
+  --fill:      #161d19;   /* 호버/은은한 채움 */
+
+  --mint:      #2fe3b0;
+  --mint-br:   #5cf2c8;
+  --mint-deep: #25c79a;
+  --mint-dim:  rgba(47, 227, 176, 0.42);
+  --mint-bg:   rgba(47, 227, 176, 0.07);
+  --on-mint:   #06140f;
+
+  --violet:    #9d74ef;
+  --violet-bg: rgba(157, 116, 239, 0.10);
+
+  --ink:       #f3f6f4;
+  --ink-2:     #aab3ae;
+  --ink-3:     #717b76;
+  --ink-4:     #4a534e;
+
+  --hair:      rgba(255, 255, 255, 0.08);
+  --hair-2:    rgba(255, 255, 255, 0.045);
+  --line:      #1c2320;
+
+  --ok:        #4ade80;  --ok-bg:   rgba(74, 222, 128, 0.12);
+  --warn:      #fbbf24;  --warn-bg: rgba(251, 191, 36, 0.12);
+  --danger:    #f87171;  --danger-bg: rgba(248, 113, 113, 0.12);
+  --pink:      #f472b6;  --pink-bg: rgba(244, 114, 182, 0.12);
+
+  --radius:    12px;
+  --shadow:    0 20px 50px rgba(0, 0, 0, 0.5);
+  --font:      'Pretendard', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --mono:      'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { background: var(--bg); }
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a { color: var(--mint); text-decoration: none; }
+a:hover { color: var(--mint-br); }
+
+/* ------------------------------------------------------------
+   Bootstrap ↔ 다크테마 정합 (전역 가독성 보정)
+   부트스트랩 .card 등은 color:var(--bs-body-color)=#212529(어두움)를 강제한다.
+   다크 화면에서 class="card"가 이와 충돌해, 색 지정이 없는 제목("기본 정보" 등)이
+   어둡게 깔려 안 보이던 문제를 뿌리에서 해결한다. 본문/제목/보조 텍스트색을
+   다크테마 잉크값으로 덮어써 어디서든 또렷하게 보이도록 한다.
+   ------------------------------------------------------------ */
+:root {
+  --bs-body-color: #f3f6f4;
+  --bs-body-color-rgb: 243, 246, 244;
+  --bs-heading-color: #f3f6f4;
+  --bs-emphasis-color: #ffffff;
+  --bs-emphasis-color-rgb: 255, 255, 255;
+  --bs-secondary-color: rgba(243, 246, 244, 0.66);
+  --bs-tertiary-color: rgba(243, 246, 244, 0.46);
+}
+/* 제목은 항상 밝게 (상속 사고 방지) */
+h1, h2, h3, h4, h5, h6 { color: var(--ink); }
+/* 부트스트랩 보조 텍스트 유틸도 다크에서 읽히도록 */
+.text-secondary { color: var(--bs-secondary-color) !important; }
+.text-muted { color: var(--bs-tertiary-color) !important; }
+
+button { font-family: inherit; color: inherit; }
+
+/* 폼 컨트롤 다크 기본값 (scoped로 덮어쓰지 않는 한 적용) */
+input, select, textarea {
+  font-family: inherit;
+  color: var(--ink);
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color-scheme: dark;            /* 날짜/시간 네이티브 픽커를 다크로 → 캘린더·시계 아이콘이 밝게 보임 */
+}
+/* 웹킷 계열: 날짜/시간 픽커 아이콘을 확실히 밝게 */
+input::-webkit-calendar-picker-indicator { filter: brightness(0) invert(1); opacity: 1; cursor: pointer; }
+input::placeholder, textarea::placeholder { color: var(--ink-4); }
+input:focus, select:focus, textarea:focus {
+  outline: none; border-color: var(--mint-dim);
+  box-shadow: 0 0 0 3px var(--mint-bg);
+}
+select option { background: var(--surface); color: var(--ink); }
+
+:focus-visible { outline: 2px solid var(--mint); outline-offset: 2px; }
+
+/* 스크롤바 */
+* { scrollbar-color: #2a322e var(--bg); scrollbar-width: thin; }
+*::-webkit-scrollbar { width: 11px; height: 11px; }
+*::-webkit-scrollbar-track { background: var(--bg); }
+*::-webkit-scrollbar-thumb { background: #232a26; border-radius: 6px; border: 3px solid var(--bg); }
+*::-webkit-scrollbar-thumb:hover { background: #313a35; }
+
+::selection { background: rgba(47, 227, 176, 0.28); color: #fff; }
+
+/* 전역 얇은 그리드 (앱 프레임 전체) */
+.app-wrapper {
+  position: relative;
+  min-height: 100vh;
+  background:
+    linear-gradient(var(--hair-2) 1px, transparent 1px) 0 0 / 66px 66px,
+    linear-gradient(90deg, var(--hair-2) 1px, transparent 1px) 0 0 / 66px 66px,
+    var(--bg);
+  background-attachment: fixed;
+}

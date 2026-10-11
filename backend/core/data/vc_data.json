@@ -1,0 +1,4009 @@
+[
+  {
+    "model": "core.vcprofile",
+    "pk": 1,
+    "fields": {
+      "firm_name": "카카오벤처스",
+      "firm_name_en": "Kakao Ventures",
+      "representative": "김기준",
+      "founded_at": "2012-03",
+      "tips_operator_selected_at": "2025-10",
+      "headquarters": {
+        "country": "대한민국",
+        "region": "경기도",
+        "district": "성남시 분당구",
+        "address_detail": null
+      },
+      "preferred_industries": [
+        "AI/ML",
+        "Semiconductor",
+        "Bio/Healthcare",
+        "Robotics",
+        "ICT",
+        "Other"
+      ],
+      "preferred_stages": [
+        "Pre-Seed",
+        "Seed",
+        "Pre-A"
+      ],
+      "preferred_regions": [],
+      "min_investment": null,
+      "max_investment": null,
+      "investment_amount_unit": "만원",
+      "investment_range_note": "첨부 이미지에 최소·최대 투자금이 명시되지 않음",
+      "bio": "인터넷·모바일 서비스와 첨단 기술 분야의 초기 스타트업을 발굴하고 성장을 지원하는 기술 기반 초기 투자 전문 벤처캐피탈이다.",
+      "vc_summary": "카카오벤처스는 AI, 산업용 반도체, 바이오·헬스케어, 로봇 등 기술 기반 창업팀에 초기 투자하며 투자 검토, 멘토링, 네트워킹과 후속 성장을 지원한다.",
+      "investment_thesis": {
+        "target": "설립 초기 단계의 기술 기반 스타트업",
+        "focus_sectors": [
+          "AI",
+          "산업용 반도체",
+          "바이오·헬스케어",
+          "로봇",
+          "ICT"
+        ],
+        "lifecycle": "창업 초기",
+        "review_factors": [
+          "창업팀 역량",
+          "기술 경쟁력",
+          "시장성",
+          "성장 가능성"
+        ],
+        "decision_process": "창업팀과 시장 현황을 종합적으로 검토하여 투자 여부를 결정"
+      },
+      "eval_emphasis": [
+        "team",
+        "technology",
+        "market",
+        "scalability"
+      ],
+      "support_capabilities": [
+        "TIPS 연계",
+        "전문 멘토링",
+        "1:1 컨설팅",
+        "투자자 네트워킹",
+        "후속투자 연계",
+        "글로벌 네트워크 연계"
+      ],
+      "programs": [
+        {
+          "name": "EIR(Entrepreneur In Residence)",
+          "type": "Mentoring",
+          "operator": "카카오벤처스",
+          "started_at": null,
+          "sessions": null,
+          "description": "선배 창업가와 VC가 초기 피투자사의 문제를 진단하고 컨설팅하는 프로그램",
+          "support": [
+            "비즈니스 모델",
+            "영업",
+            "개발 등 분야별 컨설팅"
+          ]
+        },
+        {
+          "name": "인사이트 세션",
+          "type": "Education",
+          "operator": "카카오벤처스",
+          "started_at": null,
+          "sessions": null,
+          "description": "피투자사를 위한 주제별 외부 전문가 초청 세션",
+          "support": [
+            "직무별 전문지식",
+            "창업 경험 및 노하우 공유"
+          ]
+        },
+        {
+          "name": "오피스 아워",
+          "type": "Office Hour",
+          "operator": "카카오벤처스",
+          "started_at": null,
+          "sessions": null,
+          "description": "서비스 데모와 1:1 미팅을 통해 사업 방향성, 시장성 및 투자 관점 피드백을 제공",
+          "support": [
+            "서비스 데모",
+            "1:1 미팅",
+            "투자 피드백"
+          ]
+        }
+      ],
+      "incubation_spaces": [
+        {
+          "name": "Startup Nomads",
+          "location": "서울특별시",
+          "usage": "초기 스타트업 보육 및 교류 공간"
+        }
+      ],
+      "partner_organizations": [
+        {
+          "name": "DX CARE株式会社",
+          "alias": null,
+          "type": "Partner",
+          "country": "일본",
+          "support": [
+            "글로벌 네트워크 연계"
+          ]
+        },
+        {
+          "name": "Reed Smith LLP",
+          "alias": null,
+          "type": "Law Firm",
+          "country": null,
+          "support": [
+            "법률 네트워크 연계"
+          ]
+        }
+      ],
+      "track_record": {
+        "tips_portfolio_count": 79,
+        "operator_investment": {
+          "amount_krw": 35432000000,
+          "display": "354.32억원"
+        },
+        "average_investment": {
+          "amount_krw": 448000000,
+          "display": "4.48억원",
+          "source": "첨부 이미지 기재값"
+        },
+        "portfolio_follow_on_funding": {
+          "amount_krw": 658500000000,
+          "display": "6,585억원"
+        },
+        "ma_count": 4,
+        "ipo_count": null,
+        "award_count": null,
+        "award_details": []
+      },
+      "contact": {
+        "website": "https://www.kakao.vc/"
+      },
+      "link": "https://www.kakao.vc/",
+      "verification": {
+        "source_type": "첨부 이미지",
+        "source_name": "TIPS 운영사 소개 자료",
+        "source_url": null,
+        "source_date": null,
+        "checked_at": "2026-06-23",
+        "needs_verification": [
+          "상세 주소",
+          "투자금 범위",
+          "누적 성과의 현재값",
+          "운영사 선정연월"
+        ],
+        "data_warnings": []
+      }
+    }
+  },
+  {
+    "model": "core.vcprofile",
+    "pk": 2,
+    "fields": {
+      "firm_name": "충남대학교기술지주",
+      "firm_name_en": "Chungnam National University Technology Holdings",
+      "representative": "김천규",
+      "founded_at": "2017-04",
+      "tips_operator_selected_at": "2025-10",
+      "headquarters": {
+        "country": "대한민국",
+        "region": "대전광역시",
+        "district": "유성구",
+        "address_detail": null
+      },
+      "preferred_industries": [
+        "Energy",
+        "ICT",
+        "Bio/Healthcare",
+        "FoodTech",
+        "Other"
+      ],
+      "preferred_stages": [
+        "Seed",
+        "Pre-A",
+        "Series A"
+      ],
+      "preferred_regions": [],
+      "min_investment": null,
+      "max_investment": null,
+      "investment_amount_unit": "만원",
+      "investment_range_note": "첨부 이미지에 최소·최대 투자금이 명시되지 않음",
+      "bio": "대학과 정부출연연구소의 기술사업화 및 지역 창업생태계 활성화를 지원하는 대학 기술지주회사다.",
+      "vc_summary": "약 191억원의 AUM을 운용하며 초기 창업기업에 투자하고 대학·연구기관·글로벌 액셀러레이터 네트워크를 활용해 기술사업화와 TIPS 연계를 지원한다.",
+      "investment_thesis": {
+        "target": "에너지, ICT, 바이오·헬스 및 푸드테크 분야의 기술 기반 초기기업",
+        "focus_sectors": [
+          "에너지",
+          "ICT",
+          "바이오·헬스",
+          "푸드테크"
+        ],
+        "lifecycle": "Seed부터 Series A",
+        "review_factors": [
+          "기술성",
+          "사업성",
+          "시장성",
+          "팀 역량"
+        ],
+        "decision_process": "기술·시장·사업성과 창업팀 역량을 종합 검토"
+      },
+      "eval_emphasis": [
+        "technology",
+        "team",
+        "market",
+        "scalability"
+      ],
+      "support_capabilities": [
+        "대학 기술사업화",
+        "TIPS 연계",
+        "직접투자",
+        "후속투자 연계",
+        "IR",
+        "전문가 컨설팅",
+        "글로벌 네트워크 연계"
+      ],
+      "programs": [
+        {
+          "name": "C-Unicorn 액셀러레이팅 프로그램",
+          "type": "Acceleration",
+          "operator": "충남대학교기술지주",
+          "started_at": null,
+          "sessions": null,
+          "description": "수요기술을 기반으로 데스밸리 극복을 지원하는 기업 맞춤형 액셀러레이팅 프로그램",
+          "support": [
+            "기업 진단",
+            "성장지원 컨설팅",
+            "직접투자",
+            "후속투자 연계"
+          ]
+        },
+        {
+          "name": "CNU Startup to TIPS",
+          "type": "TIPS Preparation",
+          "operator": "충남대학교기술지주",
+          "started_at": null,
+          "sessions": null,
+          "description": "TIPS 추천을 목표로 초기 스타트업을 발굴하고 육성하는 프로그램",
+          "support": [
+            "투자 유치 기회",
+            "TIPS 추천",
+            "R&D 지원",
+            "투자기관 IR"
+          ]
+        }
+      ],
+      "incubation_spaces": [
+        {
+          "name": "운영사 보육공간",
+          "location": "대전광역시 유성구",
+          "usage": "창업기업 보육"
+        }
+      ],
+      "partner_organizations": [
+        {
+          "name": "Innohub Accelerator Center",
+          "alias": null,
+          "type": "Accelerator",
+          "country": null,
+          "support": [
+            "글로벌 액셀러레이팅"
+          ]
+        },
+        {
+          "name": "Innolab Asia",
+          "alias": null,
+          "type": "Accelerator",
+          "country": null,
+          "support": [
+            "글로벌 진출"
+          ]
+        },
+        {
+          "name": "KIC 유럽",
+          "alias": null,
+          "type": "Global Support Organization",
+          "country": "독일",
+          "support": [
+            "유럽 진출 지원"
+          ]
+        },
+        {
+          "name": "SK이노베이션",
+          "alias": null,
+          "type": "Corporate",
+          "country": "대한민국",
+          "support": [
+            "오픈이노베이션"
+          ]
+        }
+      ],
+      "track_record": {
+        "tips_portfolio_count": null,
+        "operator_investment": {
+          "amount_krw": null,
+          "display": null
+        },
+        "average_investment": {
+          "amount_krw": null,
+          "display": null,
+          "source": null
+        },
+        "portfolio_follow_on_funding": {
+          "amount_krw": null,
+          "display": null
+        },
+        "ma_count": null,
+        "ipo_count": null,
+        "award_count": null,
+        "award_details": []
+      },
+      "contact": {
+        "website": "https://holdings.cnu.ac.kr/"
+      },
+      "link": "https://holdings.cnu.ac.kr/",
+      "verification": {
+        "source_type": "첨부 이미지",
+        "source_name": "TIPS 운영사 소개 자료",
+        "source_url": null,
+        "source_date": null,
+        "checked_at": "2026-06-23",
+        "needs_verification": [
+          "상세 주소",
+          "TIPS 창업기업 수",
+          "투자금 범위",
+          "투자 및 후속투자 성과",
+          "운영사 선정연월"
+        ],
+        "data_warnings": [
+          "이미지의 TIPS 창업기업 및 성과 항목이 '-'로 표기됨"
+        ]
+      }
+    }
+  },
+  {
+    "model": "core.vcprofile",
+    "pk": 3,
+    "fields": {
+      "firm_name": "전남창조경제혁신센터",
+      "firm_name_en": "Jeonnam Center for Creative Economy & Innovation",
+      "representative": "강정범",
+      "founded_at": "2015-04",
+      "tips_operator_selected_at": "2025-10",
+      "headquarters": {
+        "country": "대한민국",
+        "region": "전라남도",
+        "district": "여수시",
+        "address_detail": null
+      },
+      "preferred_industries": [
+        "Eco/Energy",
+        "FoodTech",
+        "Agriculture",
+        "Fisheries",
+        "Bio/Healthcare",
+        "AI/ML"
+      ],
+      "preferred_stages": [
+        "Seed",
+        "Pre-A"
+      ],
+      "preferred_regions": [
+        "전라남도"
+      ],
+      "min_investment": null,
+      "max_investment": null,
+      "investment_amount_unit": "만원",
+      "investment_range_note": "첨부 이미지에 최소·최대 투자금이 명시되지 않음",
+      "bio": "전남 지역의 특화산업과 유망 기술기업을 발굴해 투자, 액셀러레이팅 및 글로벌 진출을 지원하는 공공 창업지원기관이다.",
+      "vc_summary": "지역 특화산업을 중심으로 창업기업을 발굴하고 투자·보육하며 정기 IR, 자체 배치 프로그램과 글로벌 역량강화 프로그램을 운영한다.",
+      "investment_thesis": {
+        "target": "친환경에너지, 푸드테크, 농수산, 바이오 및 AI 융합 분야의 초기기업",
+        "focus_sectors": [
+          "친환경에너지",
+          "푸드테크",
+          "농수산",
+          "바이오",
+          "AI 융합"
+        ],
+        "lifecycle": "초기 단계",
+        "review_factors": [
+          "지역산업 연계성",
+          "기술성",
+          "사업성",
+          "시장성",
+          "팀 역량"
+        ],
+        "decision_process": "투자 검토부터 최종 결정까지 단계별 협의"
+      },
+      "eval_emphasis": [
+        "technology",
+        "market",
+        "team",
+        "scalability"
+      ],
+      "support_capabilities": [
+        "정기 IR",
+        "자체 배치 프로그램",
+        "투자 연계",
+        "글로벌 진출",
+        "보육공간",
+        "지역 네트워크 연계"
+      ],
+      "programs": [
+        {
+          "name": "정기 IR 운영",
+          "type": "IR",
+          "operator": "전남창조경제혁신센터",
+          "started_at": null,
+          "sessions": null,
+          "description": "운영사 및 투자 유관기관을 대상으로 분기별 IR과 네트워킹을 진행",
+          "support": [
+            "IR",
+            "VC 밋업",
+            "투자 연계"
+          ]
+        },
+        {
+          "name": "자체 배치 프로그램",
+          "type": "Batch Acceleration",
+          "operator": "전남창조경제혁신센터",
+          "started_at": null,
+          "sessions": null,
+          "description": "도내 스타트업의 투자역량 강화를 위한 액셀러레이팅 프로그램",
+          "support": [
+            "IR 역량강화",
+            "네트워킹",
+            "피칭",
+            "사업화 지원"
+          ]
+        },
+        {
+          "name": "글로벌 스타트업 해외진출 및 역량강화 프로그램",
+          "type": "Global Acceleration",
+          "operator": "전남창조경제혁신센터",
+          "started_at": null,
+          "sessions": null,
+          "description": "글로벌 투자유치 및 해외진출 역량강화 프로그램",
+          "support": [
+            "영문 IR",
+            "리디자인",
+            "영문 IR 피칭",
+            "비즈니스 매칭"
+          ]
+        }
+      ],
+      "incubation_spaces": [
+        {
+          "name": "운영사 보육공간",
+          "location": "전라남도 여수시",
+          "usage": "초기 창업기업 보육"
+        }
+      ],
+      "partner_organizations": [
+        {
+          "name": "123Factory",
+          "alias": null,
+          "type": "Accelerator",
+          "country": null,
+          "support": [
+            "창업기업 육성"
+          ]
+        },
+        {
+          "name": "와이앤아처",
+          "alias": null,
+          "type": "Accelerator",
+          "country": "대한민국",
+          "support": [
+            "투자 및 액셀러레이팅"
+          ]
+        },
+        {
+          "name": "전남테크노파크",
+          "alias": null,
+          "type": "Public Organization",
+          "country": "대한민국",
+          "support": [
+            "지역산업 연계"
+          ]
+        },
+        {
+          "name": "전남바이오진흥원",
+          "alias": null,
+          "type": "Public Organization",
+          "country": "대한민국",
+          "support": [
+            "바이오산업 연계"
+          ]
+        },
+        {
+          "name": "국립순천대학교",
+          "alias": null,
+          "type": "University",
+          "country": "대한민국",
+          "support": [
+            "기술 및 창업 네트워크"
+          ]
+        },
+        {
+          "name": "국립목포대학교",
+          "alias": null,
+          "type": "University",
+          "country": "대한민국",
+          "support": [
+            "기술 및 창업 네트워크"
+          ]
+        }
+      ],
+      "track_record": {
+        "tips_portfolio_count": null,
+        "operator_investment": {
+          "amount_krw": null,
+          "display": null
+        },
+        "average_investment": {
+          "amount_krw": null,
+          "display": null,
+          "source": null
+        },
+        "portfolio_follow_on_funding": {
+          "amount_krw": null,
+          "display": null
+        },
+        "ma_count": null,
+        "ipo_count": null,
+        "award_count": null,
+        "award_details": []
+      },
+      "contact": {
+        "website": "https://ccei.creativekorea.or.kr/jeonnam/"
+      },
+      "link": "https://ccei.creativekorea.or.kr/jeonnam/",
+      "verification": {
+        "source_type": "첨부 이미지",
+        "source_name": "TIPS 운영사 소개 자료",
+        "source_url": null,
+        "source_date": null,
+        "checked_at": "2026-06-23",
+        "needs_verification": [
+          "상세 주소",
+          "TIPS 창업기업 수",
+          "투자금 범위",
+          "투자 및 후속투자 성과",
+          "협력기관 전체 명칭",
+          "운영사 선정연월"
+        ],
+        "data_warnings": [
+          "이미지의 TIPS 창업기업 및 성과 항목이 '-'로 표기됨"
+        ]
+      }
+    }
+  },
+  {
+    "model": "core.vcprofile",
+    "pk": 4,
+    "fields": {
+      "firm_name": "유니스트기술지주",
+      "firm_name_en": "UNIST Holdings",
+      "representative": "김영식",
+      "founded_at": "2017-07",
+      "tips_operator_selected_at": "2025-10",
+      "headquarters": {
+        "country": "대한민국",
+        "region": "울산광역시",
+        "district": "울주군",
+        "address_detail": null
+      },
+      "preferred_industries": [
+        "AI/ML",
+        "Semiconductor",
+        "Secondary Battery",
+        "DeepTech",
+        "Other"
+      ],
+      "preferred_stages": [
+        "Seed",
+        "Pre-A"
+      ],
+      "preferred_regions": [],
+      "min_investment": null,
+      "max_investment": 70000,
+      "investment_amount_unit": "만원",
+      "investment_range_note": "이미지에 초기 단계 기업당 최대 7억원 지원 가능으로 기재",
+      "bio": "UNIST가 100% 출자한 투자 전문기관으로 대학 연구성과의 산업 현장 연결과 미래 유니콘 딥테크 스타트업 발굴을 지원한다.",
+      "vc_summary": "UNIST 기술과 산학협력 생태계를 기반으로 AI, 반도체, 이차전지 등 전 분야의 초기기업에 투자하고 기술검증, PoC와 동남권 산업 연계를 지원한다.",
+      "investment_thesis": {
+        "target": "UNIST 산학연 기술을 활용하거나 딥테크 역량을 보유한 초기기업",
+        "focus_sectors": [
+          "인공지능",
+          "반도체",
+          "이차전지",
+          "딥테크",
+          "전 산업 분야"
+        ],
+        "lifecycle": "Seed부터 Pre-A",
+        "review_factors": [
+          "기술성",
+          "UNIST 기술 연계성",
+          "시장성",
+          "팀 역량",
+          "PoC 가능성"
+        ],
+        "decision_process": "창업팀과 시장성을 종합적으로 검토하며 최종 투자까지 협의"
+      },
+      "eval_emphasis": [
+        "technology",
+        "team",
+        "market",
+        "scalability"
+      ],
+      "support_capabilities": [
+        "UNIST 산학협력 연계",
+        "기술검증",
+        "PoC",
+        "투자 경쟁형 후속지원",
+        "앵커기업 연계",
+        "해외 진출 지원"
+      ],
+      "programs": [
+        {
+          "name": "집중 마일스톤 체크업",
+          "type": "Milestone Monitoring",
+          "operator": "유니스트기술지주",
+          "started_at": null,
+          "sessions": "월 1회",
+          "description": "투자기업의 핵심 투자지표 후속투자 라운드 준비를 위한 마일스톤 점검",
+          "support": [
+            "전문가 멘토링",
+            "성과 모니터링",
+            "필요자원 확보",
+            "경쟁형 후속지원"
+          ]
+        },
+        {
+          "name": "동남권 산업분야별 앵커기업 연계",
+          "type": "Open Innovation",
+          "operator": "유니스트기술지주",
+          "started_at": null,
+          "sessions": null,
+          "description": "동남권 앵커기업과 기술 기반 스타트업을 연결하는 오픈이노베이션",
+          "support": [
+            "기술 PoC",
+            "사업화",
+            "고객사 연계",
+            "투자기관 연계"
+          ]
+        }
+      ],
+      "incubation_spaces": [
+        {
+          "name": "운영사 보육공간",
+          "location": "울산광역시 울주군",
+          "usage": "초기 창업기업 보육"
+        }
+      ],
+      "partner_organizations": [
+        {
+          "name": "UNIST",
+          "alias": "울산과학기술원",
+          "type": "University",
+          "country": "대한민국",
+          "support": [
+            "산학협력",
+            "기술 연계"
+          ]
+        },
+        {
+          "name": "Asia 2G Capital(US)",
+          "alias": null,
+          "type": "Global VC",
+          "country": "미국",
+          "support": [
+            "미국 진출 및 투자 연계"
+          ]
+        },
+        {
+          "name": "울산대학교기술지주",
+          "alias": null,
+          "type": "Technology Holdings",
+          "country": "대한민국",
+          "support": [
+            "지역 창업 네트워크"
+          ]
+        },
+        {
+          "name": "부산대학교기술지주",
+          "alias": null,
+          "type": "Technology Holdings",
+          "country": "대한민국",
+          "support": [
+            "지역 창업 네트워크"
+          ]
+        }
+      ],
+      "track_record": {
+        "tips_portfolio_count": 2,
+        "operator_investment": {
+          "amount_krw": null,
+          "display": null
+        },
+        "average_investment": {
+          "amount_krw": null,
+          "display": null,
+          "source": null
+        },
+        "portfolio_follow_on_funding": {
+          "amount_krw": 200000000,
+          "display": "2억원"
+        },
+        "ma_count": null,
+        "ipo_count": null,
+        "award_count": null,
+        "award_details": []
+      },
+      "contact": {
+        "website": "https://www.unistholdings.com/"
+      },
+      "link": "https://www.unistholdings.com/",
+      "verification": {
+        "source_type": "첨부 이미지",
+        "source_name": "TIPS 운영사 소개 자료",
+        "source_url": null,
+        "source_date": null,
+        "checked_at": "2026-06-23",
+        "needs_verification": [
+          "상세 주소",
+          "최소 투자금",
+          "누적 투자금",
+          "2억원 성과의 정확한 분류",
+          "운영사 선정연월"
+        ],
+        "data_warnings": [
+          "이미지의 운영사 투자금 항목은 '-'이고 창업기업 성과는 2억원으로 기재됨"
+        ]
+      }
+    }
+  },
+  {
+    "model": "core.vcprofile",
+    "pk": 5,
+    "fields": {
+      "firm_name": "스파크랩",
+      "firm_name_en": "SparkLabs",
+      "representative": "김유진",
+      "founded_at": "2012-12",
+      "tips_operator_selected_at": "2025-10",
+      "headquarters": {
+        "country": "대한민국",
+        "region": "서울특별시",
+        "district": "강남구",
+        "address_detail": null
+      },
+      "preferred_industries": [
+        "All"
+      ],
+      "preferred_stages": [
+        "Pre-Seed",
+        "Seed",
+        "Pre-A"
+      ],
+      "preferred_regions": [],
+      "min_investment": null,
+      "max_investment": 3000,
+      "investment_amount_unit": "만원",
+      "investment_range_note": "이미지에 설립 3년 이내 기업 대상으로 약 0.3억원 투자 가능으로 기재",
+      "bio": "아시아 최대 규모 액셀러레이터 및 벤처캐피털 네트워크인 SparkLabs Group의 핵심 프로그램으로, 글로벌 멘토단과 네트워크를 바탕으로 스타트업을 육성한다.",
+      "vc_summary": "전 산업 분야의 초기 창업기업을 대상으로 배치 프로그램, 멘토링, 사업 자문, IR 및 글로벌 네트워크를 제공해 해외 진출과 후속 성장을 지원한다.",
+      "investment_thesis": {
+        "target": "설립 3년 이내의 전 산업 분야 초기기업",
+        "focus_sectors": [
+          "전 산업 분야"
+        ],
+        "lifecycle": "Pre-Seed부터 Pre-A",
+        "review_factors": [
+          "창업팀 역량",
+          "시장성",
+          "글로벌 확장성",
+          "제품 경쟁력"
+        ],
+        "decision_process": "창업팀 구성원과 시장 현황을 종합적으로 검토하여 투자 결정"
+      },
+      "eval_emphasis": [
+        "team",
+        "market",
+        "scalability",
+        "traction"
+      ],
+      "support_capabilities": [
+        "배치 액셀러레이팅",
+        "PMF 검증",
+        "1:1 멘토링",
+        "IR",
+        "데모데이",
+        "글로벌 진출",
+        "후속투자 연계"
+      ],
+      "programs": [
+        {
+          "name": "스파크랩 배치 프로그램",
+          "type": "Batch Acceleration",
+          "operator": "스파크랩",
+          "started_at": null,
+          "sessions": "연 1회",
+          "description": "초기 스타트업의 PMF 발굴과 성장을 위한 맞춤형 액셀러레이팅",
+          "support": [
+            "1:1 전담 멘토링",
+            "네트워킹",
+            "사업 자문",
+            "액셀러레이팅"
+          ]
+        },
+        {
+          "name": "스파크랩 데모데이",
+          "type": "Demo Day",
+          "operator": "스파크랩",
+          "started_at": null,
+          "sessions": "매년 1~2회",
+          "description": "배치 프로그램 선발 기업의 IR 및 네트워킹 행사",
+          "support": [
+            "IR",
+            "투자자 네트워킹",
+            "후속투자 유치"
+          ]
+        }
+      ],
+      "incubation_spaces": [
+        {
+          "name": "운영사 보육공간",
+          "location": "서울특별시 강남구",
+          "usage": "배치 프로그램 및 초기 창업기업 보육"
+        }
+      ],
+      "partner_organizations": [
+        {
+          "name": "아산나눔재단",
+          "alias": null,
+          "type": "Foundation",
+          "country": "대한민국",
+          "support": [
+            "창업 생태계 연계"
+          ]
+        },
+        {
+          "name": "스파크플러스",
+          "alias": null,
+          "type": "Workspace",
+          "country": "대한민국",
+          "support": [
+            "보육공간 및 네트워크"
+          ]
+        },
+        {
+          "name": "스파크랩 파트너스",
+          "alias": null,
+          "type": "Investment Partner",
+          "country": "대한민국",
+          "support": [
+            "투자 연계"
+          ]
+        },
+        {
+          "name": "SparkLabs Taiwan",
+          "alias": null,
+          "type": "Global Accelerator",
+          "country": "대만",
+          "support": [
+            "글로벌 진출"
+          ]
+        },
+        {
+          "name": "SparkLabs Saudi",
+          "alias": null,
+          "type": "Global Accelerator",
+          "country": "사우디아라비아",
+          "support": [
+            "글로벌 진출"
+          ]
+        }
+      ],
+      "track_record": {
+        "tips_portfolio_count": 66,
+        "operator_investment": {
+          "amount_krw": 12321000000,
+          "display": "123.21억원"
+        },
+        "average_investment": {
+          "amount_krw": 186000000,
+          "display": "1.86억원",
+          "source": "첨부 이미지 기재값"
+        },
+        "portfolio_follow_on_funding": {
+          "amount_krw": 244100000000,
+          "display": "2,441억원"
+        },
+        "ma_count": 2,
+        "ipo_count": null,
+        "award_count": 5,
+        "award_details": [
+          "보육 창업기업 CES 5개 수상"
+        ]
+      },
+      "contact": {
+        "website": "https://www.sparklabs.co.kr/"
+      },
+      "link": "https://www.sparklabs.co.kr/",
+      "verification": {
+        "source_type": "첨부 이미지",
+        "source_name": "TIPS 운영사 소개 자료",
+        "source_url": null,
+        "source_date": null,
+        "checked_at": "2026-06-23",
+        "needs_verification": [
+          "상세 주소",
+          "최소 투자금",
+          "누적 성과의 현재값",
+          "운영사 선정연월"
+        ],
+        "data_warnings": [
+          "TIPS 창업기업 66개사는 일반트랙 63개사와 딥테크트랙 3개사의 합계로 기재됨"
+        ]
+      }
+    }
+  },
+  {
+    "model": "core.vcprofile",
+    "pk": 6,
+    "fields": {
+      "firm_name": "슈미트",
+      "firm_name_en": "Schmidt",
+      "representative": "김현준",
+      "founded_at": "2017-04",
+      "tips_operator_selected_at": "2025-10",
+      "headquarters": {
+        "country": "대한민국",
+        "region": "서울특별시",
+        "district": "강남구",
+        "address_detail": null
+      },
+      "preferred_industries": [
+        "Mobile",
+        "Bio/Healthcare",
+        "FinTech",
+        "Digital Transformation"
+      ],
+      "preferred_stages": [
+        "Seed",
+        "Pre-A",
+        "Series A",
+        "Early Growth"
+      ],
+      "preferred_regions": [],
+      "min_investment": 30000,
+      "max_investment": 100000,
+      "investment_amount_unit": "만원",
+      "investment_range_note": "이미지에 초기기업당 약 3~10억원 투자로 기재",
+      "bio": "산업에 대한 전문적 인사이트를 바탕으로 정교한 투자 전략을 세우고 스타트업의 성장을 지원하는 초기 투자사다.",
+      "vc_summary": "모빌리티, 바이오, 핀테크 및 디지털 트랜스포메이션 분야의 Seed부터 Early Growth 단계 기업에 투자하고 Value-up 및 포트폴리오 네트워킹을 제공한다.",
+      "investment_thesis": {
+        "target": "모빌리티, 바이오, 핀테크 및 DX 분야의 초기·성장기업",
+        "focus_sectors": [
+          "모빌리티",
+          "바이오",
+          "핀테크",
+          "디지털 트랜스포메이션"
+        ],
+        "lifecycle": "Seed부터 Early Growth",
+        "review_factors": [
+          "산업 전문성",
+          "기술성",
+          "팀 역량",
+          "시장성",
+          "성장 가능성"
+        ],
+        "decision_process": "독자적 산업 인사이트와 시장 검증을 기반으로 투자 검토"
+      },
+      "eval_emphasis": [
+        "team",
+        "technology",
+        "market",
+        "scalability"
+      ],
+      "support_capabilities": [
+        "Value-up",
+        "경영지원",
+        "전문가 자문",
+        "포트폴리오 네트워킹",
+        "후속투자 연계",
+        "TIPS 연계"
+      ],
+      "programs": [
+        {
+          "name": "Value-up Package",
+          "type": "Value-up",
+          "operator": "슈미트",
+          "started_at": null,
+          "sessions": null,
+          "description": "스타트업이 기술 및 사업 개발에 집중할 수 있도록 경영지원과 전문가 자문을 제공",
+          "support": [
+            "경영지원",
+            "HR",
+            "PR",
+            "법무",
+            "초기기업 전문 자문"
+          ]
+        },
+        {
+          "name": "포트폴리오 네트워킹 데이",
+          "type": "Networking",
+          "operator": "슈미트",
+          "started_at": null,
+          "sessions": null,
+          "description": "DSC인베스트먼트 포트폴리오와 교류하는 네트워킹 행사",
+          "support": [
+            "피어 네트워크",
+            "사업 협업",
+            "투자 연계"
+          ]
+        }
+      ],
+      "incubation_spaces": [
+        {
+          "name": "운영사 보육공간",
+          "location": "서울특별시 강남구",
+          "usage": "초기 창업기업 보육"
+        }
+      ],
+      "partner_organizations": [
+        {
+          "name": "Pinetree Therapeutics",
+          "alias": null,
+          "type": "Bio Partner",
+          "country": null,
+          "support": [
+            "바이오 네트워크"
+          ]
+        },
+        {
+          "name": "DSC인베스트먼트",
+          "alias": null,
+          "type": "VC",
+          "country": "대한민국",
+          "support": [
+            "포트폴리오 및 후속투자 네트워크"
+          ]
+        },
+        {
+          "name": "법무법인 미션",
+          "alias": null,
+          "type": "Law Firm",
+          "country": "대한민국",
+          "support": [
+            "법률 자문"
+          ]
+        },
+        {
+          "name": "광주창조경제혁신센터",
+          "alias": null,
+          "type": "Public Startup Organization",
+          "country": "대한민국",
+          "support": [
+            "지역 창업 네트워크"
+          ]
+        }
+      ],
+      "track_record": {
+        "tips_portfolio_count": 36,
+        "operator_investment": {
+          "amount_krw": 17790000000,
+          "display": "177.9억원"
+        },
+        "average_investment": {
+          "amount_krw": 490000000,
+          "display": "4.9억원",
+          "source": "첨부 이미지 기재값"
+        },
+        "portfolio_follow_on_funding": {
+          "amount_krw": 159179000000,
+          "display": "1,591.79억원"
+        },
+        "ma_count": null,
+        "ipo_count": null,
+        "award_count": 1,
+        "award_details": [
+          "보육 창업기업 CES 1개 수상"
+        ]
+      },
+      "contact": {
+        "website": "https://schmidt.kr/"
+      },
+      "link": "https://schmidt.kr/",
+      "verification": {
+        "source_type": "첨부 이미지",
+        "source_name": "TIPS 운영사 소개 자료",
+        "source_url": null,
+        "source_date": null,
+        "checked_at": "2026-06-23",
+        "needs_verification": [
+          "상세 주소",
+          "누적 성과의 현재값",
+          "협력기관 전체 명칭",
+          "운영사 선정연월"
+        ],
+        "data_warnings": []
+      }
+    }
+  },
+  {
+    "model": "core.vcprofile",
+    "pk": 7,
+    "fields": {
+      "firm_name": "서울창조경제혁신센터",
+      "firm_name_en": "Seoul Center for Creative Economy & Innovation",
+      "representative": "이영근",
+      "founded_at": "2015-07",
+      "tips_operator_selected_at": "2025-12",
+      "headquarters": {
+        "country": "대한민국",
+        "region": "서울특별시",
+        "district": "용산구",
+        "address_detail": null
+      },
+      "preferred_industries": [
+        "AgriFood",
+        "Data",
+        "Network",
+        "AI/ML",
+        "SilverTech",
+        "Healthcare",
+        "Other"
+      ],
+      "preferred_stages": [
+        "Seed",
+        "Pre-A"
+      ],
+      "preferred_regions": [],
+      "min_investment": null,
+      "max_investment": 30000,
+      "investment_amount_unit": "만원",
+      "investment_range_note": "이미지에 성장단계에 따라 최대 3억원 투자 가능으로 기재",
+      "bio": "서울의 창업생태계 허브로서 민간 액셀러레이터, 대기업 및 공공기관과 협력해 유망 스타트업의 성장과 투자 유치를 지원한다.",
+      "vc_summary": "농식품, D.N.A 및 인구테크 분야를 포함하되 분야 제한 없이 창업 7년 이내 기업에 투자하며 정기 IR, 프라이빗 IR과 대기업 오픈이노베이션을 운영한다.",
+      "investment_thesis": {
+        "target": "혁신적인 아이디어를 가진 창업 7년 이내 스타트업",
+        "focus_sectors": [
+          "농식품",
+          "Data",
+          "Network",
+          "AI",
+          "실버테크",
+          "헬스케어",
+          "전 산업 분야"
+        ],
+        "lifecycle": "창업 7년 이내의 초기·성장기업",
+        "review_factors": [
+          "혁신성",
+          "팀 역량",
+          "시장성",
+          "성장 가능성",
+          "협업 가능성"
+        ],
+        "decision_process": "성장단계와 사업 가능성을 검토하여 단계별 투자"
+      },
+      "eval_emphasis": [
+        "team",
+        "market",
+        "scalability",
+        "technology"
+      ],
+      "support_capabilities": [
+        "정기 IR",
+        "프라이빗 IR",
+        "대기업 오픈이노베이션",
+        "전문가 컨설팅",
+        "투자 연계",
+        "판로개척",
+        "보육공간"
+      ],
+      "programs": [
+        {
+          "name": "창업 Bus 정기 IR 및 네트워킹",
+          "type": "IR and Networking",
+          "operator": "서울창조경제혁신센터",
+          "started_at": null,
+          "sessions": "매월 1회",
+          "description": "Seed부터 Pre-IPO까지 우수 창업기업을 발굴하는 정기 IR",
+          "support": [
+            "월간 IR",
+            "네트워킹",
+            "후속투자 연계"
+          ]
+        },
+        {
+          "name": "S-Lounge Private IR 및 네트워킹",
+          "type": "Private IR",
+          "operator": "서울창조경제혁신센터",
+          "started_at": null,
+          "sessions": "매월 1회",
+          "description": "초기기업 대상 비공개 투자설명회 및 네트워킹",
+          "support": [
+            "프라이빗 IR",
+            "투자자 매칭",
+            "네트워킹"
+          ]
+        }
+      ],
+      "incubation_spaces": [
+        {
+          "name": "창업허브 공덕",
+          "location": "서울특별시 마포구",
+          "usage": "창업기업 보육"
+        },
+        {
+          "name": "서울창업센터 관악",
+          "location": "서울특별시 관악구",
+          "usage": "창업기업 보육"
+        }
+      ],
+      "partner_organizations": [
+        {
+          "name": "Mind the Bridge",
+          "alias": null,
+          "type": "Global Accelerator",
+          "country": null,
+          "support": [
+            "글로벌 액셀러레이팅"
+          ]
+        },
+        {
+          "name": "Strong Ventures",
+          "alias": null,
+          "type": "VC",
+          "country": null,
+          "support": [
+            "투자 연계"
+          ]
+        },
+        {
+          "name": "서울대학교기술지주",
+          "alias": null,
+          "type": "Technology Holdings",
+          "country": "대한민국",
+          "support": [
+            "대학 기술 및 투자 연계"
+          ]
+        },
+        {
+          "name": "숭실대학교기술지주",
+          "alias": null,
+          "type": "Technology Holdings",
+          "country": "대한민국",
+          "support": [
+            "대학 기술 및 투자 연계"
+          ]
+        }
+      ],
+      "track_record": {
+        "tips_portfolio_count": 2,
+        "operator_investment": {
+          "amount_krw": 310000000,
+          "display": "3.1억원"
+        },
+        "average_investment": {
+          "amount_krw": 155000000,
+          "display": "1.55억원",
+          "source": "첨부 이미지 기재값"
+        },
+        "portfolio_follow_on_funding": {
+          "amount_krw": null,
+          "display": null
+        },
+        "ma_count": null,
+        "ipo_count": null,
+        "award_count": null,
+        "award_details": []
+      },
+      "contact": {
+        "website": "https://ccei.creativekorea.or.kr/seoul/main.do"
+      },
+      "link": "https://ccei.creativekorea.or.kr/seoul/main.do",
+      "verification": {
+        "source_type": "첨부 이미지",
+        "source_name": "TIPS 운영사 소개 자료",
+        "source_url": null,
+        "source_date": null,
+        "checked_at": "2026-06-23",
+        "needs_verification": [
+          "상세 주소",
+          "최소 투자금",
+          "후속투자 성과",
+          "협력기관 전체 명칭",
+          "운영사 선정연월"
+        ],
+        "data_warnings": [
+          "이미지의 창업기업 성과 및 기타 항목은 '-'로 표기됨"
+        ]
+      }
+    }
+  },
+  {
+    "model": "core.vcprofile",
+    "pk": 8,
+    "fields": {
+      "firm_name": "부산창조경제혁신센터",
+      "firm_name_en": "Busan Center for Creative Economy & Innovation",
+      "representative": "김용우",
+      "founded_at": "2015-03",
+      "tips_operator_selected_at": "2025-10",
+      "headquarters": {
+        "country": "대한민국",
+        "region": "부산광역시",
+        "district": "해운대구",
+        "address_detail": null
+      },
+      "preferred_industries": [
+        "Tech",
+        "Big Data",
+        "AI/ML",
+        "ICT",
+        "ClimateTech",
+        "Bio/Healthcare",
+        "DeepTech"
+      ],
+      "preferred_stages": [
+        "Pre-Seed",
+        "Seed",
+        "Pre-A"
+      ],
+      "preferred_regions": [
+        "부산광역시"
+      ],
+      "min_investment": null,
+      "max_investment": null,
+      "investment_amount_unit": "만원",
+      "investment_range_note": "첨부 이미지에 최소·최대 투자금이 명시되지 않음",
+      "bio": "지역 창업 활성화와 혁신성장을 지원하며 초기 기업 발굴, 액셀러레이팅, 투자 및 공공형 배치 프로그램을 운영하는 창업지원기관이다.",
+      "vc_summary": "테크, 빅데이터, AI·정보통신, 친환경, 바이오 등 초기 기술 전 분야의 스타트업을 지원하며 지역 생태계 및 국내외 투자 네트워크를 활용한다.",
+      "investment_thesis": {
+        "target": "딥테크 및 첨단기술 역량을 보유한 초기기업",
+        "focus_sectors": [
+          "테크",
+          "빅데이터",
+          "AI·정보통신",
+          "친환경",
+          "바이오",
+          "딥테크"
+        ],
+        "lifecycle": "창업 3년 이내 초기기업",
+        "review_factors": [
+          "기술 혁신성",
+          "지역산업 연계성",
+          "사업성",
+          "시장성",
+          "팀 역량"
+        ],
+        "decision_process": "기술과 사업성을 검토해 초기투자 및 액셀러레이팅 대상 선정"
+      },
+      "eval_emphasis": [
+        "technology",
+        "team",
+        "market",
+        "scalability"
+      ],
+      "support_capabilities": [
+        "예비·초기창업패키지",
+        "배치 액셀러레이팅",
+        "직접투자",
+        "IR",
+        "오픈이노베이션",
+        "입주공간",
+        "후속투자 연계"
+      ],
+      "programs": [
+        {
+          "name": "예비·초기창업패키지 창업부지",
+          "type": "Acceleration",
+          "operator": "부산창조경제혁신센터",
+          "started_at": null,
+          "sessions": "약 3년",
+          "description": "예비창업자와 초기창업기업을 대상으로 하는 액셀러레이팅 프로그램",
+          "support": [
+            "1:1 전담 멘토링",
+            "사업화 지원",
+            "직접투자",
+            "판로 및 네트워크 제공"
+          ]
+        },
+        {
+          "name": "B.Startup PIE 배치 프로그램",
+          "type": "Batch Acceleration",
+          "operator": "부산창조경제혁신센터",
+          "started_at": null,
+          "sessions": null,
+          "description": "Potential Investment for Early-Stage Startup을 지향하는 초기기업 배치 프로그램",
+          "support": [
+            "직접투자",
+            "투자사 연계",
+            "오픈이노베이션",
+            "IR",
+            "데모데이"
+          ]
+        }
+      ],
+      "incubation_spaces": [
+        {
+          "name": "B.Cube",
+          "location": "부산광역시 해운대구",
+          "usage": "입주 및 창업기업 보육"
+        }
+      ],
+      "partner_organizations": [
+        {
+          "name": "크립톤",
+          "alias": null,
+          "type": "Accelerator",
+          "country": "대한민국",
+          "support": [
+            "투자 및 액셀러레이팅"
+          ]
+        },
+        {
+          "name": "스마트스터디벤처스",
+          "alias": null,
+          "type": "VC",
+          "country": "대한민국",
+          "support": [
+            "투자 연계"
+          ]
+        },
+        {
+          "name": "한국사회투자",
+          "alias": null,
+          "type": "Impact Investor",
+          "country": "대한민국",
+          "support": [
+            "투자 연계"
+          ]
+        },
+        {
+          "name": "한국해양과학기술원",
+          "alias": "KIOST",
+          "type": "Research Institute",
+          "country": "대한민국",
+          "support": [
+            "해양 기술 연계"
+          ]
+        },
+        {
+          "name": "Simsan Ventures Ltd",
+          "alias": null,
+          "type": "Global VC",
+          "country": "미국",
+          "support": [
+            "미국 진출 및 투자 연계"
+          ]
+        },
+        {
+          "name": "국립한국해양대학교기술지주",
+          "alias": null,
+          "type": "Technology Holdings",
+          "country": "대한민국",
+          "support": [
+            "기술사업화"
+          ]
+        }
+      ],
+      "track_record": {
+        "tips_portfolio_count": null,
+        "operator_investment": {
+          "amount_krw": null,
+          "display": null
+        },
+        "average_investment": {
+          "amount_krw": null,
+          "display": null,
+          "source": null
+        },
+        "portfolio_follow_on_funding": {
+          "amount_krw": null,
+          "display": null
+        },
+        "ma_count": null,
+        "ipo_count": null,
+        "award_count": null,
+        "award_details": []
+      },
+      "contact": {
+        "website": "https://ccei.creativekorea.or.kr/busan/"
+      },
+      "link": "https://ccei.creativekorea.or.kr/busan/",
+      "verification": {
+        "source_type": "첨부 이미지",
+        "source_name": "TIPS 운영사 소개 자료",
+        "source_url": null,
+        "source_date": null,
+        "checked_at": "2026-06-23",
+        "needs_verification": [
+          "상세 주소",
+          "TIPS 창업기업 수",
+          "투자금 범위",
+          "투자 및 후속투자 성과",
+          "운영사 선정연월"
+        ],
+        "data_warnings": [
+          "이미지의 TIPS 창업기업 및 성과 항목이 '-'로 표기됨"
+        ]
+      }
+    }
+  },
+  {
+    "model": "core.vcprofile",
+    "pk": 9,
+    "fields": {
+      "firm_name": "부산지역대학연합기술지주",
+      "firm_name_en": "Busan United Holdings",
+      "representative": "박훈기",
+      "founded_at": "2015-09",
+      "tips_operator_selected_at": "2025-10",
+      "headquarters": {
+        "country": "대한민국",
+        "region": "부산광역시",
+        "district": "해운대구",
+        "address_detail": null
+      },
+      "preferred_industries": [
+        "Bio/Healthcare",
+        "Advanced Materials",
+        "FinTech",
+        "ICT",
+        "Data Platform",
+        "Other"
+      ],
+      "preferred_stages": [
+        "Seed",
+        "Pre-A"
+      ],
+      "preferred_regions": [
+        "부산광역시"
+      ],
+      "min_investment": null,
+      "max_investment": 30000,
+      "investment_amount_unit": "만원",
+      "investment_range_note": "이미지에 기업당 최대 3억원 투자 가능으로 기재",
+      "bio": "부산 지역 16개 대학과 부산광역시가 공동 설립한 연합형 기술지주회사로 유망 기술기업 발굴, 투자와 액셀러레이팅을 수행한다.",
+      "vc_summary": "대학 기술사업화와 지역 창업생태계를 기반으로 바이오, 첨단소재, 핀테크 등 전 산업 분야의 초기기업을 투자·육성하고 B-Wave 프로그램을 운영한다.",
+      "investment_thesis": {
+        "target": "ICT, 바이오·헬스케어, 딥테크 등 기술 역량을 보유한 초기기업",
+        "focus_sectors": [
+          "바이오",
+          "첨단소재",
+          "핀테크",
+          "ICT",
+          "바이오·헬스케어",
+          "데이터 플랫폼"
+        ],
+        "lifecycle": "창업 초기",
+        "review_factors": [
+          "기술성",
+          "대학 및 지역 연계성",
+          "시장성",
+          "사업성",
+          "팀 역량"
+        ],
+        "decision_process": "기술 역량과 시장성을 검토해 기업당 최대 3억원 범위에서 투자"
+      },
+      "eval_emphasis": [
+        "technology",
+        "team",
+        "market",
+        "scalability"
+      ],
+      "support_capabilities": [
+        "대학 기술사업화",
+        "직접투자",
+        "B-Wave 액셀러레이팅",
+        "IR",
+        "데모데이",
+        "후속투자 연계",
+        "글로벌 네트워크"
+      ],
+      "programs": [
+        {
+          "name": "B-Wave Accelerating Program",
+          "type": "Acceleration",
+          "operator": "부산지역대학연합기술지주",
+          "started_at": null,
+          "sessions": null,
+          "description": "초기 창업기업을 위한 맞춤형 액셀러레이팅 프로그램",
+          "support": [
+            "비즈니스 역량 강화",
+            "투자 유치",
+            "멘토링",
+            "IR 역량 강화",
+            "네트워킹"
+          ]
+        },
+        {
+          "name": "B-Wave Demoday",
+          "type": "Demo Day",
+          "operator": "부산지역대학연합기술지주",
+          "started_at": null,
+          "sessions": null,
+          "description": "주요 투자사 네트워크 강화를 위한 데모데이",
+          "support": [
+            "VC 및 CVC 연계",
+            "대기업 초청",
+            "IR",
+            "투자유치",
+            "창업기업 협업"
+          ]
+        }
+      ],
+      "incubation_spaces": [
+        {
+          "name": "운영사 보육공간",
+          "location": "부산광역시 해운대구",
+          "usage": "초기 창업기업 보육"
+        }
+      ],
+      "partner_organizations": [
+        {
+          "name": "Pinetree Securities Pte. Ltd.",
+          "alias": null,
+          "type": "Global Investment Partner",
+          "country": "싱가포르",
+          "support": [
+            "글로벌 투자 네트워크"
+          ]
+        },
+        {
+          "name": "포항연합기술지주",
+          "alias": null,
+          "type": "Technology Holdings",
+          "country": "대한민국",
+          "support": [
+            "대학 기술사업화 네트워크"
+          ]
+        },
+        {
+          "name": "비스퀘어",
+          "alias": null,
+          "type": "Accelerator",
+          "country": "대한민국",
+          "support": [
+            "액셀러레이팅"
+          ]
+        },
+        {
+          "name": "부산벤처스",
+          "alias": null,
+          "type": "Investment Partner",
+          "country": "대한민국",
+          "support": [
+            "지역 투자 네트워크"
+          ]
+        },
+        {
+          "name": "특허법인 해안",
+          "alias": null,
+          "type": "Patent Firm",
+          "country": "대한민국",
+          "support": [
+            "지식재산권 자문"
+          ]
+        }
+      ],
+      "track_record": {
+        "tips_portfolio_count": 39,
+        "operator_investment": {
+          "amount_krw": 7960000000,
+          "display": "79.6억원"
+        },
+        "average_investment": {
+          "amount_krw": 200000000,
+          "display": "2억원",
+          "source": "첨부 이미지 기재값"
+        },
+        "portfolio_follow_on_funding": {
+          "amount_krw": 44600000000,
+          "display": "446억원"
+        },
+        "ma_count": 1,
+        "ipo_count": 2,
+        "award_count": 3,
+        "award_details": [
+          "보육 창업기업 CES 3개 수상"
+        ]
+      },
+      "contact": {
+        "website": "https://www.buh.co.kr/"
+      },
+      "link": "https://www.buh.co.kr/",
+      "verification": {
+        "source_type": "첨부 이미지",
+        "source_name": "TIPS 운영사 소개 자료",
+        "source_url": null,
+        "source_date": null,
+        "checked_at": "2026-06-23",
+        "needs_verification": [
+          "상세 주소",
+          "최소 투자금",
+          "누적 성과의 현재값",
+          "협력기관 전체 명칭",
+          "운영사 선정연월"
+        ],
+        "data_warnings": []
+      }
+    }
+  },
+  {
+    "model": "core.vcprofile",
+    "pk": 10,
+    "fields": {
+      "firm_name": "벤처스퀘어",
+      "firm_name_en": "VentureSquare",
+      "representative": "명승은",
+      "founded_at": "2010-09",
+      "tips_operator_selected_at": "2019-09",
+      "headquarters": {
+        "country": "대한민국",
+        "region": "서울특별시",
+        "district": "강남구",
+        "address_detail": null
+      },
+      "preferred_industries": [
+        "AI/ML",
+        "VR/AR",
+        "ICT",
+        "Content",
+        "Other"
+      ],
+      "preferred_stages": [
+        "Pre-Seed",
+        "Seed",
+        "Pre-A"
+      ],
+      "preferred_regions": [],
+      "min_investment": null,
+      "max_investment": null,
+      "investment_amount_unit": "만원",
+      "investment_range_note": "첨부 이미지에 최소·최대 투자금이 명시되지 않음",
+      "bio": "스타트업 전문 미디어를 기반으로 국내외 미디어 서비스와 액셀러레이팅을 운영하며 스타트업의 성장과 투자유치를 지원한다.",
+      "vc_summary": "AI, VR·AR, ICT 융합기술 및 콘텐츠 분야의 혁신 스타트업에 투자하고 미디어 홍보, 배치 액셀러레이팅, 글로벌 진출과 투자자 네트워킹을 제공한다.",
+      "investment_thesis": {
+        "target": "인공지능·콘텐츠 융합 혁신기술을 보유한 초기 창업기업",
+        "focus_sectors": [
+          "AI",
+          "VR·AR",
+          "ICT 융합기술",
+          "콘텐츠"
+        ],
+        "lifecycle": "창업 초기",
+        "review_factors": [
+          "전문 인력",
+          "혁신기술",
+          "시장 성장 가능성",
+          "콘텐츠 경쟁력",
+          "글로벌 확장성"
+        ],
+        "decision_process": "전문인력과 시장 성장 가능성을 종합적으로 검토하여 투자"
+      },
+      "eval_emphasis": [
+        "team",
+        "technology",
+        "market",
+        "scalability"
+      ],
+      "support_capabilities": [
+        "스타트업 미디어 홍보",
+        "배치 액셀러레이팅",
+        "정기 IR",
+        "투자자 네트워킹",
+        "글로벌 진출",
+        "콘퍼런스 참가 지원"
+      ],
+      "programs": [
+        {
+          "name": "벤처스퀘어 액셀러레이션 프로그램",
+          "type": "Startup Nomad Batch Program",
+          "operator": "벤처스퀘어",
+          "started_at": null,
+          "sessions": null,
+          "description": "인공지능·콘텐츠 등 혁신기술 분야 스타트업의 성장을 지원하는 맞춤형 액셀러레이션",
+          "support": [
+            "스타트업 미디어 홍보",
+            "투자자·대기업 네트워킹",
+            "글로벌 진출",
+            "콘퍼런스 참가"
+          ]
+        },
+        {
+          "name": "벤처스퀘어 정기 IR 및 네트워킹",
+          "type": "IR and Networking",
+          "operator": "벤처스퀘어",
+          "started_at": null,
+          "sessions": "분기별",
+          "description": "포트폴리오사와 TIPS 선정기업 중심의 정기 IR 및 네트워킹",
+          "support": [
+            "IR",
+            "피드백",
+            "선배기업 교류",
+            "투자유치 역량 강화"
+          ]
+        }
+      ],
+      "incubation_spaces": [
+        {
+          "name": "배민스타트업스퀘어",
+          "location": "서울특별시 강남구",
+          "usage": "스타트업 보육 및 프로그램 운영"
+        }
+      ],
+      "partner_organizations": [
+        {
+          "name": "Starta VC LLC",
+          "alias": null,
+          "type": "Global VC",
+          "country": "미국",
+          "support": [
+            "미국 진출 및 투자 네트워크"
+          ]
+        },
+        {
+          "name": "에버그린투자파트너스",
+          "alias": null,
+          "type": "VC",
+          "country": "대한민국",
+          "support": [
+            "후속투자 및 네트워크"
+          ]
+        }
+      ],
+      "track_record": {
+        "tips_portfolio_count": 62,
+        "operator_investment": {
+          "amount_krw": 7435000000,
+          "display": "74.35억원"
+        },
+        "average_investment": {
+          "amount_krw": 110000000,
+          "display": "1.1억원",
+          "source": "첨부 이미지 기재값"
+        },
+        "portfolio_follow_on_funding": {
+          "amount_krw": 276700000000,
+          "display": "2,767억원"
+        },
+        "ma_count": 22,
+        "ipo_count": 2,
+        "award_count": 10,
+        "award_details": [
+          "보육 창업기업 CES 10개 수상",
+          "포트폴리오 생존율 96%"
+        ]
+      },
+      "contact": {
+        "website": "https://www.venturesquare.net/"
+      },
+      "link": "https://www.venturesquare.net/",
+      "verification": {
+        "source_type": "첨부 이미지",
+        "source_name": "TIPS 운영사 소개 자료",
+        "source_url": null,
+        "source_date": null,
+        "checked_at": "2026-06-23",
+        "needs_verification": [
+          "상세 주소",
+          "투자금 범위",
+          "누적 성과의 현재값"
+        ],
+        "data_warnings": [
+          "총 투자금 74.35억원과 평균 투자금 1.1억원은 TIPS 기업 62개 기준 단순 산술값과 일치하지 않아 집계 범위 확인 필요"
+        ]
+      }
+    }
+  },
+  {
+    "model": "core.vcprofile",
+    "pk": 11,
+    "fields": {
+      "firm_name": "베이스벤처스",
+      "firm_name_en": "BASS Ventures",
+      "representative": "신윤호, 이태양",
+      "founded_at": "2018-02",
+      "tips_operator_selected_at": "2025-10",
+      "headquarters": {
+        "country": "대한민국",
+        "region": "서울특별시",
+        "district": "강남구",
+        "address_detail": null
+      },
+      "preferred_industries": [
+        "AI/ML",
+        "ICT",
+        "Service",
+        "Bio/Healthcare",
+        "FinTech",
+        "Other"
+      ],
+      "preferred_stages": [
+        "Seed",
+        "Pre-A",
+        "Series A",
+        "Growth"
+      ],
+      "preferred_regions": [],
+      "min_investment": null,
+      "max_investment": 300000,
+      "investment_amount_unit": "만원",
+      "investment_range_note": "이미지에 설립 초기 3년 이내 기업 대상으로 단계별 최대 30억원 투자 가능으로 기재",
+      "bio": "미친 꿈을 위대하게라는 철학 아래 초기 창업자의 성장을 돕고 꿈의 실현에 기여하는 벤처캐피탈이다.",
+      "vc_summary": "AI, ICT, 서비스, 헬스케어 및 핀테크 분야의 초기 스타트업에 투자하며 자체 그로스팀, 채용·HR 컨설팅, 창업자 네트워크와 글로벌 IR을 제공한다.",
+      "investment_thesis": {
+        "target": "설립 초기 3년 이내의 기술·서비스 스타트업",
+        "focus_sectors": [
+          "AI",
+          "ICT",
+          "서비스",
+          "헬스케어",
+          "핀테크"
+        ],
+        "lifecycle": "Seed부터 후속 성장단계",
+        "review_factors": [
+          "창업팀 역량",
+          "시장성",
+          "제품 경쟁력",
+          "성장 가능성",
+          "조직 확장성"
+        ],
+        "decision_process": "창업팀 구성원과 시장 현황을 종합 검토하고 단계별 투자 여부를 협의"
+      },
+      "eval_emphasis": [
+        "team",
+        "market",
+        "traction",
+        "scalability"
+      ],
+      "support_capabilities": [
+        "자체 그로스팀",
+        "채용 및 HR 컨설팅",
+        "조직문화 지원",
+        "IR",
+        "투자자 네트워킹",
+        "글로벌 진출",
+        "창업자 커뮤니티"
+      ],
+      "programs": [
+        {
+          "name": "자체 리크루팅 및 HR 컨설팅",
+          "type": "HR Consulting",
+          "operator": "베이스벤처스",
+          "started_at": null,
+          "sessions": null,
+          "description": "창업팀의 초기 팀 세팅과 HR 시스템 구축을 지원하는 프로그램",
+          "support": [
+            "BASS HR 시스템",
+            "채용",
+            "조직문화",
+            "HR 컨설팅"
+          ]
+        },
+        {
+          "name": "Focus Check 프로그램",
+          "type": "Founder Mentoring",
+          "operator": "베이스벤처스",
+          "started_at": null,
+          "sessions": null,
+          "description": "스타트업 대표가 가장 집중해야 할 과제와 향후 성장 방향을 선배 창업자와 논의하는 프로그램",
+          "support": [
+            "선배 창업자 멘토링",
+            "핵심과제 점검",
+            "성장전략 자문"
+          ]
+        },
+        {
+          "name": "글로벌 진출 액셀러레이션",
+          "type": "Global Acceleration",
+          "operator": "베이스벤처스",
+          "started_at": null,
+          "sessions": null,
+          "description": "글로벌 진출 기업을 위한 정기 IR과 네트워킹",
+          "support": [
+            "글로벌 IR",
+            "해외 네트워킹"
+          ]
+        }
+      ],
+      "incubation_spaces": [
+        {
+          "name": "패스트파이브",
+          "location": "서울특별시",
+          "usage": "초기 창업기업 보육공간"
+        },
+        {
+          "name": "Hacker House",
+          "location": "미국 샌프란시스코",
+          "usage": "해외 진출 창업팀 단기 체류 및 네트워킹"
+        }
+      ],
+      "partner_organizations": [
+        {
+          "name": "에이티넘인베스트먼트",
+          "alias": null,
+          "type": "VC",
+          "country": "대한민국",
+          "support": [
+            "후속투자 네트워크"
+          ]
+        },
+        {
+          "name": "EO Studio Inc.",
+          "alias": null,
+          "type": "Startup Media",
+          "country": null,
+          "support": [
+            "미디어 및 창업 네트워크"
+          ]
+        },
+        {
+          "name": "네오위즈파트너스",
+          "alias": null,
+          "type": "Investment Partner",
+          "country": "대한민국",
+          "support": [
+            "투자 및 사업 네트워크"
+          ]
+        }
+      ],
+      "track_record": {
+        "tips_portfolio_count": 17,
+        "operator_investment": {
+          "amount_krw": 213100000000,
+          "display": "2,131억원"
+        },
+        "average_investment": {
+          "amount_krw": 1200000000,
+          "display": "12억원",
+          "source": "첨부 이미지 기재값"
+        },
+        "portfolio_follow_on_funding": {
+          "amount_krw": 2359500000000,
+          "display": "23,595억원"
+        },
+        "ma_count": null,
+        "ipo_count": null,
+        "award_count": null,
+        "award_details": []
+      },
+      "contact": {
+        "website": "https://www.bass.vc/"
+      },
+      "link": "https://www.bass.vc/",
+      "verification": {
+        "source_type": "첨부 이미지",
+        "source_name": "TIPS 운영사 소개 자료",
+        "source_url": null,
+        "source_date": null,
+        "checked_at": "2026-06-23",
+        "needs_verification": [
+          "상세 주소",
+          "최소 투자금",
+          "누적 성과의 현재값",
+          "운영사 선정연월"
+        ],
+        "data_warnings": [
+          "총 투자금 2,131억원과 평균 투자금 12억원은 TIPS 기업 17개 기준 단순 산술값과 일치하지 않아 원문 숫자 및 집계 범위 확인 필요"
+        ]
+      }
+    }
+  },
+  {
+    "model": "core.vcprofile",
+    "pk": 12,
+    "fields": {
+      "firm_name": "대덕벤처파트너스",
+      "firm_name_en": "Daedeok Venture Partners LLC",
+      "representative": "이석훈",
+      "founded_at": "2014-04",
+      "tips_operator_selected_at": "2019-09",
+      "headquarters": {
+        "country": "대한민국",
+        "region": "대전광역시",
+        "district": "유성구",
+        "address_detail": null
+      },
+      "preferred_industries": [
+        "ICT",
+        "Bio/Healthcare",
+        "Semiconductor",
+        "Display",
+        "Materials/Components"
+      ],
+      "preferred_stages": [
+        "Seed",
+        "Pre-A",
+        "Series A"
+      ],
+      "preferred_regions": [],
+      "min_investment": 20000,
+      "max_investment": 100000,
+      "investment_amount_unit": "만원",
+      "investment_range_note": "이미지에 기업당 약 2~10억원 투자 가능으로 기재",
+      "bio": "20년 이상의 투자 경험과 기술투자 전문성을 기반으로 ICT 융합, 바이오·헬스케어, 반도체·디스플레이와 부품소재 기업을 발굴·육성하는 벤처캐피탈이다.",
+      "vc_summary": "대덕연구개발특구와 대학·연구기관 네트워크를 활용해 혁신기술 기반 초기기업을 투자하고 기술이전, 연구소기업 설립, 국가전략기술 사업화를 지원한다.",
+      "investment_thesis": {
+        "target": "지방 소재 부품·장비 및 시스템반도체 등 혁신기술 보유 기업",
+        "focus_sectors": [
+          "ICT 융합",
+          "바이오·헬스케어",
+          "반도체·디스플레이",
+          "부품소재"
+        ],
+        "lifecycle": "초기 및 성장단계",
+        "review_factors": [
+          "기술력",
+          "시장진입 가능성",
+          "사업성",
+          "팀 역량",
+          "기술사업화 가능성"
+        ],
+        "decision_process": "기술 경쟁력과 시장진입 가능성을 검토해 기업당 약 2~10억원 투자"
+      },
+      "eval_emphasis": [
+        "technology",
+        "market",
+        "team",
+        "scalability"
+      ],
+      "support_capabilities": [
+        "기술이전",
+        "연구소기업 설립",
+        "국가전략기술 사업화",
+        "직접투자",
+        "후속투자 연계",
+        "글로벌 진출"
+      ],
+      "programs": [
+        {
+          "name": "대구 특구형 기술창업 스튜디오",
+          "type": "Technology Commercialization",
+          "operator": "대덕벤처파트너스",
+          "started_at": null,
+          "sessions": null,
+          "description": "대구 소재 딥테크 기술기반 기업의 기술이전 및 연구소기업 설립 지원",
+          "support": [
+            "기술이전",
+            "연구소기업 설립",
+            "전략 컨설팅",
+            "기술이전 연계"
+          ]
+        },
+        {
+          "name": "전북 전략기술발굴 및 기술이전",
+          "type": "Technology Transfer",
+          "operator": "대덕벤처파트너스",
+          "started_at": null,
+          "sessions": null,
+          "description": "전북특구 내 국가전략기술 발굴과 창업 지원",
+          "support": [
+            "국가전략기술 발굴",
+            "창업 지원",
+            "현장 지원",
+            "기술이전"
+          ]
+        }
+      ],
+      "incubation_spaces": [
+        {
+          "name": "한국수자원공사 창업보육센터 BI",
+          "location": "대전광역시 유성구",
+          "usage": "창업기업 보육"
+        },
+        {
+          "name": "대구특구 기술창업 스튜디오",
+          "location": "대구광역시",
+          "usage": "기술창업 및 연구소기업 설립 지원"
+        }
+      ],
+      "partner_organizations": [
+        {
+          "name": "한국수자원공사",
+          "alias": "K-water",
+          "type": "Public Corporation",
+          "country": "대한민국",
+          "support": [
+            "보육공간 및 사업 연계"
+          ]
+        },
+        {
+          "name": "경북대학교기술지주",
+          "alias": null,
+          "type": "Technology Holdings",
+          "country": "대한민국",
+          "support": [
+            "대학 기술사업화"
+          ]
+        },
+        {
+          "name": "대구경북과학기술원",
+          "alias": "DGIST",
+          "type": "Research University",
+          "country": "대한민국",
+          "support": [
+            "연구기술 사업화"
+          ]
+        },
+        {
+          "name": "한국생명공학연구원",
+          "alias": "KRIBB",
+          "type": "Research Institute",
+          "country": "대한민국",
+          "support": [
+            "바이오 기술 연계"
+          ]
+        },
+        {
+          "name": "한남대학교기술지주",
+          "alias": null,
+          "type": "Technology Holdings",
+          "country": "대한민국",
+          "support": [
+            "대학 기술사업화"
+          ]
+        },
+        {
+          "name": "컴퍼니케이",
+          "alias": null,
+          "type": "VC",
+          "country": "대한민국",
+          "support": [
+            "후속투자 연계"
+          ]
+        },
+        {
+          "name": "Willow Venture Partners",
+          "alias": null,
+          "type": "Investment Partner",
+          "country": null,
+          "support": [
+            "글로벌 투자 네트워크"
+          ]
+        }
+      ],
+      "track_record": {
+        "tips_portfolio_count": 28,
+        "operator_investment": {
+          "amount_krw": 8710000000,
+          "display": "87.1억원"
+        },
+        "average_investment": {
+          "amount_krw": 335000000,
+          "display": "3.35억원",
+          "source": "첨부 이미지 기재값"
+        },
+        "portfolio_follow_on_funding": {
+          "amount_krw": 33235000000,
+          "display": "332.35억원"
+        },
+        "ma_count": 1,
+        "ipo_count": null,
+        "award_count": null,
+        "award_details": [
+          "보육 창업기업 CES 최고혁신상 수상 등"
+        ]
+      },
+      "contact": {
+        "website": "https://dvdvp.com/"
+      },
+      "link": "https://dvdvp.com/",
+      "verification": {
+        "source_type": "첨부 이미지",
+        "source_name": "TIPS 운영사 소개 자료",
+        "source_url": null,
+        "source_date": null,
+        "checked_at": "2026-06-23",
+        "needs_verification": [
+          "상세 주소",
+          "누적 성과의 현재값",
+          "일부 협력기관 명칭"
+        ],
+        "data_warnings": [
+          "총 투자금 87.1억원과 평균 3.35억원은 TIPS 기업 28개 기준 단순 산술값과 소폭 차이가 있어 집계 범위 확인 필요"
+        ]
+      }
+    }
+  },
+  {
+    "model": "core.vcprofile",
+    "pk": 13,
+    "fields": {
+      "firm_name": "광주지역대학연합기술지주",
+      "firm_name_en": "Gwangju Technology Holdings",
+      "representative": "김요수",
+      "founded_at": "2016-09",
+      "tips_operator_selected_at": "2025-10",
+      "headquarters": {
+        "country": "대한민국",
+        "region": "광주광역시",
+        "district": "북구",
+        "address_detail": null
+      },
+      "preferred_industries": [
+        "Big Data",
+        "AI/ML",
+        "Bio/Healthcare",
+        "Medical",
+        "ClimateTech",
+        "Energy",
+        "Materials/Components"
+      ],
+      "preferred_stages": [
+        "Seed",
+        "Pre-A"
+      ],
+      "preferred_regions": [
+        "광주광역시",
+        "호남권"
+      ],
+      "min_investment": null,
+      "max_investment": null,
+      "investment_amount_unit": "만원",
+      "investment_range_note": "첨부 이미지에 최소·최대 투자금이 명시되지 않음",
+      "bio": "광주 지역 기술창업 생태계 활성화와 기술사업화를 위해 설립된 연합형 기술지주회사다.",
+      "vc_summary": "산학연 협력 네트워크를 기반으로 호남권 기술기업을 발굴하고 Seed 및 Pre-A 투자, 기술역량 강화, 사업화와 해외 진출을 지원한다.",
+      "investment_thesis": {
+        "target": "빅데이터, AI·바이오, 헬스·의료, 친환경 및 에너지·소재부품 분야 초기기업",
+        "focus_sectors": [
+          "빅데이터",
+          "AI",
+          "바이오",
+          "헬스·의료",
+          "친환경",
+          "에너지",
+          "소재부품"
+        ],
+        "lifecycle": "Seed부터 Pre-A",
+        "review_factors": [
+          "기술성",
+          "사업성",
+          "시장성",
+          "지역산업 연계성",
+          "글로벌 가능성"
+        ],
+        "decision_process": "기술성과 시장성을 검토해 Seed 또는 Pre-A 단계 투자 및 후속지원"
+      },
+      "eval_emphasis": [
+        "technology",
+        "market",
+        "team",
+        "scalability"
+      ],
+      "support_capabilities": [
+        "기술사업화",
+        "지역 산학연 연계",
+        "맞춤형 액셀러레이팅",
+        "IR",
+        "후속투자 연계",
+        "해외진출 지원"
+      ],
+      "programs": [
+        {
+          "name": "기업 수요 맞춤형 기업지원 프로그램",
+          "type": "Customized Acceleration",
+          "operator": "광주지역대학연합기술지주",
+          "started_at": null,
+          "sessions": null,
+          "description": "수요기업의 글로벌 진출과 기술·비즈니스 역량을 지원하는 맞춤형 프로그램",
+          "support": [
+            "기술 지원",
+            "비즈니스 지원",
+            "글로벌 진출"
+          ]
+        },
+        {
+          "name": "후속 투자유치를 위한 프라이빗 IR 및 네트워킹",
+          "type": "Private IR",
+          "operator": "광주지역대학연합기술지주",
+          "started_at": null,
+          "sessions": "매월 1회",
+          "description": "포트폴리오 및 딥테크 기업 대상 후속투자 네트워킹",
+          "support": [
+            "IR",
+            "VC·CVC 네트워킹",
+            "후속투자 연계"
+          ]
+        }
+      ],
+      "incubation_spaces": [
+        {
+          "name": "광주과학기술원",
+          "location": "광주광역시 북구",
+          "usage": "기술 및 창업 인프라 연계"
+        },
+        {
+          "name": "전남대학교",
+          "location": "광주광역시 북구",
+          "usage": "기술 및 창업 인프라 연계"
+        }
+      ],
+      "partner_organizations": [
+        {
+          "name": "BIGBANG VENTURE PARTNERS ASIA Pte. Ltd.",
+          "alias": null,
+          "type": "Global VC",
+          "country": "싱가포르",
+          "support": [
+            "해외진출 및 투자 연계"
+          ]
+        },
+        {
+          "name": "한국전자통신연구원",
+          "alias": "ETRI",
+          "type": "Research Institute",
+          "country": "대한민국",
+          "support": [
+            "ICT 기술 연계"
+          ]
+        },
+        {
+          "name": "한국광기술원",
+          "alias": "KOPTI",
+          "type": "Research Institute",
+          "country": "대한민국",
+          "support": [
+            "광기술 연계"
+          ]
+        },
+        {
+          "name": "한국전자기술연구원",
+          "alias": "KETI",
+          "type": "Research Institute",
+          "country": "대한민국",
+          "support": [
+            "전자기술 연계"
+          ]
+        },
+        {
+          "name": "전남바이오진흥원",
+          "alias": null,
+          "type": "Public Organization",
+          "country": "대한민국",
+          "support": [
+            "바이오 산업 연계"
+          ]
+        }
+      ],
+      "track_record": {
+        "tips_portfolio_count": null,
+        "operator_investment": {
+          "amount_krw": null,
+          "display": null
+        },
+        "average_investment": {
+          "amount_krw": null,
+          "display": null,
+          "source": null
+        },
+        "portfolio_follow_on_funding": {
+          "amount_krw": null,
+          "display": null
+        },
+        "ma_count": null,
+        "ipo_count": null,
+        "award_count": null,
+        "award_details": []
+      },
+      "contact": {
+        "website": "http://gjth.co.kr/"
+      },
+      "link": "http://gjth.co.kr/",
+      "verification": {
+        "source_type": "첨부 이미지",
+        "source_name": "TIPS 운영사 소개 자료",
+        "source_url": null,
+        "source_date": null,
+        "checked_at": "2026-06-23",
+        "needs_verification": [
+          "상세 주소",
+          "TIPS 창업기업 수",
+          "투자금 범위",
+          "투자 및 후속투자 성과",
+          "운영사 선정연월",
+          "협력기관 전체 명칭"
+        ],
+        "data_warnings": [
+          "이미지의 TIPS 창업기업 및 성과 항목이 '-'로 표기됨"
+        ]
+      }
+    }
+  },
+  {
+    "model": "core.vcprofile",
+    "pk": 14,
+    "fields": {
+      "firm_name": "경북창조경제혁신센터",
+      "firm_name_en": "Gyeongbuk Center for Creative Economy & Innovation",
+      "representative": "유주현",
+      "founded_at": "2014-11",
+      "tips_operator_selected_at": "2025-10",
+      "headquarters": {
+        "country": "대한민국",
+        "region": "경상북도",
+        "district": "구미시",
+        "address_detail": null
+      },
+      "preferred_industries": [
+        "AI/ML",
+        "Big Data",
+        "Bio/Healthcare",
+        "Energy",
+        "Robotics",
+        "DeepTech",
+        "Other"
+      ],
+      "preferred_stages": [
+        "Seed",
+        "Pre-A",
+        "Series A"
+      ],
+      "preferred_regions": [
+        "경상북도",
+        "동남권"
+      ],
+      "min_investment": null,
+      "max_investment": null,
+      "investment_amount_unit": "만원",
+      "investment_range_note": "첨부 이미지에 최소·최대 투자금이 명시되지 않음",
+      "bio": "기술창업 전 분야의 초기기업을 발굴·투자·육성하고 혁신 기술기업에 자본투자와 딥테크 사업화를 연계하는 공공 액셀러레이터다.",
+      "vc_summary": "AI, 빅데이터, 바이오, 에너지 및 로봇 등 첨단기술 분야의 초기기업을 대상으로 직접투자, 후속투자, BM 고도화와 지역·글로벌 네트워크를 지원한다.",
+      "investment_thesis": {
+        "target": "창업 3년 이내의 기술창업 기업",
+        "focus_sectors": [
+          "AI",
+          "빅데이터",
+          "바이오",
+          "에너지",
+          "로봇",
+          "첨단기술 전 분야"
+        ],
+        "lifecycle": "Seed부터 Series A",
+        "review_factors": [
+          "기술성",
+          "시장성",
+          "팀 역량",
+          "지역산업 연계성",
+          "사업화 가능성"
+        ],
+        "decision_process": "기술과 시장성을 검토하고 투자 관점 협의 후 직접투자 및 후속투자 연계"
+      },
+      "eval_emphasis": [
+        "technology",
+        "team",
+        "market",
+        "scalability"
+      ],
+      "support_capabilities": [
+        "딥테크 발굴",
+        "직접투자",
+        "후속투자 연계",
+        "BM 고도화",
+        "R&D 연계",
+        "지역 및 글로벌 진출"
+      ],
+      "programs": [
+        {
+          "name": "G-Star 경북 저력 딥테크 부스터",
+          "type": "DeepTech Acceleration",
+          "operator": "경북창조경제혁신센터",
+          "started_at": null,
+          "sessions": null,
+          "description": "딥테크 스타트업을 발굴·육성하고 투자 이후 Value-up을 지원",
+          "support": [
+            "사업화 및 멘토링",
+            "직접투자 검토",
+            "후속 사업화 연계",
+            "파트너 투자사 연계"
+          ]
+        },
+        {
+          "name": "창업-Bus at 경북",
+          "type": "Regional IR",
+          "operator": "경북창조경제혁신센터",
+          "started_at": null,
+          "sessions": null,
+          "description": "지역 유망 딥테크 스타트업의 투자유치 및 스케일업 지원",
+          "support": [
+            "직접투자 검토",
+            "후속투자 연계",
+            "BM 컨설팅",
+            "IR Deck 컨설팅"
+          ]
+        }
+      ],
+      "incubation_spaces": [
+        {
+          "name": "자체 보육공간",
+          "location": "경상북도 구미시",
+          "usage": "입주 및 창업기업 보육"
+        }
+      ],
+      "partner_organizations": [
+        {
+          "name": "Another Brain Thailand",
+          "alias": null,
+          "type": "Global Partner",
+          "country": "태국",
+          "support": [
+            "동남아 진출"
+          ]
+        },
+        {
+          "name": "Nautilus Venture Partners",
+          "alias": null,
+          "type": "Global VC",
+          "country": null,
+          "support": [
+            "해외 투자 연계"
+          ]
+        },
+        {
+          "name": "대구창조경제혁신센터",
+          "alias": null,
+          "type": "Public Startup Organization",
+          "country": "대한민국",
+          "support": [
+            "지역 창업 네트워크"
+          ]
+        },
+        {
+          "name": "아니더브레인",
+          "alias": null,
+          "type": "Partner",
+          "country": null,
+          "support": [
+            "사업 및 투자 연계"
+          ]
+        },
+        {
+          "name": "오라클벤처투자",
+          "alias": null,
+          "type": "VC",
+          "country": "대한민국",
+          "support": [
+            "후속투자 연계"
+          ]
+        },
+        {
+          "name": "파트너스라운지",
+          "alias": null,
+          "type": "Investment Network",
+          "country": "대한민국",
+          "support": [
+            "투자자 네트워크"
+          ]
+        }
+      ],
+      "track_record": {
+        "tips_portfolio_count": null,
+        "operator_investment": {
+          "amount_krw": null,
+          "display": null
+        },
+        "average_investment": {
+          "amount_krw": null,
+          "display": null,
+          "source": null
+        },
+        "portfolio_follow_on_funding": {
+          "amount_krw": null,
+          "display": null
+        },
+        "ma_count": null,
+        "ipo_count": null,
+        "award_count": null,
+        "award_details": []
+      },
+      "contact": {
+        "website": "https://ccei.creativekorea.or.kr/gyeongbuk/"
+      },
+      "link": "https://ccei.creativekorea.or.kr/gyeongbuk/",
+      "verification": {
+        "source_type": "첨부 이미지",
+        "source_name": "TIPS 운영사 소개 자료",
+        "source_url": null,
+        "source_date": null,
+        "checked_at": "2026-06-23",
+        "needs_verification": [
+          "상세 주소",
+          "TIPS 창업기업 수",
+          "투자금 범위",
+          "투자 및 후속투자 성과",
+          "운영사 선정연월",
+          "협력기관 전체 명칭"
+        ],
+        "data_warnings": [
+          "이미지의 TIPS 창업기업 및 성과 항목이 '-'로 표기됨"
+        ]
+      }
+    }
+  },
+  {
+    "model": "core.vcprofile",
+    "pk": 15,
+    "fields": {
+      "firm_name": "KB인베스트먼트",
+      "firm_name_en": "KB Investment",
+      "representative": "윤범열",
+      "founded_at": "1990-03",
+      "tips_operator_selected_at": "2024-07",
+      "headquarters": {
+        "country": "대한민국",
+        "region": "서울특별시",
+        "district": "강남구",
+        "address_detail": null
+      },
+      "preferred_industries": [
+        "AI/ML",
+        "Big Data",
+        "Robotics",
+        "SaaS",
+        "Secondary Battery",
+        "Advanced Materials",
+        "Bio/Healthcare",
+        "Aerospace",
+        "Content",
+        "Commerce",
+        "Platform",
+        "ClimateTech",
+        "Energy",
+        "Metaverse",
+        "Gaming"
+      ],
+      "preferred_stages": [
+        "Seed",
+        "Pre-A",
+        "Series A",
+        "Growth"
+      ],
+      "preferred_regions": [],
+      "min_investment": null,
+      "max_investment": null,
+      "investment_amount_unit": "만원",
+      "investment_range_note": "첨부 이미지에 최소·최대 투자금이 명시되지 않음",
+      "bio": "풍부한 투자 경험과 인사이트를 기반으로 국내 벤처기업 생태계의 성장과 글로벌 유니콘 육성을 지원하는 종합 벤처캐피탈이다.",
+      "vc_summary": "딥테크부터 플랫폼·콘텐츠까지 폭넓은 산업에 투자하며 KB금융그룹 네트워크, KBa 스타터스와 글로벌 액셀러레이션을 통해 기업의 전주기 성장을 지원한다.",
+      "investment_thesis": {
+        "target": "혁신기술과 시장 성장 가능성을 보유한 국내외 벤처기업",
+        "focus_sectors": [
+          "AI·빅데이터",
+          "로봇",
+          "SaaS",
+          "이차전지·첨단소재",
+          "바이오·헬스케어",
+          "우주항공",
+          "콘텐츠·커머스·플랫폼",
+          "친환경·에너지",
+          "메타버스·게임"
+        ],
+        "lifecycle": "초기부터 성장단계",
+        "review_factors": [
+          "혁신기술",
+          "시장성",
+          "성장성",
+          "팀 역량",
+          "글로벌 확장성"
+        ],
+        "decision_process": "파트너십 관점에서 기업의 성장성과 산업 가능성을 검토해 최종 투자 결정"
+      },
+      "eval_emphasis": [
+        "technology",
+        "market",
+        "team",
+        "traction",
+        "scalability"
+      ],
+      "support_capabilities": [
+        "KB금융그룹 오픈이노베이션",
+        "KBa 스타터스",
+        "글로벌 액셀러레이션",
+        "후속투자",
+        "정기 IR",
+        "보육공간",
+        "해외 진출"
+      ],
+      "programs": [
+        {
+          "name": "KBa 스타터스",
+          "type": "Corporate Acceleration",
+          "operator": "KB금융그룹",
+          "started_at": null,
+          "sessions": null,
+          "description": "우수 스타트업 발굴 및 육성을 위한 KB금융그룹 동반성장 프로그램",
+          "support": [
+            "KB금융 계열사 PoC",
+            "투자유치",
+            "법률·회계·글로벌 진출",
+            "채용지원",
+            "보육공간"
+          ]
+        },
+        {
+          "name": "KBa 스타터스 글로벌 싱가포르",
+          "type": "Global Acceleration",
+          "operator": "KB인베스트먼트",
+          "started_at": null,
+          "sessions": null,
+          "description": "싱가포르 및 동남아 진출에 적합한 기업의 현지 육성 프로그램",
+          "support": [
+            "현지 시장 안착",
+            "네트워크 구축",
+            "현지 액셀러레이션",
+            "로드쇼",
+            "PoC",
+            "투자유치"
+          ]
+        }
+      ],
+      "incubation_spaces": [
+        {
+          "name": "자체 BI",
+          "location": "서울특별시 강남구",
+          "usage": "창업기업 보육"
+        },
+        {
+          "name": "KB Innovation HUB",
+          "location": "서울특별시 서초구",
+          "usage": "KB 스타트업 보육 및 협업"
+        }
+      ],
+      "partner_organizations": [
+        {
+          "name": "KB금융지주",
+          "alias": null,
+          "type": "Financial Group",
+          "country": "대한민국",
+          "support": [
+            "계열사 협업 및 금융 네트워크"
+          ]
+        },
+        {
+          "name": "KB Innovation HUB",
+          "alias": null,
+          "type": "Innovation Hub",
+          "country": "대한민국",
+          "support": [
+            "오픈이노베이션 및 보육"
+          ]
+        },
+        {
+          "name": "Primer Sazze Partners",
+          "alias": null,
+          "type": "Global VC",
+          "country": "미국",
+          "support": [
+            "북미 네트워크 및 글로벌 진출"
+          ]
+        }
+      ],
+      "track_record": {
+        "tips_portfolio_count": 51,
+        "operator_investment": {
+          "amount_krw": 24429000000,
+          "display": "244.29억원"
+        },
+        "average_investment": {
+          "amount_krw": 440000000,
+          "display": "4.4억원",
+          "source": "첨부 이미지 기재값"
+        },
+        "portfolio_follow_on_funding": {
+          "amount_krw": 531090000000,
+          "display": "5,310.9억원"
+        },
+        "ma_count": 1,
+        "ipo_count": 2,
+        "award_count": 5,
+        "award_details": [
+          "보육 창업기업 CES 5개 수상"
+        ]
+      },
+      "contact": {
+        "website": "https://www.kbic.co.kr/"
+      },
+      "link": "https://www.kbic.co.kr/",
+      "verification": {
+        "source_type": "첨부 이미지",
+        "source_name": "TIPS 운영사 소개 자료",
+        "source_url": null,
+        "source_date": null,
+        "checked_at": "2026-06-23",
+        "needs_verification": [
+          "상세 주소",
+          "투자금 범위",
+          "누적 성과의 현재값"
+        ],
+        "data_warnings": [
+          "총 투자금 244.29억원과 평균 4.4억원은 TIPS 기업 51개 기준 단순 산술값과 차이가 있어 집계 범위 확인 필요"
+        ]
+      }
+    }
+  },
+  {
+    "model": "core.vcprofile",
+    "pk": 16,
+    "fields": {
+      "firm_name": "호서대학교산학협력단",
+      "firm_name_en": "Hoseo University Industry-Academic Cooperation Foundation",
+      "representative": "서원교",
+      "founded_at": "2004-03",
+      "tips_operator_selected_at": "2024-07",
+      "headquarters": {
+        "country": "대한민국",
+        "region": "충청남도",
+        "district": "아산시",
+        "address_detail": null
+      },
+      "preferred_industries": [
+        "Display",
+        "Semiconductor",
+        "Future Mobility",
+        "Hydrogen",
+        "AI/ML",
+        "DeepTech"
+      ],
+      "preferred_stages": [
+        "Pre-Seed",
+        "Seed",
+        "Pre-A"
+      ],
+      "preferred_regions": [
+        "충청남도",
+        "충청권"
+      ],
+      "min_investment": null,
+      "max_investment": 30000,
+      "investment_amount_unit": "만원",
+      "investment_range_note": "이미지에 초기 3년 이내 기업 대상으로 최대 3억원 투자 가능으로 기재",
+      "bio": "대학 산학협력단 최초의 전문 액셀러레이터로 대학의 창업지원 역량과 기술 인프라를 활용해 지역 기술창업을 육성한다.",
+      "vc_summary": "디스플레이, 반도체, 미래 모빌리티, 수소 및 AI 분야의 초기 기술기업을 투자·보육하고 대학·지역·글로벌 네트워크를 통해 공동투자와 해외진출을 지원한다.",
+      "investment_thesis": {
+        "target": "디스플레이·반도체·모빌리티·수소·AI 기술 역량을 보유한 창업 3년 이내 기업",
+        "focus_sectors": [
+          "디스플레이",
+          "반도체",
+          "미래 모빌리티",
+          "수소",
+          "AI"
+        ],
+        "lifecycle": "창업 3년 이내",
+        "review_factors": [
+          "기술성",
+          "대학 산학연계 가능성",
+          "시장성",
+          "사업성",
+          "팀 역량"
+        ],
+        "decision_process": "대학과 지역의 기술 인프라 및 사업성을 검토해 최대 3억원 투자"
+      },
+      "eval_emphasis": [
+        "technology",
+        "team",
+        "market",
+        "scalability"
+      ],
+      "support_capabilities": [
+        "대학 기술사업화",
+        "창업지원패키지",
+        "HIT-PEAK+",
+        "정기 IR",
+        "글로벌 액셀러레이팅",
+        "공동투자",
+        "보육공간"
+      ],
+      "programs": [
+        {
+          "name": "창업지원사업 및 기술사업화 연계",
+          "type": "University Acceleration",
+          "operator": "호서대학교산학협력단",
+          "started_at": null,
+          "sessions": null,
+          "description": "창업중심대학 및 재도전성공패키지 등 대학 창업지원 프로그램과 투자사업화 연계",
+          "support": [
+            "창업지원사업",
+            "직접투자",
+            "TIPS 연계"
+          ]
+        },
+        {
+          "name": "HIT-PEAK 정기 IR 및 네트워킹",
+          "type": "IR and Networking",
+          "operator": "호서대학교산학협력단",
+          "started_at": null,
+          "sessions": "매년 2회",
+          "description": "운영사 포트폴리오와 TIPS 선정기업을 위한 정기 IR",
+          "support": [
+            "IR",
+            "운영사 코디네이터",
+            "멘토단",
+            "선배기업 네트워킹"
+          ]
+        },
+        {
+          "name": "글로벌 네트워크 확장을 위한 해외진출 지원",
+          "type": "Global Acceleration",
+          "operator": "호서대학교산학협력단",
+          "started_at": null,
+          "sessions": null,
+          "description": "호서대 글로벌 산학협력 네트워크를 활용한 해외진출 프로그램",
+          "support": [
+            "기술검증",
+            "사업화 전략",
+            "바이어 미팅",
+            "투자자 미팅"
+          ]
+        }
+      ],
+      "incubation_spaces": [
+        {
+          "name": "호서대학교 벤처창업보육센터",
+          "location": "충청남도 아산시",
+          "usage": "창업기업 보육"
+        },
+        {
+          "name": "호서벤처밸리",
+          "location": "충청남도 아산시",
+          "usage": "산학협력 및 창업기업 보육"
+        }
+      ],
+      "partner_organizations": [
+        {
+          "name": "SK증권",
+          "alias": null,
+          "type": "Financial Institution",
+          "country": "대한민국",
+          "support": [
+            "투자 및 금융 네트워크"
+          ]
+        },
+        {
+          "name": "퓨처플레이",
+          "alias": null,
+          "type": "Accelerator/VC",
+          "country": "대한민국",
+          "support": [
+            "딥테크 투자 및 액셀러레이팅"
+          ]
+        },
+        {
+          "name": "에트리홀딩스",
+          "alias": null,
+          "type": "Technology Holdings",
+          "country": "대한민국",
+          "support": [
+            "ICT 기술사업화"
+          ]
+        },
+        {
+          "name": "한국자동차연구원",
+          "alias": "KATECH",
+          "type": "Research Institute",
+          "country": "대한민국",
+          "support": [
+            "모빌리티 기술 연계"
+          ]
+        },
+        {
+          "name": "충남창조경제혁신센터",
+          "alias": null,
+          "type": "Public Startup Organization",
+          "country": "대한민국",
+          "support": [
+            "지역 창업 네트워크"
+          ]
+        },
+        {
+          "name": "KILSA Global",
+          "alias": null,
+          "type": "Global Partner",
+          "country": null,
+          "support": [
+            "글로벌 진출"
+          ]
+        }
+      ],
+      "track_record": {
+        "tips_portfolio_count": 10,
+        "operator_investment": {
+          "amount_krw": 1200000000,
+          "display": "12억원"
+        },
+        "average_investment": {
+          "amount_krw": 120000000,
+          "display": "1.2억원",
+          "source": "첨부 이미지 기재값"
+        },
+        "portfolio_follow_on_funding": {
+          "amount_krw": 430000000,
+          "display": "4.3억원"
+        },
+        "ma_count": null,
+        "ipo_count": null,
+        "award_count": null,
+        "award_details": [
+          "독일 P기업과 4,800억원 규모 독점계약 체결",
+          "뉴욕 NEXTCORPS Luminate 9기 선정",
+          "NVIDIA Inception Program 선정",
+          "PEPSICO Green Accelerator 선정",
+          "2025년 환경부 장관 표창",
+          "충청남도지사 표창"
+        ]
+      },
+      "contact": {
+        "website": "https://iacf.hoseo.ac.kr/"
+      },
+      "link": "https://iacf.hoseo.ac.kr/",
+      "verification": {
+        "source_type": "첨부 이미지",
+        "source_name": "TIPS 운영사 소개 자료",
+        "source_url": null,
+        "source_date": null,
+        "checked_at": "2026-06-23",
+        "needs_verification": [
+          "상세 주소",
+          "최소 투자금",
+          "후속투자 성과의 집계 범위",
+          "이메일 표기",
+          "협력기관 전체 명칭"
+        ],
+        "data_warnings": [
+          "4,800억원은 투자금이 아니라 보육기업의 독점계약 규모로 별도 성과 처리함"
+        ]
+      }
+    }
+  },
+  {
+    "model": "core.vcprofile",
+    "pk": 17,
+    "fields": {
+      "firm_name": "쿨리지코너인베스트먼트",
+      "firm_name_en": "Coolidge Corner Investment",
+      "representative": "강신혁",
+      "founded_at": "2010-03",
+      "tips_operator_selected_at": "2024-07",
+      "headquarters": {
+        "country": "대한민국",
+        "region": "서울특별시",
+        "district": "강남구",
+        "address_detail": null
+      },
+      "preferred_industries": [
+        "DeepTech",
+        "ESG",
+        "ICT",
+        "Materials/Components",
+        "Bio/Healthcare"
+      ],
+      "preferred_stages": [
+        "Seed",
+        "Pre-A",
+        "Series A"
+      ],
+      "preferred_regions": [],
+      "min_investment": 30000,
+      "max_investment": 300000,
+      "investment_amount_unit": "만원",
+      "investment_range_note": "이미지에 기업당 약 3~30억원 투자 가능으로 기재",
+      "bio": "창업기업 선발부터 보육과 투자까지 전 과정의 시스템을 갖춘 초기투자 전문 벤처캐피탈이다.",
+      "vc_summary": "Deep Tech, ESG 및 ICT 분야 기업을 투자·보육하며 CCVC Value Up, CEO 워크숍, 지역·해외 액셀러레이팅과 글로벌 네트워크를 제공한다.",
+      "investment_thesis": {
+        "target": "소부장, ICT, BIO 등 Frontier Sector의 기술 기반 초기기업",
+        "focus_sectors": [
+          "Deep Tech",
+          "ESG",
+          "ICT",
+          "소재·부품·장비",
+          "바이오"
+        ],
+        "lifecycle": "초기부터 성장단계",
+        "review_factors": [
+          "기술성",
+          "ESG·사회적 임팩트",
+          "시장성",
+          "팀 역량",
+          "글로벌 성장성"
+        ],
+        "decision_process": "기술력과 성장 가능성을 검토하여 기업당 약 3~30억원 투자"
+      },
+      "eval_emphasis": [
+        "technology",
+        "team",
+        "market",
+        "scalability",
+        "impact"
+      ],
+      "support_capabilities": [
+        "창업기업 보육",
+        "Value-up",
+        "정기 투자 검토",
+        "CEO 워크숍",
+        "글로벌 액셀러레이팅",
+        "후속투자 네트워크"
+      ],
+      "programs": [
+        {
+          "name": "CCVC Value Up 프로그램",
+          "type": "Value-up",
+          "operator": "쿨리지코너인베스트먼트",
+          "started_at": null,
+          "sessions": "매월 또는 격월",
+          "description": "스타트업 실무자와 운영자를 위한 온라인 강의 및 산업 트렌드 프로그램",
+          "support": [
+            "Zoom 강의",
+            "자유 토론",
+            "실무 트렌드",
+            "산업 주제 토론"
+          ]
+        },
+        {
+          "name": "CEO 워크숍",
+          "type": "Founder Networking",
+          "operator": "쿨리지코너인베스트먼트",
+          "started_at": null,
+          "sessions": null,
+          "description": "포트폴리오 대표를 초대해 산업 현황 강의와 협업 네트워킹을 제공",
+          "support": [
+            "산업 강의",
+            "CEO 네트워킹",
+            "사업 협업",
+            "멘토링"
+          ]
+        }
+      ],
+      "incubation_spaces": [
+        {
+          "name": "자체 BI",
+          "location": "서울특별시 강남구",
+          "usage": "창업기업 보육"
+        },
+        {
+          "name": "운영사 보육공간",
+          "location": "부산광역시",
+          "usage": "지역 스타트업 보육"
+        }
+      ],
+      "partner_organizations": [
+        {
+          "name": "Widus Partners Pte. Ltd.",
+          "alias": null,
+          "type": "Global Partner",
+          "country": "싱가포르",
+          "support": [
+            "글로벌 진출"
+          ]
+        },
+        {
+          "name": "나눔엔젤스",
+          "alias": null,
+          "type": "Accelerator",
+          "country": "대한민국",
+          "support": [
+            "초기기업 육성"
+          ]
+        },
+        {
+          "name": "내비온",
+          "alias": null,
+          "type": "Partner",
+          "country": "대한민국",
+          "support": [
+            "사업 네트워크"
+          ]
+        }
+      ],
+      "track_record": {
+        "tips_portfolio_count": 32,
+        "operator_investment": {
+          "amount_krw": 26034000000,
+          "display": "260.34억원"
+        },
+        "average_investment": {
+          "amount_krw": 816000000,
+          "display": "8.16억원",
+          "source": "첨부 이미지 기재값"
+        },
+        "portfolio_follow_on_funding": {
+          "amount_krw": 329379000000,
+          "display": "3,293.79억원"
+        },
+        "ma_count": null,
+        "ipo_count": null,
+        "award_count": null,
+        "award_details": [
+          "순환경제유공포상 환경부장관 표창",
+          "StartupWheel International Track winner"
+        ]
+      },
+      "contact": {
+        "website": "https://www.ccvc.co.kr/"
+      },
+      "link": "https://www.ccvc.co.kr/",
+      "verification": {
+        "source_type": "첨부 이미지",
+        "source_name": "TIPS 운영사 소개 자료",
+        "source_url": null,
+        "source_date": null,
+        "checked_at": "2026-06-23",
+        "needs_verification": [
+          "상세 주소",
+          "누적 성과의 현재값",
+          "보육공간 상세 주소"
+        ],
+        "data_warnings": []
+      }
+    }
+  },
+  {
+    "model": "core.vcprofile",
+    "pk": 18,
+    "fields": {
+      "firm_name": "코맥스벤처러스",
+      "firm_name_en": "Venturus",
+      "representative": "김병희",
+      "founded_at": "2017-04",
+      "tips_operator_selected_at": "2024-07",
+      "headquarters": {
+        "country": "대한민국",
+        "region": "경기도",
+        "district": "성남시 분당구",
+        "address_detail": "서울특별시 강남구 거점 병기"
+      },
+      "preferred_industries": [
+        "AI/ML",
+        "ICT",
+        "12 New Industries",
+        "DeepTech"
+      ],
+      "preferred_stages": [
+        "Seed",
+        "Pre-A"
+      ],
+      "preferred_regions": [],
+      "min_investment": null,
+      "max_investment": 20000,
+      "investment_amount_unit": "만원",
+      "investment_range_note": "이미지에 초기기업 대상으로 단계별 최대 2억원 투자 가능으로 기재",
+      "bio": "투자 심사와 액셀러레이팅 경험을 바탕으로 AI·ICT 및 12대 신산업 분야의 초기 기술기업을 발굴·육성하는 액셀러레이터다.",
+      "vc_summary": "초기 기술 스타트업에 투자와 TIPS·R&D 지원을 제공하며 전담 코디네이터, 밀착 보육, 기업 네트워킹 및 정기 IR을 운영한다.",
+      "investment_thesis": {
+        "target": "AI·ICT 기반 12대 신산업 분야의 초기기업",
+        "focus_sectors": [
+          "AI",
+          "ICT",
+          "12대 신산업",
+          "딥테크"
+        ],
+        "lifecycle": "창업 초기",
+        "review_factors": [
+          "기술 역량",
+          "시장 현황",
+          "팀 구성",
+          "R&D 가능성",
+          "사업 확장성"
+        ],
+        "decision_process": "창업팀 구성과 시장 현황을 검토하고 투자 검토부터 최종 결정까지 단계별 협의"
+      },
+      "eval_emphasis": [
+        "technology",
+        "team",
+        "market",
+        "scalability"
+      ],
+      "support_capabilities": [
+        "밀착 액셀러레이팅",
+        "전담 코디네이터",
+        "TIPS",
+        "R&D",
+        "정기 IR",
+        "투자자 네트워킹",
+        "산업 네트워크"
+      ],
+      "programs": [
+        {
+          "name": "Venturus 액셀러레이션",
+          "type": "Acceleration",
+          "operator": "코맥스벤처러스",
+          "started_at": null,
+          "sessions": null,
+          "description": "전담 코디네이터와 포트폴리오 네트워크를 활용한 밀착 보육",
+          "support": [
+            "전담 코디네이터",
+            "1:1 밀착 보육",
+            "산업별 네트워크",
+            "창업자 네트워킹"
+          ]
+        },
+        {
+          "name": "Venturus Day",
+          "type": "IR and Networking",
+          "operator": "코맥스벤처러스",
+          "started_at": null,
+          "sessions": "매년 1~2회",
+          "description": "운영사 포트폴리오와 TIPS 선정기업 대상 IR 및 네트워킹",
+          "support": [
+            "IR",
+            "협력기관 심사",
+            "선배기업·운영사 네트워킹",
+            "피드백"
+          ]
+        }
+      ],
+      "incubation_spaces": [
+        {
+          "name": "자체 BI",
+          "location": "서울특별시 강남구",
+          "usage": "창업기업 보육"
+        },
+        {
+          "name": "코맥스 보육공간",
+          "location": "경기도 성남시",
+          "usage": "기술 및 사업 연계형 보육"
+        }
+      ],
+      "partner_organizations": [
+        {
+          "name": "코맥스",
+          "alias": null,
+          "type": "Corporate",
+          "country": "대한민국",
+          "support": [
+            "산업 및 PoC 연계"
+          ]
+        },
+        {
+          "name": "디바이스파트너스",
+          "alias": null,
+          "type": "Investment Partner",
+          "country": "대한민국",
+          "support": [
+            "투자 연계"
+          ]
+        },
+        {
+          "name": "한국공학대학교기술지주",
+          "alias": null,
+          "type": "Technology Holdings",
+          "country": "대한민국",
+          "support": [
+            "대학 기술사업화"
+          ]
+        },
+        {
+          "name": "한양대학교산학협력단",
+          "alias": null,
+          "type": "University IACF",
+          "country": "대한민국",
+          "support": [
+            "산학협력"
+          ]
+        },
+        {
+          "name": "성남산업진흥원",
+          "alias": null,
+          "type": "Public Organization",
+          "country": "대한민국",
+          "support": [
+            "지역산업 및 창업지원"
+          ]
+        },
+        {
+          "name": "세무법인 혜움",
+          "alias": null,
+          "type": "Tax Advisory",
+          "country": "대한민국",
+          "support": [
+            "세무 자문"
+          ]
+        },
+        {
+          "name": "헬리오스프라이빗에쿼티",
+          "alias": null,
+          "type": "Investment Partner",
+          "country": "대한민국",
+          "support": [
+            "후속투자 연계"
+          ]
+        }
+      ],
+      "track_record": {
+        "tips_portfolio_count": 37,
+        "operator_investment": {
+          "amount_krw": 4400000000,
+          "display": "44억원"
+        },
+        "average_investment": {
+          "amount_krw": 110000000,
+          "display": "1.1억원",
+          "source": "첨부 이미지 기재값"
+        },
+        "portfolio_follow_on_funding": {
+          "amount_krw": 23729000000,
+          "display": "237.29억원"
+        },
+        "ma_count": null,
+        "ipo_count": null,
+        "award_count": 13,
+        "award_details": [
+          "보육 창업기업 글로벌 진출 13건"
+        ]
+      },
+      "contact": {
+        "website": "https://iventurus.com/"
+      },
+      "link": "https://iventurus.com/",
+      "verification": {
+        "source_type": "첨부 이미지",
+        "source_name": "TIPS 운영사 소개 자료",
+        "source_url": null,
+        "source_date": null,
+        "checked_at": "2026-06-23",
+        "needs_verification": [
+          "본점과 서울 거점의 상세 주소",
+          "최소 투자금",
+          "누적 성과의 현재값",
+          "협력기관 전체 명칭"
+        ],
+        "data_warnings": [
+          "award_count에는 이미지의 글로벌 진출 13건을 기록했으며 실제 수상 건수 의미가 아님"
+        ]
+      }
+    }
+  },
+  {
+    "model": "core.vcprofile",
+    "pk": 19,
+    "fields": {
+      "firm_name": "전북창조경제혁신센터",
+      "firm_name_en": "Jeonbuk Center for Creative Economy & Innovation",
+      "representative": "박선준",
+      "founded_at": "2014-11",
+      "tips_operator_selected_at": "2024-07",
+      "headquarters": {
+        "country": "대한민국",
+        "region": "전북특별자치도",
+        "district": "전주시",
+        "address_detail": null
+      },
+      "preferred_industries": [
+        "Big Data",
+        "AI/ML",
+        "Red Bio",
+        "Future Mobility",
+        "Aerospace",
+        "Marine",
+        "ClimateTech",
+        "Energy"
+      ],
+      "preferred_stages": [
+        "Seed",
+        "Pre-A",
+        "Series A"
+      ],
+      "preferred_regions": [
+        "전북특별자치도"
+      ],
+      "min_investment": null,
+      "max_investment": 30000,
+      "investment_amount_unit": "만원",
+      "investment_range_note": "이미지에 창업 7년 이내 기업 대상으로 최대 3억원 투자 가능으로 기재",
+      "bio": "도내 창업을 진흥하고 일자리 창출과 전북 지역경제 발전에 기여하는 공공 창업지원기관이다.",
+      "vc_summary": "전북 전역의 유망 스타트업을 발굴해 빅데이터, AI, 레드바이오, 미래 모빌리티, 우주항공, 해양 및 친환경에너지 분야를 투자·육성한다.",
+      "investment_thesis": {
+        "target": "기술력을 보유한 창업 7년 이내 초기·성장기업",
+        "focus_sectors": [
+          "빅데이터",
+          "AI",
+          "레드바이오",
+          "미래 모빌리티",
+          "우주항공",
+          "해양",
+          "친환경에너지"
+        ],
+        "lifecycle": "창업 7년 이내",
+        "review_factors": [
+          "기술력",
+          "시장 현황",
+          "팀 구성",
+          "지역경제 기여",
+          "성장 가능성"
+        ],
+        "decision_process": "창업팀 구성과 시장 현황을 검토해 최대 3억원 투자"
+      },
+      "eval_emphasis": [
+        "technology",
+        "team",
+        "market",
+        "impact",
+        "scalability"
+      ],
+      "support_capabilities": [
+        "직접투자",
+        "TIPS·LIPS 연계",
+        "사업화 지원",
+        "판로개척",
+        "소셜벤처 육성",
+        "글로벌 진출",
+        "입주공간"
+      ],
+      "programs": [
+        {
+          "name": "모두의 창업",
+          "type": "Open Acceleration",
+          "operator": "전북창조경제혁신센터",
+          "started_at": null,
+          "sessions": null,
+          "description": "혁신 아이디어를 보유한 누구나 참여 가능한 창업지원 프로그램",
+          "support": [
+            "교육·멘토링",
+            "AI 바우처",
+            "MVP 제작",
+            "사업화 자금"
+          ]
+        },
+        {
+          "name": "창업-Bus 프로그램",
+          "type": "Regional Investment Program",
+          "operator": "전북창조경제혁신센터",
+          "started_at": null,
+          "sessions": null,
+          "description": "유망 스타트업을 발굴해 직접투자와 TIPS·LIPS 연계를 지원",
+          "support": [
+            "직접투자",
+            "TIPS·LIPS 추천",
+            "지역 투자펀드",
+            "후속투자 연계"
+          ]
+        },
+        {
+          "name": "전북형 소셜벤처 육성사업(J-STEP)",
+          "type": "Social Venture Acceleration",
+          "operator": "전북창조경제혁신센터",
+          "started_at": null,
+          "sessions": null,
+          "description": "사회적 문제 해결형 창업기업의 성장을 지원",
+          "support": [
+            "사업화 지원",
+            "컨설팅",
+            "직접투자",
+            "후속투자 연계"
+          ]
+        }
+      ],
+      "incubation_spaces": [
+        {
+          "name": "스타트업 라운지 키움공간",
+          "location": "전북특별자치도 전주시",
+          "usage": "창업행사 및 네트워킹"
+        },
+        {
+          "name": "스타트업 포레",
+          "location": "전북특별자치도 전주시",
+          "usage": "창업기업 보육"
+        }
+      ],
+      "partner_organizations": [
+        {
+          "name": "Công ty TNHH VJGLOCAL",
+          "alias": null,
+          "type": "Global Partner",
+          "country": "베트남",
+          "support": [
+            "베트남 진출"
+          ]
+        },
+        {
+          "name": "스마트스터디벤처스",
+          "alias": null,
+          "type": "VC",
+          "country": "대한민국",
+          "support": [
+            "투자 연계"
+          ]
+        },
+        {
+          "name": "전북대학교기술지주",
+          "alias": null,
+          "type": "Technology Holdings",
+          "country": "대한민국",
+          "support": [
+            "대학 기술사업화"
+          ]
+        },
+        {
+          "name": "크립톤",
+          "alias": null,
+          "type": "Accelerator",
+          "country": "대한민국",
+          "support": [
+            "액셀러레이팅 및 투자"
+          ]
+        },
+        {
+          "name": "로우파트너스",
+          "alias": null,
+          "type": "Accelerator",
+          "country": "대한민국",
+          "support": [
+            "투자 및 사업화"
+          ]
+        },
+        {
+          "name": "씨엔티테크",
+          "alias": null,
+          "type": "Accelerator/VC",
+          "country": "대한민국",
+          "support": [
+            "액셀러레이팅 및 투자"
+          ]
+        },
+        {
+          "name": "전북테크노파크",
+          "alias": null,
+          "type": "Public Organization",
+          "country": "대한민국",
+          "support": [
+            "지역산업 연계"
+          ]
+        }
+      ],
+      "track_record": {
+        "tips_portfolio_count": 5,
+        "operator_investment": {
+          "amount_krw": null,
+          "display": "기업당 평균 2억원"
+        },
+        "average_investment": {
+          "amount_krw": 200000000,
+          "display": "2억원",
+          "source": "첨부 이미지 기재값"
+        },
+        "portfolio_follow_on_funding": {
+          "amount_krw": 11000000000,
+          "display": "110억원"
+        },
+        "ma_count": null,
+        "ipo_count": null,
+        "award_count": null,
+        "award_details": [
+          "2024년 딥테크 TIPS 기업 ㈜아헤스 후속투자 110억원 유치"
+        ]
+      },
+      "contact": {
+        "website": "https://ccei.creativekorea.or.kr/jeonbuk/main.do"
+      },
+      "link": "https://ccei.creativekorea.or.kr/jeonbuk/main.do",
+      "verification": {
+        "source_type": "첨부 이미지",
+        "source_name": "TIPS 운영사 소개 자료",
+        "source_url": null,
+        "source_date": null,
+        "checked_at": "2026-06-23",
+        "needs_verification": [
+          "상세 주소",
+          "최소 투자금",
+          "운영사 총 투자금",
+          "후속투자액의 포트폴리오 전체 집계 여부",
+          "협력기관 전체 명칭"
+        ],
+        "data_warnings": [
+          "후속투자 110억원은 포트폴리오 전체 합계가 아니라 특정 기업 ㈜아헤스의 유치 실적으로 기재됨"
+        ]
+      }
+    }
+  },
+  {
+    "model": "core.vcprofile",
+    "pk": 20,
+    "fields": {
+      "firm_name": "아이빌트",
+      "firm_name_en": "iBUILT",
+      "representative": "송치관",
+      "founded_at": "2012-04",
+      "tips_operator_selected_at": "2024-07",
+      "headquarters": {
+        "country": "대한민국",
+        "region": "세종특별자치시",
+        "district": "",
+        "address_detail": null
+      },
+      "preferred_industries": [
+        "Semiconductor",
+        "Bio/Healthcare",
+        "Automotive",
+        "ClimateTech",
+        "Energy",
+        "Robotics",
+        "Intelligent Robot",
+        "Manufacturing"
+      ],
+      "preferred_stages": [
+        "Seed",
+        "Pre-A"
+      ],
+      "preferred_regions": [],
+      "min_investment": null,
+      "max_investment": 30000,
+      "investment_amount_unit": "만원",
+      "investment_range_note": "이미지에 창업 7년 이내 제조기반 산업과 지능형기술 융복합 분야 기업 대상으로 최대 3억원 투자 가능으로 기재",
+      "bio": "제조서비스 전문기업의 성공 노하우를 기반으로 설립된 제조기반 기술창업 글로벌 액셀러레이터다.",
+      "vc_summary": "반도체, 바이오·헬스, 자동차, 친환경에너지 및 지능형 로봇 분야 스타트업을 발굴·투자하고 제조 및 시장개척, 해외진출을 지원한다.",
+      "investment_thesis": {
+        "target": "창업 7년 이내 제조기반 산업과 지능형기술 융복합 분야의 기술기업",
+        "focus_sectors": [
+          "반도체",
+          "바이오·헬스",
+          "자동차",
+          "친환경에너지",
+          "로봇",
+          "지능형로봇"
+        ],
+        "lifecycle": "창업 7년 이내",
+        "review_factors": [
+          "제조기술",
+          "시장성",
+          "글로벌 확장성",
+          "팀 역량",
+          "기술 융복합 가능성"
+        ],
+        "decision_process": "산업·기술 역량과 미래 글로벌 경쟁력을 검토해 최대 3억원 투자"
+      },
+      "eval_emphasis": [
+        "technology",
+        "team",
+        "market",
+        "scalability"
+      ],
+      "support_capabilities": [
+        "G.TechBiz",
+        "시장·투자 중심 액셀러레이팅",
+        "제조 및 사업화",
+        "해외진출",
+        "글로벌 IR",
+        "TIPS 연계",
+        "보육공간"
+      ],
+      "programs": [
+        {
+          "name": "G.TechBiz 프로그램",
+          "type": "Technology Business Acceleration",
+          "operator": "아이빌트",
+          "started_at": null,
+          "sessions": null,
+          "description": "창업기업의 사업화 성공률과 지속 성장을 높이는 단계별 액셀러레이팅",
+          "support": [
+            "사업화",
+            "실무교육",
+            "진단 컨설팅",
+            "밀착 멘토링",
+            "IR 데모데이",
+            "투자유치"
+          ]
+        },
+        {
+          "name": "해외진출 지원 프로그램",
+          "type": "Global Acceleration",
+          "operator": "아이빌트",
+          "started_at": null,
+          "sessions": null,
+          "description": "글로벌 기술창업 협력 네트워크와 해외기관을 활용한 진출 지원",
+          "support": [
+            "중국 IR",
+            "글로벌 창업 경진대회",
+            "해외 오픈이노베이션",
+            "사업화",
+            "해외시장 진출"
+          ]
+        }
+      ],
+      "incubation_spaces": [
+        {
+          "name": "한남대학교 오정동 캠퍼스",
+          "location": "대전광역시 대덕구",
+          "usage": "창업기업 보육"
+        },
+        {
+          "name": "한남대학교 대덕밸리 캠퍼스",
+          "location": "대전광역시 유성구",
+          "usage": "기술창업 및 보육"
+        }
+      ],
+      "partner_organizations": [
+        {
+          "name": "중국 하얼빈동하과기유한공사",
+          "alias": null,
+          "type": "Global Partner",
+          "country": "중국",
+          "support": [
+            "중국 진출 및 사업화"
+          ]
+        },
+        {
+          "name": "부산대학교기술지주",
+          "alias": null,
+          "type": "Technology Holdings",
+          "country": "대한민국",
+          "support": [
+            "대학 기술사업화"
+          ]
+        },
+        {
+          "name": "세종창조경제혁신센터",
+          "alias": null,
+          "type": "Public Startup Organization",
+          "country": "대한민국",
+          "support": [
+            "지역 창업 네트워크"
+          ]
+        },
+        {
+          "name": "한남대학교 창업지원단",
+          "alias": null,
+          "type": "University Startup Organization",
+          "country": "대한민국",
+          "support": [
+            "대학 창업지원"
+          ]
+        },
+        {
+          "name": "한국창업기업가협회",
+          "alias": null,
+          "type": "Startup Association",
+          "country": "대한민국",
+          "support": [
+            "창업기업 네트워크"
+          ]
+        }
+      ],
+      "track_record": {
+        "tips_portfolio_count": 33,
+        "operator_investment": {
+          "amount_krw": 3300000000,
+          "display": "33억원"
+        },
+        "average_investment": {
+          "amount_krw": 100000000,
+          "display": "1억원",
+          "source": "첨부 이미지 기재값"
+        },
+        "portfolio_follow_on_funding": {
+          "amount_krw": 17360000000,
+          "display": "173.6억원"
+        },
+        "ma_count": null,
+        "ipo_count": null,
+        "award_count": 7,
+        "award_details": [
+          "보육 창업기업 CES 4건",
+          "대통령 표창 2건",
+          "해양부장관상 1건"
+        ]
+      },
+      "contact": {
+        "website": ""
+      },
+      "link": "",
+      "verification": {
+        "source_type": "첨부 이미지",
+        "source_name": "TIPS 운영사 소개 자료",
+        "source_url": null,
+        "source_date": null,
+        "checked_at": "2026-06-23",
+        "needs_verification": [
+          "홈페이지",
+          "상세 주소",
+          "최소 투자금",
+          "누적 성과의 현재값",
+          "중국 협력기관의 정확한 영문·국문명"
+        ],
+        "data_warnings": [
+          "이미지의 홈페이지 항목이 '-'로 표기됨"
+        ]
+      }
+    }
+  }
+]
