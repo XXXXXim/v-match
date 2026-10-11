@@ -3,7 +3,22 @@
 > **VC와 스타트업을 양방향으로 연결하는 AI 투자 매칭 플랫폼**
 > 결정론적 FIT 점수로 추천하고, LLM이 실사(Due Diligence) 형식의 분석 리포트를 만들어 줍니다.
 
-<!-- TODO: 메인 화면 / 매칭 상세 / AI 리포트 스크린샷 (docs/images/ 에 넣고 경로 연결) -->
+![랜딩 페이지](docs/images/01-landing.png)
+
+## 화면
+
+| VC: 스타트업 찾기 | 스타트업: VC 추천 |
+|---|---|
+| ![스타트업 찾기](docs/images/02-vc-startup-results.png) | ![VC 추천](docs/images/04-startup-vc-recommend.png) |
+| VC가 저장해 둔 선호 조건으로 바로 결과를 봅니다. 관심 산업군이 맨 위에 옵니다. | 우리 산업군에 관심 있는 VC를 강조해서 보여 줍니다. |
+
+**매칭 상세: FIT 점수, 7축 레이더, AI 판정**
+![매칭 상세](docs/images/03-match-detail.png)
+
+**AI 실사 리포트: 섹션별 평가와 하드게이트(딜킬러) 점검**
+<img src="docs/images/03b-due-diligence.png" width="760" alt="실사 리포트">
+
+> 스크린샷은 API 키 없이 폴백 모드로 찍었습니다. FIT 점수는 키가 있든 없든 결정론 엔진이 계산합니다. 섹션 평가는 지금 결정론 골격이 채운 값이고, 키를 설정하면 섹션 평가와 서술을 LLM이 생성합니다.
 
 ## 한눈에 보기
 
