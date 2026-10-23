@@ -85,7 +85,8 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        # 배포 환경(예: Vercel)에서는 쓰기 가능한 경로를 환경 변수로 지정한다.
+        'NAME': os.environ.get('DJANGO_DB_PATH', BASE_DIR / 'db.sqlite3'),
     }
 }
 
@@ -143,10 +144,10 @@ VMATCH_LLM_MODEL = os.environ.get('VMATCH_LLM_MODEL', 'claude-haiku-4-5-20251001
 
 # ----- 업로드 파일(IR Deck 등) -----
 MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR / 'media'
+MEDIA_ROOT = os.environ.get('DJANGO_MEDIA_ROOT', BASE_DIR / 'media')
 
 # IR 원본은 공개 /media/ 가 아닌 비공개 경로에 저장하고, 전용 다운로드 API로만 제공.
-PROTECTED_MEDIA_ROOT = BASE_DIR / 'protected_media'
+PROTECTED_MEDIA_ROOT = os.environ.get('DJANGO_PROTECTED_MEDIA_ROOT', BASE_DIR / 'protected_media')
 
 # ----- 운영 보안 헤더(DEBUG 가 아닐 때만) -----
 if not DEBUG:
