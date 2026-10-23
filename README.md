@@ -2,6 +2,16 @@
 
 [![tests](https://github.com/XXXXXim/v-match/actions/workflows/tests.yml/badge.svg)](https://github.com/XXXXXim/v-match/actions/workflows/tests.yml)
 
+### ▶ [라이브 데모 써보기](https://v-match-one.vercel.app/login)
+
+로그인 화면의 **VC로 로그인 / 스타트업으로 로그인** 버튼을 누르면 바로 들어갑니다. API 키 없이 폴백 모드로 동작합니다.
+
+1. **VC로 로그인** → 상단 **매칭** 메뉴에 데모 스타트업(탑테이블)과 이미 성사된 매칭이 있습니다.
+2. 매칭 상세에서 **FIT 점수 · 7축 레이더 · AI 실사 리포트**를 확인합니다.
+3. **스타트업 찾기 / VC 추천**에서 다른 회사에 좋아요를 눌러 추천 결과와 알림 흐름도 볼 수 있습니다.
+
+> 데모는 Vercel 서버리스 + Neon Postgres로 돌아갑니다. 모든 서버가 같은 DB를 쓰므로 새로 누른 좋아요·매칭도 그대로 유지되고, **매일 새벽 3시(KST)에 처음 상태로 자동 초기화**됩니다. 새 회원가입은 인증 메일이 실제로 발송되지 않으니 데모 계정을 이용해 주세요.
+
 > **VC와 스타트업을 양방향으로 연결하는 AI 투자 매칭 플랫폼**
 > 결정론적 FIT 점수로 추천하고, LLM이 실사(Due Diligence) 형식의 분석 리포트를 만들어 줍니다.
 

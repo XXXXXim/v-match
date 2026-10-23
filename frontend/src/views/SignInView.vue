@@ -8,6 +8,15 @@ const username = ref('')
 const password = ref('')
 const errorMsg = ref('')
 
+// 공개 데모 배포(VITE_DEMO=true)에서만 데모 계정 버튼을 보여준다.
+const isDemo = import.meta.env.VITE_DEMO === 'true'
+const DEMO_PASSWORD = 'demo1234'
+const useDemo = (name) => {
+  username.value = name
+  password.value = DEMO_PASSWORD
+  onSubmit()
+}
+
 const onSubmit = async () => {
   errorMsg.value = ''
   if (!username.value || !password.value) {
@@ -35,6 +44,15 @@ const onSubmit = async () => {
   <div class="form-card">
     <h2>로그인</h2>
 
+    <div v-if="isDemo" class="demo-box">
+      <p class="demo-title">데모 계정으로 바로 둘러보기</p>
+      <div class="demo-btns">
+        <button type="button" @click="useDemo('demo_vc')">VC로 로그인</button>
+        <button type="button" @click="useDemo('demo_startup')">스타트업으로 로그인</button>
+      </div>
+      <p class="demo-note">데모 VC와 스타트업은 이미 매칭돼 있어요. 로그인 후 상단 매칭 메뉴에서 AI 실사 리포트를 확인해 보세요. 데모 데이터는 주기적으로 초기화됩니다.</p>
+    </div>
+
     <label>아이디</label>
     <input v-model="username" type="text" placeholder="아이디" @keyup.enter="onSubmit" />
 
@@ -53,6 +71,42 @@ const onSubmit = async () => {
 </template>
 
 <style scoped>
+.demo-box {
+  border: 1px solid #2f6b4f;
+  background: #10201a;
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 8px;
+}
+.demo-title {
+  font-weight: 700;
+  margin: 0 0 10px;
+  color: #cdd4d0;
+}
+.demo-btns {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.demo-btns button {
+  flex: 1;
+  min-width: 140px;
+  padding: 9px 10px;
+  border-radius: 8px;
+  border: 1px solid #2f6b4f;
+  background: #173326;
+  color: #e6efe9;
+  font-weight: 600;
+  cursor: pointer;
+}
+.demo-btns button:hover {
+  background: #1e4432;
+}
+.demo-note {
+  font-size: 12px;
+  color: #8fa198;
+  margin: 10px 0 0;
+}
 .form-card {
   max-width: 420px;
   margin: 0 auto;

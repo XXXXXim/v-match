@@ -6,7 +6,7 @@ import router from '@/router'
 export const useAuthStore = defineStore(
   'auth',
   () => {
-    const API_URL = 'http://127.0.0.1:8000/api'
+    const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000/api'
     const token = ref(null)
     const user = ref(null)
     const devCode = ref('')   // 데모용: DEBUG 시 인증코드 표시

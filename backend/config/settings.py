@@ -85,9 +85,25 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        # 배포 환경(예: Vercel)에서는 쓰기 가능한 경로를 환경 변수로 지정한다.
+        'NAME': os.environ.get('DJANGO_DB_PATH', BASE_DIR / 'db.sqlite3'),
     }
 }
+
+# DATABASE_URL 이 있으면 Postgres 를 쓴다(예: Vercel + Neon). 없으면 위의 SQLite 그대로.
+# 서버리스는 요청마다 인스턴스가 바뀔 수 있어, 모든 인스턴스가 같은 DB 를 봐야 로그인·좋아요가 유지된다.
+DATABASE_URL = os.environ.get('DATABASE_URL') or os.environ.get('POSTGRES_URL')
+if DATABASE_URL:
+    import dj_database_url
+    DATABASES['default'] = dj_database_url.parse(
+        DATABASE_URL,
+        conn_max_age=0,            # 서버리스: 요청이 끝나면 연결을 닫는다
+        conn_health_checks=True,
+    )
+    # 풀러(트랜잭션 모드)를 거치는 연결에서는 서버 측 커서를 쓸 수 없다.
+    DATABASES['default']['DISABLE_SERVER_SIDE_CURSORS'] = True
+    # DB 에 닿지 않으면 무한정 기다리지 말고 10초 안에 실패한다(요청이 멈춘 채로 남지 않게).
+    DATABASES['default'].setdefault('OPTIONS', {})['connect_timeout'] = 10
 
 AUTH_PASSWORD_VALIDATORS = [
     {'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator'},
@@ -131,6 +147,11 @@ CORS_ALLOWED_ORIGINS = [
     'http://127.0.0.1:5173',
 ]
 
+# ----- 공개 데모 모드 -----
+# 서버리스 데모는 인스턴스마다 DB 사본을 따로 가지므로, 데모 계정 토큰은 시드 DB에 미리 넣어 두고 지우지 않는다.
+VMATCH_DEMO_MODE = _env_bool('VMATCH_DEMO_MODE', False)
+VMATCH_DEMO_USERNAMES = ('demo_vc', 'demo_startup')
+
 # ----- V-Match AI 설명 레이어 -----
 # (.env 는 파일 상단에서 이미 로드함)
 # AI 분석 리포트(핵심): 표준 OpenAI(Chat Completions). 키 없으면 템플릿 폴백.
@@ -143,10 +164,10 @@ VMATCH_LLM_MODEL = os.environ.get('VMATCH_LLM_MODEL', 'claude-haiku-4-5-20251001
 
 # ----- 업로드 파일(IR Deck 등) -----
 MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR / 'media'
+MEDIA_ROOT = os.environ.get('DJANGO_MEDIA_ROOT', BASE_DIR / 'media')
 
 # IR 원본은 공개 /media/ 가 아닌 비공개 경로에 저장하고, 전용 다운로드 API로만 제공.
-PROTECTED_MEDIA_ROOT = BASE_DIR / 'protected_media'
+PROTECTED_MEDIA_ROOT = os.environ.get('DJANGO_PROTECTED_MEDIA_ROOT', BASE_DIR / 'protected_media')
 
 # ----- 운영 보안 헤더(DEBUG 가 아닐 때만) -----
 if not DEBUG:

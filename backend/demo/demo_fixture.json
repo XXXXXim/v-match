@@ -1,0 +1,4347 @@
+[
+{
+ "model": "accounts.user",
+ "fields": {
+  "password": "pbkdf2_sha256$720000$u8ZqLXZXjalIhbKwgddS67$Vom6NDUqf5mgoO1W0lFD/GybWP8+XKndzIbrWHopSmk=",
+  "last_login": null,
+  "is_superuser": false,
+  "username": "demo_vc",
+  "first_name": "",
+  "last_name": "",
+  "email": "demo_vc@vmatch.demo",
+  "is_staff": false,
+  "is_active": true,
+  "date_joined": "2026-10-23T05:44:01.525Z",
+  "role": "vc",
+  "name": "",
+  "phone": "",
+  "email_verified": true,
+  "email_code": "",
+  "email_code_expires_at": null,
+  "email_code_attempts": 0,
+  "email_code_sent_at": null,
+  "groups": [],
+  "user_permissions": []
+ }
+},
+{
+ "model": "accounts.user",
+ "fields": {
+  "password": "pbkdf2_sha256$720000$2i4LdDlHmLDZy7oNdMGrHA$8t4mv8Xpok6merpxV3XzITcwYIVbLmXj54A6K9e8+00=",
+  "last_login": null,
+  "is_superuser": false,
+  "username": "demo_startup",
+  "first_name": "",
+  "last_name": "",
+  "email": "demo_startup@vmatch.demo",
+  "is_staff": false,
+  "is_active": true,
+  "date_joined": "2026-10-23T05:44:01.734Z",
+  "role": "startup",
+  "name": "",
+  "phone": "",
+  "email_verified": true,
+  "email_code": "",
+  "email_code_expires_at": null,
+  "email_code_attempts": 0,
+  "email_code_sent_at": null,
+  "groups": [],
+  "user_permissions": []
+ }
+},
+{
+ "model": "core.vcprofile",
+ "pk": 1,
+ "fields": {
+  "user": null,
+  "firm_name": "카카오벤처스",
+  "website": "https://www.kakao.vc/",
+  "bio": "인터넷·모바일 서비스와 첨단 기술 분야의 초기 스타트업을 발굴하고 성장을 지원하는 기술 기반 초기 투자 전문 벤처캐피탈이다.\n투자 대상: 설립 초기 단계의 기술 기반 스타트업 / 주력 분야: AI, 산업용 반도체, 바이오·헬스케어, 로봇, ICT",
+  "vc_summary": "카카오벤처스는 AI, 산업용 반도체, 바이오·헬스케어, 로봇 등 기술 기반 창업팀에 초기 투자하며 투자 검토, 멘토링, 네트워킹과 후속 성장을 지원한다.",
+  "eval_emphasis": [
+   "team",
+   "technology",
+   "market",
+   "scalability"
+  ],
+  "created_at": "2026-10-23T05:43:44.536Z",
+  "updated_at": "2026-10-23T05:43:44.538Z"
+ }
+},
+{
+ "model": "core.vcprofile",
+ "pk": 2,
+ "fields": {
+  "user": null,
+  "firm_name": "충남대학교기술지주",
+  "website": "https://holdings.cnu.ac.kr/",
+  "bio": "대학과 정부출연연구소의 기술사업화 및 지역 창업생태계 활성화를 지원하는 대학 기술지주회사다.\n투자 대상: 에너지, ICT, 바이오·헬스 및 푸드테크 분야의 기술 기반 초기기업 / 주력 분야: 에너지, ICT, 바이오·헬스, 푸드테크",
+  "vc_summary": "약 191억원의 AUM을 운용하며 초기 창업기업에 투자하고 대학·연구기관·글로벌 액셀러레이터 네트워크를 활용해 기술사업화와 TIPS 연계를 지원한다.",
+  "eval_emphasis": [
+   "technology",
+   "team",
+   "market",
+   "scalability"
+  ],
+  "created_at": "2026-10-23T05:43:44.545Z",
+  "updated_at": "2026-10-23T05:43:44.547Z"
+ }
+},
+{
+ "model": "core.vcprofile",
+ "pk": 3,
+ "fields": {
+  "user": null,
+  "firm_name": "전남창조경제혁신센터",
+  "website": "https://ccei.creativekorea.or.kr/jeonnam/",
+  "bio": "전남 지역의 특화산업과 유망 기술기업을 발굴해 투자, 액셀러레이팅 및 글로벌 진출을 지원하는 공공 창업지원기관이다.\n투자 대상: 친환경에너지, 푸드테크, 농수산, 바이오 및 AI 융합 분야의 초기기업 / 주력 분야: 친환경에너지, 푸드테크, 농수산, 바이오, AI 융합",
+  "vc_summary": "지역 특화산업을 중심으로 창업기업을 발굴하고 투자·보육하며 정기 IR, 자체 배치 프로그램과 글로벌 역량강화 프로그램을 운영한다.",
+  "eval_emphasis": [
+   "technology",
+   "market",
+   "team",
+   "scalability"
+  ],
+  "created_at": "2026-10-23T05:43:44.553Z",
+  "updated_at": "2026-10-23T05:43:44.554Z"
+ }
+},
+{
+ "model": "core.vcprofile",
+ "pk": 4,
+ "fields": {
+  "user": null,
+  "firm_name": "유니스트기술지주",
+  "website": "https://www.unistholdings.com/",
+  "bio": "UNIST가 100% 출자한 투자 전문기관으로 대학 연구성과의 산업 현장 연결과 미래 유니콘 딥테크 스타트업 발굴을 지원한다.\n투자 대상: UNIST 산학연 기술을 활용하거나 딥테크 역량을 보유한 초기기업 / 주력 분야: 인공지능, 반도체, 이차전지, 딥테크, 전 산업 분야",
+  "vc_summary": "UNIST 기술과 산학협력 생태계를 기반으로 AI, 반도체, 이차전지 등 전 분야의 초기기업에 투자하고 기술검증, PoC와 동남권 산업 연계를 지원한다.",
+  "eval_emphasis": [
+   "technology",
+   "team",
+   "market",
+   "scalability"
+  ],
+  "created_at": "2026-10-23T05:43:44.560Z",
+  "updated_at": "2026-10-23T05:43:44.564Z"
+ }
+},
+{
+ "model": "core.vcprofile",
+ "pk": 5,
+ "fields": {
+  "user": null,
+  "firm_name": "스파크랩",
+  "website": "https://www.sparklabs.co.kr/",
+  "bio": "아시아 최대 규모 액셀러레이터 및 벤처캐피털 네트워크인 SparkLabs Group의 핵심 프로그램으로, 글로벌 멘토단과 네트워크를 바탕으로 스타트업을 육성한다.\n투자 대상: 설립 3년 이내의 전 산업 분야 초기기업 / 주력 분야: 전 산업 분야",
+  "vc_summary": "전 산업 분야의 초기 창업기업을 대상으로 배치 프로그램, 멘토링, 사업 자문, IR 및 글로벌 네트워크를 제공해 해외 진출과 후속 성장을 지원한다.",
+  "eval_emphasis": [
+   "team",
+   "market",
+   "scalability",
+   "traction"
+  ],
+  "created_at": "2026-10-23T05:43:44.570Z",
+  "updated_at": "2026-10-23T05:43:44.572Z"
+ }
+},
+{
+ "model": "core.vcprofile",
+ "pk": 6,
+ "fields": {
+  "user": null,
+  "firm_name": "슈미트",
+  "website": "https://schmidt.kr/",
+  "bio": "산업에 대한 전문적 인사이트를 바탕으로 정교한 투자 전략을 세우고 스타트업의 성장을 지원하는 초기 투자사다.\n투자 대상: 모빌리티, 바이오, 핀테크 및 DX 분야의 초기·성장기업 / 주력 분야: 모빌리티, 바이오, 핀테크, 디지털 트랜스포메이션",
+  "vc_summary": "모빌리티, 바이오, 핀테크 및 디지털 트랜스포메이션 분야의 Seed부터 Early Growth 단계 기업에 투자하고 Value-up 및 포트폴리오 네트워킹을 제공한다.",
+  "eval_emphasis": [
+   "team",
+   "technology",
+   "market",
+   "scalability"
+  ],
+  "created_at": "2026-10-23T05:43:44.579Z",
+  "updated_at": "2026-10-23T05:43:44.580Z"
+ }
+},
+{
+ "model": "core.vcprofile",
+ "pk": 7,
+ "fields": {
+  "user": null,
+  "firm_name": "서울창조경제혁신센터",
+  "website": "https://ccei.creativekorea.or.kr/seoul/main.do",
+  "bio": "서울의 창업생태계 허브로서 민간 액셀러레이터, 대기업 및 공공기관과 협력해 유망 스타트업의 성장과 투자 유치를 지원한다.\n투자 대상: 혁신적인 아이디어를 가진 창업 7년 이내 스타트업 / 주력 분야: 농식품, Data, Network, AI, 실버테크, 헬스케어, 전 산업 분야",
+  "vc_summary": "농식품, D.N.A 및 인구테크 분야를 포함하되 분야 제한 없이 창업 7년 이내 기업에 투자하며 정기 IR, 프라이빗 IR과 대기업 오픈이노베이션을 운영한다.",
+  "eval_emphasis": [
+   "team",
+   "market",
+   "scalability",
+   "technology"
+  ],
+  "created_at": "2026-10-23T05:43:44.586Z",
+  "updated_at": "2026-10-23T05:43:44.588Z"
+ }
+},
+{
+ "model": "core.vcprofile",
+ "pk": 8,
+ "fields": {
+  "user": null,
+  "firm_name": "부산창조경제혁신센터",
+  "website": "https://ccei.creativekorea.or.kr/busan/",
+  "bio": "지역 창업 활성화와 혁신성장을 지원하며 초기 기업 발굴, 액셀러레이팅, 투자 및 공공형 배치 프로그램을 운영하는 창업지원기관이다.\n투자 대상: 딥테크 및 첨단기술 역량을 보유한 초기기업 / 주력 분야: 테크, 빅데이터, AI·정보통신, 친환경, 바이오, 딥테크",
+  "vc_summary": "테크, 빅데이터, AI·정보통신, 친환경, 바이오 등 초기 기술 전 분야의 스타트업을 지원하며 지역 생태계 및 국내외 투자 네트워크를 활용한다.",
+  "eval_emphasis": [
+   "technology",
+   "team",
+   "market",
+   "scalability"
+  ],
+  "created_at": "2026-10-23T05:43:44.594Z",
+  "updated_at": "2026-10-23T05:43:44.596Z"
+ }
+},
+{
+ "model": "core.vcprofile",
+ "pk": 9,
+ "fields": {
+  "user": null,
+  "firm_name": "부산지역대학연합기술지주",
+  "website": "https://www.buh.co.kr/",
+  "bio": "부산 지역 16개 대학과 부산광역시가 공동 설립한 연합형 기술지주회사로 유망 기술기업 발굴, 투자와 액셀러레이팅을 수행한다.\n투자 대상: ICT, 바이오·헬스케어, 딥테크 등 기술 역량을 보유한 초기기업 / 주력 분야: 바이오, 첨단소재, 핀테크, ICT, 바이오·헬스케어, 데이터 플랫폼",
+  "vc_summary": "대학 기술사업화와 지역 창업생태계를 기반으로 바이오, 첨단소재, 핀테크 등 전 산업 분야의 초기기업을 투자·육성하고 B-Wave 프로그램을 운영한다.",
+  "eval_emphasis": [
+   "technology",
+   "team",
+   "market",
+   "scalability"
+  ],
+  "created_at": "2026-10-23T05:43:44.602Z",
+  "updated_at": "2026-10-23T05:43:44.605Z"
+ }
+},
+{
+ "model": "core.vcprofile",
+ "pk": 10,
+ "fields": {
+  "user": null,
+  "firm_name": "벤처스퀘어",
+  "website": "https://www.venturesquare.net/",
+  "bio": "스타트업 전문 미디어를 기반으로 국내외 미디어 서비스와 액셀러레이팅을 운영하며 스타트업의 성장과 투자유치를 지원한다.\n투자 대상: 인공지능·콘텐츠 융합 혁신기술을 보유한 초기 창업기업 / 주력 분야: AI, VR·AR, ICT 융합기술, 콘텐츠",
+  "vc_summary": "AI, VR·AR, ICT 융합기술 및 콘텐츠 분야의 혁신 스타트업에 투자하고 미디어 홍보, 배치 액셀러레이팅, 글로벌 진출과 투자자 네트워킹을 제공한다.",
+  "eval_emphasis": [
+   "team",
+   "technology",
+   "market",
+   "scalability"
+  ],
+  "created_at": "2026-10-23T05:43:44.611Z",
+  "updated_at": "2026-10-23T05:43:44.613Z"
+ }
+},
+{
+ "model": "core.vcprofile",
+ "pk": 11,
+ "fields": {
+  "user": [
+   "demo_vc"
+  ],
+  "firm_name": "베이스벤처스",
+  "website": "https://www.bass.vc/",
+  "bio": "미친 꿈을 위대하게라는 철학 아래 초기 창업자의 성장을 돕고 꿈의 실현에 기여하는 벤처캐피탈이다.\n투자 대상: 설립 초기 3년 이내의 기술·서비스 스타트업 / 주력 분야: AI, ICT, 서비스, 헬스케어, 핀테크",
+  "vc_summary": "AI, ICT, 서비스, 헬스케어 및 핀테크 분야의 초기 스타트업에 투자하며 자체 그로스팀, 채용·HR 컨설팅, 창업자 네트워크와 글로벌 IR을 제공한다.",
+  "eval_emphasis": [
+   "team",
+   "market",
+   "traction",
+   "scalability"
+  ],
+  "created_at": "2026-10-23T05:43:44.619Z",
+  "updated_at": "2026-10-23T05:43:44.621Z"
+ }
+},
+{
+ "model": "core.vcprofile",
+ "pk": 12,
+ "fields": {
+  "user": null,
+  "firm_name": "대덕벤처파트너스",
+  "website": "https://dvdvp.com/",
+  "bio": "20년 이상의 투자 경험과 기술투자 전문성을 기반으로 ICT 융합, 바이오·헬스케어, 반도체·디스플레이와 부품소재 기업을 발굴·육성하는 벤처캐피탈이다.\n투자 대상: 지방 소재 부품·장비 및 시스템반도체 등 혁신기술 보유 기업 / 주력 분야: ICT 융합, 바이오·헬스케어, 반도체·디스플레이, 부품소재",
+  "vc_summary": "대덕연구개발특구와 대학·연구기관 네트워크를 활용해 혁신기술 기반 초기기업을 투자하고 기술이전, 연구소기업 설립, 국가전략기술 사업화를 지원한다.",
+  "eval_emphasis": [
+   "technology",
+   "market",
+   "team",
+   "scalability"
+  ],
+  "created_at": "2026-10-23T05:43:44.627Z",
+  "updated_at": "2026-10-23T05:43:44.628Z"
+ }
+},
+{
+ "model": "core.vcprofile",
+ "pk": 13,
+ "fields": {
+  "user": null,
+  "firm_name": "광주지역대학연합기술지주",
+  "website": "http://gjth.co.kr/",
+  "bio": "광주 지역 기술창업 생태계 활성화와 기술사업화를 위해 설립된 연합형 기술지주회사다.\n투자 대상: 빅데이터, AI·바이오, 헬스·의료, 친환경 및 에너지·소재부품 분야 초기기업 / 주력 분야: 빅데이터, AI, 바이오, 헬스·의료, 친환경, 에너지, 소재부품",
+  "vc_summary": "산학연 협력 네트워크를 기반으로 호남권 기술기업을 발굴하고 Seed 및 Pre-A 투자, 기술역량 강화, 사업화와 해외 진출을 지원한다.",
+  "eval_emphasis": [
+   "technology",
+   "market",
+   "team",
+   "scalability"
+  ],
+  "created_at": "2026-10-23T05:43:44.635Z",
+  "updated_at": "2026-10-23T05:43:44.636Z"
+ }
+},
+{
+ "model": "core.vcprofile",
+ "pk": 14,
+ "fields": {
+  "user": null,
+  "firm_name": "경북창조경제혁신센터",
+  "website": "https://ccei.creativekorea.or.kr/gyeongbuk/",
+  "bio": "기술창업 전 분야의 초기기업을 발굴·투자·육성하고 혁신 기술기업에 자본투자와 딥테크 사업화를 연계하는 공공 액셀러레이터다.\n투자 대상: 창업 3년 이내의 기술창업 기업 / 주력 분야: AI, 빅데이터, 바이오, 에너지, 로봇, 첨단기술 전 분야",
+  "vc_summary": "AI, 빅데이터, 바이오, 에너지 및 로봇 등 첨단기술 분야의 초기기업을 대상으로 직접투자, 후속투자, BM 고도화와 지역·글로벌 네트워크를 지원한다.",
+  "eval_emphasis": [
+   "technology",
+   "team",
+   "market",
+   "scalability"
+  ],
+  "created_at": "2026-10-23T05:43:44.643Z",
+  "updated_at": "2026-10-23T05:43:44.644Z"
+ }
+},
+{
+ "model": "core.vcprofile",
+ "pk": 15,
+ "fields": {
+  "user": null,
+  "firm_name": "KB인베스트먼트",
+  "website": "https://www.kbic.co.kr/",
+  "bio": "풍부한 투자 경험과 인사이트를 기반으로 국내 벤처기업 생태계의 성장과 글로벌 유니콘 육성을 지원하는 종합 벤처캐피탈이다.\n투자 대상: 혁신기술과 시장 성장 가능성을 보유한 국내외 벤처기업 / 주력 분야: AI·빅데이터, 로봇, SaaS, 이차전지·첨단소재, 바이오·헬스케어, 우주항공, 콘텐츠·커머스·플랫폼, 친환경·에너지, 메타버스·게임",
+  "vc_summary": "딥테크부터 플랫폼·콘텐츠까지 폭넓은 산업에 투자하며 KB금융그룹 네트워크, KBa 스타터스와 글로벌 액셀러레이션을 통해 기업의 전주기 성장을 지원한다.",
+  "eval_emphasis": [
+   "technology",
+   "market",
+   "team",
+   "traction",
+   "scalability"
+  ],
+  "created_at": "2026-10-23T05:43:44.650Z",
+  "updated_at": "2026-10-23T05:43:44.652Z"
+ }
+},
+{
+ "model": "core.vcprofile",
+ "pk": 16,
+ "fields": {
+  "user": null,
+  "firm_name": "호서대학교산학협력단",
+  "website": "https://iacf.hoseo.ac.kr/",
+  "bio": "대학 산학협력단 최초의 전문 액셀러레이터로 대학의 창업지원 역량과 기술 인프라를 활용해 지역 기술창업을 육성한다.\n투자 대상: 디스플레이·반도체·모빌리티·수소·AI 기술 역량을 보유한 창업 3년 이내 기업 / 주력 분야: 디스플레이, 반도체, 미래 모빌리티, 수소, AI",
+  "vc_summary": "디스플레이, 반도체, 미래 모빌리티, 수소 및 AI 분야의 초기 기술기업을 투자·보육하고 대학·지역·글로벌 네트워크를 통해 공동투자와 해외진출을 지원한다.",
+  "eval_emphasis": [
+   "technology",
+   "team",
+   "market",
+   "scalability"
+  ],
+  "created_at": "2026-10-23T05:43:44.656Z",
+  "updated_at": "2026-10-23T05:43:44.658Z"
+ }
+},
+{
+ "model": "core.vcprofile",
+ "pk": 17,
+ "fields": {
+  "user": null,
+  "firm_name": "쿨리지코너인베스트먼트",
+  "website": "https://www.ccvc.co.kr/",
+  "bio": "창업기업 선발부터 보육과 투자까지 전 과정의 시스템을 갖춘 초기투자 전문 벤처캐피탈이다.\n투자 대상: 소부장, ICT, BIO 등 Frontier Sector의 기술 기반 초기기업 / 주력 분야: Deep Tech, ESG, ICT, 소재·부품·장비, 바이오",
+  "vc_summary": "Deep Tech, ESG 및 ICT 분야 기업을 투자·보육하며 CCVC Value Up, CEO 워크숍, 지역·해외 액셀러레이팅과 글로벌 네트워크를 제공한다.",
+  "eval_emphasis": [
+   "technology",
+   "team",
+   "market",
+   "scalability",
+   "impact"
+  ],
+  "created_at": "2026-10-23T05:43:44.663Z",
+  "updated_at": "2026-10-23T05:43:44.664Z"
+ }
+},
+{
+ "model": "core.vcprofile",
+ "pk": 18,
+ "fields": {
+  "user": null,
+  "firm_name": "코맥스벤처러스",
+  "website": "https://iventurus.com/",
+  "bio": "투자 심사와 액셀러레이팅 경험을 바탕으로 AI·ICT 및 12대 신산업 분야의 초기 기술기업을 발굴·육성하는 액셀러레이터다.\n투자 대상: AI·ICT 기반 12대 신산업 분야의 초기기업 / 주력 분야: AI, ICT, 12대 신산업, 딥테크",
+  "vc_summary": "초기 기술 스타트업에 투자와 TIPS·R&D 지원을 제공하며 전담 코디네이터, 밀착 보육, 기업 네트워킹 및 정기 IR을 운영한다.",
+  "eval_emphasis": [
+   "technology",
+   "team",
+   "market",
+   "scalability"
+  ],
+  "created_at": "2026-10-23T05:43:44.669Z",
+  "updated_at": "2026-10-23T05:43:44.670Z"
+ }
+},
+{
+ "model": "core.vcprofile",
+ "pk": 19,
+ "fields": {
+  "user": null,
+  "firm_name": "전북창조경제혁신센터",
+  "website": "https://ccei.creativekorea.or.kr/jeonbuk/main.do",
+  "bio": "도내 창업을 진흥하고 일자리 창출과 전북 지역경제 발전에 기여하는 공공 창업지원기관이다.\n투자 대상: 기술력을 보유한 창업 7년 이내 초기·성장기업 / 주력 분야: 빅데이터, AI, 레드바이오, 미래 모빌리티, 우주항공, 해양, 친환경에너지",
+  "vc_summary": "전북 전역의 유망 스타트업을 발굴해 빅데이터, AI, 레드바이오, 미래 모빌리티, 우주항공, 해양 및 친환경에너지 분야를 투자·육성한다.",
+  "eval_emphasis": [
+   "technology",
+   "team",
+   "market",
+   "impact",
+   "scalability"
+  ],
+  "created_at": "2026-10-23T05:43:44.676Z",
+  "updated_at": "2026-10-23T05:43:44.678Z"
+ }
+},
+{
+ "model": "core.vcprofile",
+ "pk": 20,
+ "fields": {
+  "user": null,
+  "firm_name": "아이빌트",
+  "website": "",
+  "bio": "제조서비스 전문기업의 성공 노하우를 기반으로 설립된 제조기반 기술창업 글로벌 액셀러레이터다.\n투자 대상: 창업 7년 이내 제조기반 산업과 지능형기술 융복합 분야의 기술기업 / 주력 분야: 반도체, 바이오·헬스, 자동차, 친환경에너지, 로봇, 지능형로봇",
+  "vc_summary": "반도체, 바이오·헬스, 자동차, 친환경에너지 및 지능형 로봇 분야 스타트업을 발굴·투자하고 제조 및 시장개척, 해외진출을 지원한다.",
+  "eval_emphasis": [
+   "technology",
+   "team",
+   "market",
+   "scalability"
+  ],
+  "created_at": "2026-10-23T05:43:44.683Z",
+  "updated_at": "2026-10-23T05:43:44.684Z"
+ }
+},
+{
+ "model": "core.vcpreference",
+ "pk": 1,
+ "fields": {
+  "vc": 1,
+  "preferred_industries": [
+   "AI/ML",
+   "Semiconductor",
+   "Bio/Healthcare",
+   "Robotics",
+   "ICT",
+   "Other"
+  ],
+  "preferred_stages": [
+   "Pre-Seed",
+   "Seed",
+   "Pre-A"
+  ],
+  "preferred_regions": [],
+  "preferred_education": [],
+  "min_investment": 0,
+  "max_investment": 0,
+  "updated_at": "2026-10-23T05:43:44.543Z"
+ }
+},
+{
+ "model": "core.vcpreference",
+ "pk": 2,
+ "fields": {
+  "vc": 2,
+  "preferred_industries": [
+   "Energy",
+   "ICT",
+   "Bio/Healthcare",
+   "FoodTech",
+   "Other"
+  ],
+  "preferred_stages": [
+   "Seed",
+   "Pre-A",
+   "Series A"
+  ],
+  "preferred_regions": [],
+  "preferred_education": [],
+  "min_investment": 0,
+  "max_investment": 0,
+  "updated_at": "2026-10-23T05:43:44.550Z"
+ }
+},
+{
+ "model": "core.vcpreference",
+ "pk": 3,
+ "fields": {
+  "vc": 3,
+  "preferred_industries": [
+   "Eco/Energy",
+   "FoodTech",
+   "Agriculture",
+   "Fisheries",
+   "Bio/Healthcare",
+   "AI/ML"
+  ],
+  "preferred_stages": [
+   "Seed",
+   "Pre-A"
+  ],
+  "preferred_regions": [
+   "전라남도"
+  ],
+  "preferred_education": [],
+  "min_investment": 0,
+  "max_investment": 0,
+  "updated_at": "2026-10-23T05:43:44.558Z"
+ }
+},
+{
+ "model": "core.vcpreference",
+ "pk": 4,
+ "fields": {
+  "vc": 4,
+  "preferred_industries": [
+   "AI/ML",
+   "Semiconductor",
+   "Secondary Battery",
+   "DeepTech",
+   "Other"
+  ],
+  "preferred_stages": [
+   "Seed",
+   "Pre-A"
+  ],
+  "preferred_regions": [],
+  "preferred_education": [],
+  "min_investment": 0,
+  "max_investment": 70000,
+  "updated_at": "2026-10-23T05:43:44.568Z"
+ }
+},
+{
+ "model": "core.vcpreference",
+ "pk": 5,
+ "fields": {
+  "vc": 5,
+  "preferred_industries": [
+   "All"
+  ],
+  "preferred_stages": [
+   "Pre-Seed",
+   "Seed",
+   "Pre-A"
+  ],
+  "preferred_regions": [],
+  "preferred_education": [],
+  "min_investment": 0,
+  "max_investment": 3000,
+  "updated_at": "2026-10-23T05:43:44.576Z"
+ }
+},
+{
+ "model": "core.vcpreference",
+ "pk": 6,
+ "fields": {
+  "vc": 6,
+  "preferred_industries": [
+   "Mobile",
+   "Bio/Healthcare",
+   "FinTech",
+   "Digital Transformation"
+  ],
+  "preferred_stages": [
+   "Seed",
+   "Pre-A",
+   "Series A",
+   "Growth"
+  ],
+  "preferred_regions": [],
+  "preferred_education": [],
+  "min_investment": 30000,
+  "max_investment": 100000,
+  "updated_at": "2026-10-23T05:43:44.584Z"
+ }
+},
+{
+ "model": "core.vcpreference",
+ "pk": 7,
+ "fields": {
+  "vc": 7,
+  "preferred_industries": [
+   "AgriFood",
+   "Data",
+   "Network",
+   "AI/ML",
+   "SilverTech",
+   "Healthcare",
+   "Other"
+  ],
+  "preferred_stages": [
+   "Seed",
+   "Pre-A"
+  ],
+  "preferred_regions": [],
+  "preferred_education": [],
+  "min_investment": 0,
+  "max_investment": 30000,
+  "updated_at": "2026-10-23T05:43:44.592Z"
+ }
+},
+{
+ "model": "core.vcpreference",
+ "pk": 8,
+ "fields": {
+  "vc": 8,
+  "preferred_industries": [
+   "Tech",
+   "Big Data",
+   "AI/ML",
+   "ICT",
+   "ClimateTech",
+   "Bio/Healthcare",
+   "DeepTech"
+  ],
+  "preferred_stages": [
+   "Pre-Seed",
+   "Seed",
+   "Pre-A"
+  ],
+  "preferred_regions": [
+   "부산광역시"
+  ],
+  "preferred_education": [],
+  "min_investment": 0,
+  "max_investment": 0,
+  "updated_at": "2026-10-23T05:43:44.600Z"
+ }
+},
+{
+ "model": "core.vcpreference",
+ "pk": 9,
+ "fields": {
+  "vc": 9,
+  "preferred_industries": [
+   "Bio/Healthcare",
+   "Advanced Materials",
+   "FinTech",
+   "ICT",
+   "Data Platform",
+   "Other"
+  ],
+  "preferred_stages": [
+   "Seed",
+   "Pre-A"
+  ],
+  "preferred_regions": [
+   "부산광역시"
+  ],
+  "preferred_education": [],
+  "min_investment": 0,
+  "max_investment": 30000,
+  "updated_at": "2026-10-23T05:43:44.609Z"
+ }
+},
+{
+ "model": "core.vcpreference",
+ "pk": 10,
+ "fields": {
+  "vc": 10,
+  "preferred_industries": [
+   "AI/ML",
+   "VR/AR",
+   "ICT",
+   "Content",
+   "Other"
+  ],
+  "preferred_stages": [
+   "Pre-Seed",
+   "Seed",
+   "Pre-A"
+  ],
+  "preferred_regions": [],
+  "preferred_education": [],
+  "min_investment": 0,
+  "max_investment": 0,
+  "updated_at": "2026-10-23T05:43:44.617Z"
+ }
+},
+{
+ "model": "core.vcpreference",
+ "pk": 11,
+ "fields": {
+  "vc": 11,
+  "preferred_industries": [
+   "AI/ML",
+   "ICT",
+   "Service",
+   "Bio/Healthcare",
+   "FinTech",
+   "Other"
+  ],
+  "preferred_stages": [
+   "Seed",
+   "Pre-A",
+   "Series A",
+   "Growth"
+  ],
+  "preferred_regions": [],
+  "preferred_education": [],
+  "min_investment": 0,
+  "max_investment": 300000,
+  "updated_at": "2026-10-23T05:43:44.625Z"
+ }
+},
+{
+ "model": "core.vcpreference",
+ "pk": 12,
+ "fields": {
+  "vc": 12,
+  "preferred_industries": [
+   "ICT",
+   "Bio/Healthcare",
+   "Semiconductor",
+   "Display",
+   "Materials/Components"
+  ],
+  "preferred_stages": [
+   "Seed",
+   "Pre-A",
+   "Series A"
+  ],
+  "preferred_regions": [],
+  "preferred_education": [],
+  "min_investment": 20000,
+  "max_investment": 100000,
+  "updated_at": "2026-10-23T05:43:44.631Z"
+ }
+},
+{
+ "model": "core.vcpreference",
+ "pk": 13,
+ "fields": {
+  "vc": 13,
+  "preferred_industries": [
+   "Big Data",
+   "AI/ML",
+   "Bio/Healthcare",
+   "Medical",
+   "ClimateTech",
+   "Energy",
+   "Materials/Components"
+  ],
+  "preferred_stages": [
+   "Seed",
+   "Pre-A"
+  ],
+  "preferred_regions": [
+   "광주광역시",
+   "호남권"
+  ],
+  "preferred_education": [],
+  "min_investment": 0,
+  "max_investment": 0,
+  "updated_at": "2026-10-23T05:43:44.641Z"
+ }
+},
+{
+ "model": "core.vcpreference",
+ "pk": 14,
+ "fields": {
+  "vc": 14,
+  "preferred_industries": [
+   "AI/ML",
+   "Big Data",
+   "Bio/Healthcare",
+   "Energy",
+   "Robotics",
+   "DeepTech",
+   "Other"
+  ],
+  "preferred_stages": [
+   "Seed",
+   "Pre-A",
+   "Series A"
+  ],
+  "preferred_regions": [
+   "경상북도",
+   "동남권"
+  ],
+  "preferred_education": [],
+  "min_investment": 0,
+  "max_investment": 0,
+  "updated_at": "2026-10-23T05:43:44.648Z"
+ }
+},
+{
+ "model": "core.vcpreference",
+ "pk": 15,
+ "fields": {
+  "vc": 15,
+  "preferred_industries": [
+   "AI/ML",
+   "Big Data",
+   "Robotics",
+   "SaaS",
+   "Secondary Battery",
+   "Advanced Materials",
+   "Bio/Healthcare",
+   "Aerospace",
+   "Content",
+   "Commerce",
+   "Platform",
+   "ClimateTech",
+   "Energy",
+   "Metaverse",
+   "Gaming"
+  ],
+  "preferred_stages": [
+   "Seed",
+   "Pre-A",
+   "Series A",
+   "Growth"
+  ],
+  "preferred_regions": [],
+  "preferred_education": [],
+  "min_investment": 0,
+  "max_investment": 0,
+  "updated_at": "2026-10-23T05:43:44.655Z"
+ }
+},
+{
+ "model": "core.vcpreference",
+ "pk": 16,
+ "fields": {
+  "vc": 16,
+  "preferred_industries": [
+   "Display",
+   "Semiconductor",
+   "Future Mobility",
+   "Hydrogen",
+   "AI/ML",
+   "DeepTech"
+  ],
+  "preferred_stages": [
+   "Pre-Seed",
+   "Seed",
+   "Pre-A"
+  ],
+  "preferred_regions": [
+   "충청남도",
+   "충청권"
+  ],
+  "preferred_education": [],
+  "min_investment": 0,
+  "max_investment": 30000,
+  "updated_at": "2026-10-23T05:43:44.661Z"
+ }
+},
+{
+ "model": "core.vcpreference",
+ "pk": 17,
+ "fields": {
+  "vc": 17,
+  "preferred_industries": [
+   "DeepTech",
+   "ESG",
+   "ICT",
+   "Materials/Components",
+   "Bio/Healthcare"
+  ],
+  "preferred_stages": [
+   "Seed",
+   "Pre-A",
+   "Series A"
+  ],
+  "preferred_regions": [],
+  "preferred_education": [],
+  "min_investment": 30000,
+  "max_investment": 300000,
+  "updated_at": "2026-10-23T05:43:44.667Z"
+ }
+},
+{
+ "model": "core.vcpreference",
+ "pk": 18,
+ "fields": {
+  "vc": 18,
+  "preferred_industries": [
+   "AI/ML",
+   "ICT",
+   "12 New Industries",
+   "DeepTech"
+  ],
+  "preferred_stages": [
+   "Seed",
+   "Pre-A"
+  ],
+  "preferred_regions": [],
+  "preferred_education": [],
+  "min_investment": 0,
+  "max_investment": 20000,
+  "updated_at": "2026-10-23T05:43:44.674Z"
+ }
+},
+{
+ "model": "core.vcpreference",
+ "pk": 19,
+ "fields": {
+  "vc": 19,
+  "preferred_industries": [
+   "Big Data",
+   "AI/ML",
+   "Red Bio",
+   "Future Mobility",
+   "Aerospace",
+   "Marine",
+   "ClimateTech",
+   "Energy"
+  ],
+  "preferred_stages": [
+   "Seed",
+   "Pre-A",
+   "Series A"
+  ],
+  "preferred_regions": [
+   "전북특별자치도"
+  ],
+  "preferred_education": [],
+  "min_investment": 0,
+  "max_investment": 30000,
+  "updated_at": "2026-10-23T05:43:44.681Z"
+ }
+},
+{
+ "model": "core.vcpreference",
+ "pk": 20,
+ "fields": {
+  "vc": 20,
+  "preferred_industries": [
+   "Semiconductor",
+   "Bio/Healthcare",
+   "Automotive",
+   "ClimateTech",
+   "Energy",
+   "Robotics",
+   "Intelligent Robot",
+   "Manufacturing"
+  ],
+  "preferred_stages": [
+   "Seed",
+   "Pre-A"
+  ],
+  "preferred_regions": [],
+  "preferred_education": [],
+  "min_investment": 0,
+  "max_investment": 30000,
+  "updated_at": "2026-10-23T05:43:44.687Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 1,
+ "fields": {
+  "user": null,
+  "name": "이스토오토",
+  "industry": "에너지·환경 기계 시스템 및 관련 IT·SW",
+  "stage": "Seed",
+  "region": "경기 하남시",
+  "funding_needed": 87000,
+  "team_size": 2,
+  "revenue": 0,
+  "founded_year": 2019,
+  "description": "[단계: 엔젤투자 · 시제품 제작]\nAI 영상관제 기반 ESS 전력공급 차량 개발\n주요 사업: 야외 행사 및 건설 공사 현장에 전력을 공급하는 디젤 발전 차량을 대체할 친환경 ESS 전력공급 차량 개발 / 탄소 규제와 주민 민원 문제를 해결하기 위해 AI 기반 ESS 전력공급 차량 개발 / 야외 공연·야외촬영·푸드트럭 마켓 등 현장에 필요한 친환경 에너지를 장소와 시간 제약 없이 안전하게 공급\n수익모델: 관공서 및 대기업과 협력하여 야외공연 행사에 제품을 사용하고 위험성을 검증한 뒤 판매\n주요 고객: 관공서, 야외 공연 주최사\n주요 시장: 국방부, 대기업, 관공서\n제품: AI 영상관제 기반 ESS 전력공급 차량\n지식재산권/특허 약 1건\n주요 성과: 국내등록 1건, 디자인등록 2건 / 스타트업 경진대회 우수상, 학술경진대회 우수상, 한국정보과학회 우수논문상, 천안시 디지털문화행사 의장상",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "AI 영상관제 기반 ESS 전력공급 / 안전하고 지속적인 친환경 전력 공급",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 1,
+   "follow_on_funding": 0,
+   "has_overseas": false,
+   "key_customers": [
+    "관공서",
+    "야외 공연 주최사"
+   ],
+   "key_markets": [
+    "국방부",
+    "대기업",
+    "관공서"
+   ],
+   "revenue_model": [
+    "관공서 및 대기업과 협력하여 야외공연 행사에 제품을 사용하고 위험성을 검증한 뒤 판매"
+   ],
+   "achievement_count": 2,
+   "products_count": 1
+  },
+  "financials": null,
+  "summary": "AI 영상관제 기반 ESS 전력공급 차량 개발  ·  특허 1건 · 고객 관공서 등",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.048Z",
+  "updated_at": "2026-10-23T05:43:45.050Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 2,
+ "fields": {
+  "user": null,
+  "name": "에이브람스",
+  "industry": "대기오염 방지 설비",
+  "stage": "Seed",
+  "region": "대전 유성구",
+  "funding_needed": 30000,
+  "team_size": 3,
+  "revenue": 0,
+  "founded_year": 2023,
+  "description": "[단계: 엔젤투자 · 시제품 제작]\n흡착로터 기반 자가재생형 VOCs 처리장치 국산화 및 상용화 기술 개발\n주요 사업: 강화되는 국내외 VOCs 배출 규제와 중소사업장 중심의 VOCs 저감 수요에 대응하는 자가재생형 VOCs 처리장치 개발 / 장치 내 핵심 부품의 국산화 및 상용화 기술 확보 / 중소사업장 맞춤형 고효율 대기오염 저감 솔루션 사업화\n수익모델: 국내 고객 대상 자가재생형 VOCs 처리장치 판매, 베트남 거점 기반 해외 판매와 장비 설치·제작·AS\n주요 고객: 주요 산업 공정 내 VOCs를 배출하는 중소규모 사업장\n주요 시장: 국내 VOCs 저감 시장, 베트남 등 해외 시장\n제품: 자가재생형 VOCs 처리장치\n지식재산권/특허 약 1건\n주요 성과: 국내출원 5건, 국내등록 1건, 상표권 국내등록 1건 / IEU-창업시뮬레이션게임 캠프 최우수상 / 대전창조경제혁신센터 공공기술 기획형 창업지원사업 최우수상 / 대전창조경제혁신센터 우수기업표창 및 창업중심대학 평가 우수 판정\n해외 진출: 베트남 거점을 기반으로 현지 파트너와 장비 현지 제작 및 AS를 수행하고 아시아 국가로 확장 예정",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "친환경·에너지 절감형 기술 / 추가 수익 창출이 가능한 저비용 솔루션",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 1,
+   "follow_on_funding": 0,
+   "has_overseas": true,
+   "key_customers": [
+    "주요 산업 공정 내 VOCs를 배출하는 중소규모 사업장"
+   ],
+   "key_markets": [
+    "국내 VOCs 저감 시장",
+    "베트남 등 해외 시장"
+   ],
+   "revenue_model": [
+    "국내 고객 대상 자가재생형 VOCs 처리장치 판매",
+    "베트남 거점 기반 해외 판매와 장비 설치·제작·AS"
+   ],
+   "achievement_count": 4,
+   "products_count": 1
+  },
+  "financials": null,
+  "summary": "흡착로터 기반 자가재생형 VOCs 처리장치 국산화 및 상용화 기술 개발  ·  특허 1건 · 고객 주요 산업 공정 내 VOCs를 배출하는 중소규모 사업장 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.053Z",
+  "updated_at": "2026-10-23T05:43:45.055Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 3,
+ "fields": {
+  "user": null,
+  "name": "지오디아",
+  "industry": "지능형 판독시스템",
+  "stage": "Seed",
+  "region": "강원 춘천시",
+  "funding_needed": 10000,
+  "team_size": 8,
+  "revenue": 0,
+  "founded_year": 2023,
+  "description": "[단계: 시제품 제작]\n양자점 캡온어칩 및 온디바이스 인공지능 기반 다중 신속진단 플랫폼\n주요 사업: Microfluidics 기반 신속·다중 진단용 캡온어칩 개발 / Quantum Dot 및 SiPM 기반 광학모듈 개발 / MCU 기반 프로토콜 운용 및 측정 제어 자동화 시스템 개발 / FPGA 기반 머신러닝 및 딥러닝 플랫폼 솔루션 개발\n수익모델: 진단기기와 캡온어칩 키트 판매 기반 개인 맞춤형 서비스 중심 솔루션 제공\n주요 고객: 1·2차 의료기관, 동물병원\n주요 시장: 개인 고객, 의료기관, 동물병원\n제품: 다중 신속진단 캡온어칩, 온디바이스 AI 판독기\n지식재산권/특허 약 4건\n주요 성과: 국내 특허 등록 2건, 국내 특허 출원 8건, PCT 출원 2건, 국내 디자인 등록 3건\n해외 진출: 체외진단의료기기 제조업·동물용의약품 제조업을 기반으로 글로벌 시장 진출 추진",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "진단기기 판매와 캡온어칩 직접 판매 채널의 혼합 모델",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 4,
+   "follow_on_funding": 0,
+   "has_overseas": true,
+   "key_customers": [
+    "1·2차 의료기관",
+    "동물병원"
+   ],
+   "key_markets": [
+    "개인 고객",
+    "의료기관",
+    "동물병원"
+   ],
+   "revenue_model": [
+    "진단기기와 캡온어칩 키트 판매 기반 개인 맞춤형 서비스 중심 솔루션 제공"
+   ],
+   "achievement_count": 1,
+   "products_count": 2
+  },
+  "financials": null,
+  "summary": "양자점 캡온어칩 및 온디바이스 인공지능 기반 다중 신속진단 플랫폼  ·  특허 4건 · 고객 1·2차 의료기관 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.057Z",
+  "updated_at": "2026-10-23T05:43:45.060Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 4,
+ "fields": {
+  "user": null,
+  "name": "에이아이플로우",
+  "industry": "바이오",
+  "stage": "Seed",
+  "region": "경기 부천시",
+  "funding_needed": 30000,
+  "team_size": 5,
+  "revenue": 0,
+  "founded_year": 2025,
+  "description": "[단계: 엔젤투자단계 · 시제품 제작]\n약물 충전 용량이 크고 일시 주입 속도가 높은 전자동 패치형 인슐린 펌프\n주요 사업: 기존 독점 특허를 회피하면서 더 큰 인슐린 충전 용량, 빠른 일시 주입 속도, 자동 니들 주입 기능 및 재사용 모듈 구조를 갖춘 원가절감형 전자동 패치펌프 개발 / 지역별 시장 특성과 경쟁사 동향을 반영한 전략적 해외 진출\n수익모델: 식약처 인허가 후 국내 출시 및 미국·유럽·중동 등 해외 시장 진출\n주요 고객: 모든 당뇨환자(1형, 2형)\n주요 시장: 한국, 미국, 유럽, 중동\n제품: 전자동 패치형 인슐린 펌프\n지식재산권/특허 약 2건\n주요 성과: 국내출원 1건, 해외출원 1건, 상표출원 1건, 국내등록 1건\n해외 진출: 미국·유럽·중동 시장 진출 및 글로벌 제약사·현지 의료기기 유통 계약 추진",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "글로벌 제약사 및 현지 의료기기 유통 계약 기반 판매",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 2,
+   "follow_on_funding": 0,
+   "has_overseas": true,
+   "key_customers": [
+    "모든 당뇨환자(1형, 2형)"
+   ],
+   "key_markets": [
+    "한국",
+    "미국",
+    "유럽",
+    "중동"
+   ],
+   "revenue_model": [
+    "식약처 인허가 후 국내 출시 및 미국·유럽·중동 등 해외 시장 진출"
+   ],
+   "achievement_count": 1,
+   "products_count": 1
+  },
+  "financials": null,
+  "summary": "약물 충전 용량이 크고 일시 주입 속도가 높은 전자동 패치형 인슐린 펌프  ·  특허 2건 · 고객 모든 당뇨환자(1형, 2형) 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.063Z",
+  "updated_at": "2026-10-23T05:43:45.064Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 5,
+ "fields": {
+  "user": null,
+  "name": "젤시아스",
+  "industry": "나노소재기술",
+  "stage": "Pre-A",
+  "region": "대구 달서구",
+  "funding_needed": 0,
+  "team_size": 4,
+  "revenue": 0,
+  "founded_year": 2024,
+  "description": "[단계: PoC / 양산 전 단계]\n온도감응성 단백질 기반 고기능성 경피패치용 원료 개발\n주요 사업: 인체 엘라스틴을 모사한 재조합 단백질을 이용해 체온에서만 반응하는 경피패치용 단백질 원료 개발 / 크로마토그래피가 필요 없는 ITC 기반 고순도 정제 공정 확보 / 의료용 접착제·하이드로겔·크림 등 다양한 뷰티 포맷용 플랫폼 소재 사업화\n수익모델: 국내외 화장품 ODM/OEM사 대상 화장품 원료 B2B 공급, 자사 완제품 바이오트랩 및 후속 제품 판매\n주요 고객: 한국콜마, 종 화장품 ODM/OEM 기업 및 고기능성 스킨케어 브랜드, 중장기적으로 글로벌 화장품 기업\n주요 시장: 한국, 일본, 중국, 미국\n제품: ELURONIC 1.0, 경피패치\n지식재산권/특허 약 1건\n주요 성과: 상처 치료 촉진용 약학적 조성물 관련 기술특허(IP) 보유 / 청년창업사관학교 대구 15기 선정 / 정보 R&D 선정 / TIPS R&D(경피패치 원료 개발) 선정\n해외 진출: ODM/OEM사와 공동개발 및 일본·중국·미국 B2B 진출 추진",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "글로벌 뷰티 채널 기반 각국 B2B 진출 및 기술이전",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 1,
+   "follow_on_funding": 0,
+   "has_overseas": true,
+   "key_customers": [
+    "한국콜마",
+    "종 화장품 ODM/OEM 기업 및 고기능성 스킨케어 브랜드",
+    "중장기적으로 글로벌 화장품 기업"
+   ],
+   "key_markets": [
+    "한국",
+    "일본",
+    "중국",
+    "미국"
+   ],
+   "revenue_model": [
+    "국내외 화장품 ODM/OEM사 대상 화장품 원료 B2B 공급",
+    "자사 완제품 바이오트랩 및 후속 제품 판매"
+   ],
+   "achievement_count": 4,
+   "products_count": 2
+  },
+  "financials": null,
+  "summary": "온도감응성 단백질 기반 고기능성 경피패치용 원료 개발  ·  특허 1건 · 고객 한국콜마 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.067Z",
+  "updated_at": "2026-10-23T05:43:45.069Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 6,
+ "fields": {
+  "user": null,
+  "name": "스튜디오다시물결",
+  "industry": "기타 고분자 재료",
+  "stage": "Seed",
+  "region": "인천 서구",
+  "funding_needed": 15000,
+  "team_size": 8,
+  "revenue": 0,
+  "founded_year": 2024,
+  "description": "[단계: 엔젤투자 · 시제품 제작]\n산업용 바이오플라스틱의 낮은 기계적 물성을 보완하는 CNF 분산제 기반 내구성 강화 솔루션\n주요 사업: 바이오플라스틱의 내구성 향상을 위한 고강도 소재화 및 제품 제조용 CNF Masterbatch 개발 / 기존 바이오플라스틱의 낮은 기계적 물성 문제를 해결해 추가 설비 투자 없는 재분산과 범용성 확보 / 3D 프린팅용 필라멘트, 묘목 포트, 양식용 부표, 칫솔 등 고부가가치 제품 수요 대응\n수익모델: CNF 분산제 기반 고내구성 바이오플라스틱 마스터배치 및 펠릿 판매\n주요 고객: 지속가능 소재를 요구하는 글로벌 제조사, 브랜드 제품사\n주요 시장: 국내 B2B 제조사, 북미, EU, 일본\n제품: CNF 바이오플라스틱 마스터배치\n지식재산권/특허 약 6건\n주요 성과: 국내 등록 6건, 기술 이전 2건, 디자인 등록 1건, 국내 상표등록 1건, 해외 상표출원 2건 / 국방부 스타트업챌린지 국방부장관상 / 교육부 산학연 EXPO 사회부총리 겸 교육부장관상 / 환경부 환경창업대전 환경산업기술원장상\n해외 진출: 북미·EU·일본·인도네시아 현지 파트너사 및 유통사와 협력",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "국내 B2B 제조사·가공업체·B2G 조달청 나라장터 공급 / 해외 파트너·유통사 협력",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 6,
+   "follow_on_funding": 0,
+   "has_overseas": true,
+   "key_customers": [
+    "지속가능 소재를 요구하는 글로벌 제조사",
+    "브랜드 제품사"
+   ],
+   "key_markets": [
+    "국내 B2B 제조사",
+    "북미",
+    "EU",
+    "일본",
+    "인도네시아"
+   ],
+   "revenue_model": [
+    "CNF 분산제 기반 고내구성 바이오플라스틱 마스터배치 및 펠릿 판매"
+   ],
+   "achievement_count": 4,
+   "products_count": 1
+  },
+  "financials": null,
+  "summary": "산업용 바이오플라스틱의 낮은 기계적 물성을 보완하는 CNF 분산제 기반 내구성 강화 솔루션  ·  특허 6건 · 고객 지속가능 소재를 요구하는 글로벌 제조사 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.072Z",
+  "updated_at": "2026-10-23T05:43:45.074Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 7,
+ "fields": {
+  "user": null,
+  "name": "올도완",
+  "industry": "정밀생산기계 관련기술",
+  "stage": "Series A",
+  "region": "충북 청주시",
+  "funding_needed": 40000,
+  "team_size": 5,
+  "revenue": 0,
+  "founded_year": 2020,
+  "description": "[단계: 시리즈 A · 시장검증]\n반도체 Photoresist 용기 전용 30nm 초미세 입자 정밀 제어 장비 개발\n주요 사업: 일본 독점 공급으로 가격·품질·공급 불안정 문제가 있는 반도체용 초고순도 Photoresist 용기 세정기술 국산화 / 100nm Liquid Particle 수준의 미세 입자 관리기술 확보 / 안전 유리병과 결합한 30nm 초미세 입자 제어기술 개발로 글로벌 반도체 기업 도약\n수익모델: 국내 반도체 PR 제조사와 협업하고 중국 PR 제조사에 판매\n주요 고객: 반도체 산업용 고순도 케미컬 제조 고객\n주요 시장: 국내 반도체 시장, 중국 PR 제조 시장\n제품: 30nm 초미세 입자 정밀 제어 장비\n지식재산권/특허 약 8건\n주요 성과: 특허 국내출원 6건, 해외출원 6건, 국내등록 4건, 해외등록 2건, 실용신안등록 1건, 디자인등록 9건, 상표등록 1건 / 특허청장상 수상(지식영상, 대표이사)\n해외 진출: 중국 PR 제조사 대상 판매 추진",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "SK하이닉스 및 동진쎄미켐 반도체 제조 현장 실증",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 8,
+   "follow_on_funding": 0,
+   "has_overseas": true,
+   "key_customers": [
+    "반도체 산업용 고순도 케미컬 제조 고객"
+   ],
+   "key_markets": [
+    "국내 반도체 시장",
+    "중국 PR 제조 시장"
+   ],
+   "revenue_model": [
+    "국내 반도체 PR 제조사와 협업하고 중국 PR 제조사에 판매"
+   ],
+   "achievement_count": 2,
+   "products_count": 1
+  },
+  "financials": null,
+  "summary": "반도체 Photoresist 용기 전용 30nm 초미세 입자 정밀 제어 장비 개발  ·  특허 8건 · 고객 반도체 산업용 고순도 케미컬 제조 고객 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.076Z",
+  "updated_at": "2026-10-23T05:43:45.078Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 8,
+ "fields": {
+  "user": null,
+  "name": "알엠테크",
+  "industry": "폐기물처리 및 재활용 기술",
+  "stage": "Seed",
+  "region": "인천 서구",
+  "funding_needed": 25000,
+  "team_size": 5,
+  "revenue": 0,
+  "founded_year": 2022,
+  "description": "[단계: Seed · 제품 생산]\n지반 침하 사고 예방을 위한 High Volume Rejected Ash 기반 건설 채움 기술\n주요 사업: 화력발전 부산물인 석탄회의 미활용 문제와 매립 환경오염 문제를 해결하기 위한 석탄회 다량 재활용 건설재료 기술 개발 / 석탄회의 유동성을 활용해 지하 기반시설 채움공사에 적용 가능한 고유동성 채움기술 개발 / 흙다짐 채움공사 및 콘크리트 타설 대체\n수익모델: 석탄회 재활용처리 수익, 고화재 재용재 수익, 시공·재용재 수익\n주요 고객: 한국남동발전, 포스코이앤씨, KH건설, 예강건설\n주요 시장: B2B 건설사, B2G 국토교통부, 서울시\n제품: 석탄회 기반 고유동성 채움재\n지식재산권/특허 약 3건\n주요 성과: 국내등록 3건, 국내출원 1건, 상표 국내등록 4건 / 광명역 신안산선 붕괴사고 현장복구 채움재 시공 완료",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "High Volume Rejected Ash 기반 고유동성 건설 채움 기술",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 3,
+   "follow_on_funding": 0,
+   "has_overseas": false,
+   "key_customers": [
+    "한국남동발전",
+    "포스코이앤씨",
+    "KH건설",
+    "예강건설",
+    "해랑산업"
+   ],
+   "key_markets": [
+    "B2B 건설사",
+    "B2G 국토교통부",
+    "서울시"
+   ],
+   "revenue_model": [
+    "석탄회 재활용처리 수익",
+    "고화재 재용재 수익",
+    "시공·재용재 수익"
+   ],
+   "achievement_count": 2,
+   "products_count": 1
+  },
+  "financials": null,
+  "summary": "지반 침하 사고 예방을 위한 High Volume Rejected Ash 기반 건설 채움 기술  ·  특허 3건 · 고객 한국남동발전 등",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.080Z",
+  "updated_at": "2026-10-23T05:43:45.082Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 9,
+ "fields": {
+  "user": null,
+  "name": "에스이노베이션스",
+  "industry": "로봇/자동화기계 관련 SW",
+  "stage": "Series A",
+  "region": "대구 달성군",
+  "funding_needed": 150000,
+  "team_size": 8,
+  "revenue": 0,
+  "founded_year": 2024,
+  "description": "[단계: 시리즈 A · 시장출시]\n중소기업 AMR 도입 허들을 해소하는 설치·운용·유지보수 자동화 및 이기종 통합 제어 플랫폼\n주요 사업: 전문인력 고용 비용과 관리 기능 부족으로 AMR을 도입하기 어려운 소규모 사업장을 위한 솔루션 개발 / 자동 설치·유지보수와 이기종 통합 제어를 지원하는 S-FMS 제작 / 대만 SI 파트너와 물류창고·데이터센터·호텔·병원·제조공장 자동화 프로젝트 수행 및 한국·베트남·일본 시장 확장\n수익모델: AMR 하드웨어와 FMS 소프트웨어 패키지 판매, FMS 초기 라이선스 및 연간 구독 모델\n주요 고객: AMR 도입이 필요한 5~20대 규모 중소·중견 제조공장 및 물류창고\n주요 시장: 대만, 한국, 베트남, 일본\n제품: S-FMS, AMR 패키지\n지식재산권/특허 약 2건\n주요 성과: 국내출원 2건 / 대구권 유니코어 기술창업 아이디어 경진대회 장려상\n해외 진출: 대만 SI업체와 MOU 완료 및 5개 이상 파트너 협의 / 베트남·일본 시장 확장 추진",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "B2B2B 구조 / AMR 제조사·SI업체·대리점 파트너십 / 국내 직접 판매 및 해외 현지 파트너 활용",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 2,
+   "follow_on_funding": 0,
+   "has_overseas": true,
+   "key_customers": [
+    "AMR 도입이 필요한 5~20대 규모 중소·중견 제조공장 및 물류창고"
+   ],
+   "key_markets": [
+    "대만",
+    "한국",
+    "베트남",
+    "일본"
+   ],
+   "revenue_model": [
+    "AMR 하드웨어와 FMS 소프트웨어 패키지 판매",
+    "FMS 초기 라이선스 및 연간 구독 모델"
+   ],
+   "achievement_count": 2,
+   "products_count": 2
+  },
+  "financials": null,
+  "summary": "중소기업 AMR 도입 허들을 해소하는 설치·운용·유지보수 자동화 및 이기종 통합 제어 플랫폼  ·  특허 2건 · 고객 AMR 도입이 필요한 5~20대 규모 중소·중견 제조공장 및 물류창고 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.084Z",
+  "updated_at": "2026-10-23T05:43:45.086Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 10,
+ "fields": {
+  "user": null,
+  "name": "마인드리치",
+  "industry": "기타 의약바이오 제품/기술",
+  "stage": "Seed",
+  "region": "대전 유성구",
+  "funding_needed": 0,
+  "team_size": 1,
+  "revenue": 0,
+  "founded_year": 2025,
+  "description": "[단계: 엔젤투자 · 시제품 제작]\nAI 기반 생체접합 펩타이드를 활용한 중추신경계 질환 치료제의 BBB 투과율 향상 기술\n주요 사업: 혈액뇌장벽(BBB)으로 인해 기존 치료제의 중추신경계 전달이 제한되는 문제 해결 / 자사 AI 엔진 MR-01로 최적화된 생체접합 펩타이드의 면역반응과 독성을 최소화 / 치료제 약효를 유지하면서 BBB를 가역적이고 안전하게 개방해 약물의 뇌 투과 향상\n수익모델: 제약사별 치료제 특성에 맞춘 맞춤형 B2B 모델\n주요 고객: 글로벌 및 국내 제약사, 연구기관\n주요 시장: 중추신경계 질환 치료제 시장\n제품: MR-01\n주요 성과: 혈액-뇌 장벽 개방 유도 펩타이드 및 그 용도 관련 출원 1건\n해외 진출: 글로벌 제약사 대상 맞춤형 B2B 사업 추진",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "학회 및 지인 추천 / 치료제 기업 대표 및 연구소·대학 연구자 네트워킹",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 0,
+   "follow_on_funding": 0,
+   "has_overseas": true,
+   "key_customers": [
+    "글로벌 및 국내 제약사",
+    "연구기관"
+   ],
+   "key_markets": [
+    "중추신경계 질환 치료제 시장"
+   ],
+   "revenue_model": [
+    "제약사별 치료제 특성에 맞춘 맞춤형 B2B 모델"
+   ],
+   "achievement_count": 1,
+   "products_count": 1
+  },
+  "financials": null,
+  "summary": "AI 기반 생체접합 펩타이드를 활용한 중추신경계 질환 치료제의 BBB 투과율 향상 기술  ·  고객 글로벌 및 국내 제약사 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.088Z",
+  "updated_at": "2026-10-23T05:43:45.090Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 11,
+ "fields": {
+  "user": null,
+  "name": "에이트스튜디오",
+  "industry": "생체신호 측정·진단기기",
+  "stage": "Series A",
+  "region": "서울 성동구",
+  "funding_needed": 50000,
+  "team_size": 7,
+  "revenue": 0,
+  "founded_year": 2022,
+  "description": "[단계: Series A · 의료기기 시장검증]\n2채널 2D 카메라 기반 Skeleton 좌표 융합을 통한 마커리스 3D 보행분석 기술 개발\n주요 사업: 모바일 카메라 기반 보행분석계 메디스텝 사업화 / 기존 고가의 3차원 모션캡처카메라를 대체할 수 있는 간편 보행분석 시스템 개발 / 병원·대학병원·보건소 대상 사업화 / 2채널 카메라 기반으로 기존 모션캡처카메라 대비 약 90% 비용 절감\n수익모델: 의료기기 총판사와 협력하여 메디스텝 판매\n주요 고객: 병원, 보건소, 복지관, 대학교 연구실\n주요 시장: 의료기관, 보건기관, 복지기관, 대학 연구시장\n제품: 메디스텝 3D\n지식재산권/특허 약 6건\n주요 성과: 국내출원 6건, 국내등록 5건, 해외 PCT 1건 / 모바일 카메라 기반 마커리스 보행분석기술 NET 신기술 인증",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "의료기기 영업 채널 및 조달 채널 활용 / 1분 보행검사 / 마커리스 3D 보행분석",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 6,
+   "follow_on_funding": 0,
+   "has_overseas": false,
+   "key_customers": [
+    "병원",
+    "보건소",
+    "복지관",
+    "대학교 연구실"
+   ],
+   "key_markets": [
+    "의료기관",
+    "보건기관",
+    "복지기관",
+    "대학 연구시장"
+   ],
+   "revenue_model": [
+    "의료기기 총판사와 협력하여 메디스텝 판매"
+   ],
+   "achievement_count": 2,
+   "products_count": 1
+  },
+  "financials": null,
+  "summary": "2채널 2D 카메라 기반 Skeleton 좌표 융합을 통한 마커리스 3D 보행분석 기술 개발  ·  특허 6건 · 고객 병원 등",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.093Z",
+  "updated_at": "2026-10-23T05:43:45.094Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 12,
+ "fields": {
+  "user": null,
+  "name": "어스폼",
+  "industry": "완충·제동용 요소부품",
+  "stage": "Series A",
+  "region": "서울 동대문구",
+  "funding_needed": 0,
+  "team_size": 7,
+  "revenue": 0,
+  "founded_year": 2021,
+  "description": "[단계: 시리즈 A · 시장출시]\n지능형 자동화 기반 버섯균사체 산업소재 생산기술 개발 및 친환경 포장재 상용화\n주요 사업: 스티로폼을 대체하는 버섯균사체 산업소재 자동화 생산 시스템 개발 / 생분해 가능한 친환경 포장·완충재 상용화 / 균사체 복합소재의 품질 균일화, 생산성 향상, 비용 절감을 달성해 산업소재 수준으로 확장\n수익모델: 브랜드 맞춤형 친환경 포장재·완충재 공급 중심 B2B 모델, 향후 라이선싱 및 ESG 인증 연계 B2G 시장 확장\n주요 고객: 코스메틱 브랜드, F&B·리테일 기업, 친환경 패키징 수요 기업\n주요 시장: 친환경 포장재 시장, 완충재 시장, B2G 조달시장\n제품: EARTH FORM\n지식재산권/특허 약 10건\n주요 성과: 특허 국내등록 8건, 국내출원 2건, 해외 2건 / 제17회 대한민국 녹색에너지 우수기업 대상 선정 / GRaND-K 창업경진대회 대상 / 소셜벤처경연대회 본선 서울특별시장상 및 결선 국무총리상 / 서울대학교 소셜벤처경진대회 우수상 / 캠퍼스 VISION 데모데이 대상",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "브랜드 공동개발 / OEM/ODM 납품 / 디자인·소재 유통사 파트너링",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 10,
+   "follow_on_funding": 0,
+   "has_overseas": false,
+   "key_customers": [
+    "코스메틱 브랜드",
+    "F&B·리테일 기업",
+    "친환경 패키징 수요 기업"
+   ],
+   "key_markets": [
+    "친환경 포장재 시장",
+    "완충재 시장",
+    "B2G 조달시장"
+   ],
+   "revenue_model": [
+    "브랜드 맞춤형 친환경 포장재·완충재 공급 중심 B2B 모델",
+    "향후 라이선싱 및 ESG 인증 연계 B2G 시장 확장"
+   ],
+   "achievement_count": 8,
+   "products_count": 1
+  },
+  "financials": null,
+  "summary": "지능형 자동화 기반 버섯균사체 산업소재 생산기술 개발 및 친환경 포장재 상용화  ·  특허 10건 · 고객 코스메틱 브랜드 등",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.097Z",
+  "updated_at": "2026-10-23T05:43:45.098Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 13,
+ "fields": {
+  "user": [
+   "demo_startup"
+  ],
+  "name": "탑테이블",
+  "industry": "기타 정밀생산기계 관련기술",
+  "stage": "Series A",
+  "region": "서울 마포구",
+  "funding_needed": 60000,
+  "team_size": 9,
+  "revenue": 0,
+  "founded_year": 2019,
+  "description": "[단계: 시리즈 A · 시장 검증]\n개인 맞춤 뉴트리테리얼 푸드 제공을 위한 고정밀 모노펌프 멀티 익스트루더 기반 3D 푸드 프린팅 스마트 제조 시스템\n주요 사업: Hardware·Software·푸드 잉크 소재를 아우르는 3D 푸드프린팅 시스템 개발 / 점도와 물성에 따라 정밀한 형태를 구현할 수 있는 푸드 잉크 소재 개발 / 3D 푸드 프린팅 하드웨어 및 제어 알고리즘을 개발해 식품 산업 공정에 적용 / 개인별 데이터 기반 영양 설계와 기능성 식품 조성 기술을 활용한 맞춤형 영양식·노인용 연하보조식·환자 맞춤 영양식 개발\n수익모델: 3D·4D 푸드프린팅 기술 기반 제품 및 솔루션 판매, 향후 개인 맞춤 영양 솔루션 B2B2C\n주요 고객: 교육기관, 관공서, 연구기관, 공공기관\n주요 시장: 식품 제조시장, 맞춤형 영양시장, 교육·연구시장\n제품: Foodian 1.0, Foodian 3.0, Foodian Pro, iink\n지식재산권/특허 약 12건\n주요 성과: 특허 국내등록 6건, 국내출원 2건, PCT출원 5건, US출원 1건, 상표 국내등록 7건, 국내출원 3건, 해외등록 6건, 해외출원 1건 / CES 혁신상 / CES 최고 혁신상\n해외 진출: 해외 특허 출원과 CES 참가를 통해 글로벌 시장 진출 추진",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "직접 계약·판매 / 전시회·기술 행사 / 디지털·온라인 마케팅",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 12,
+   "follow_on_funding": 0,
+   "has_overseas": true,
+   "key_customers": [
+    "교육기관",
+    "관공서",
+    "연구기관",
+    "공공기관",
+    "외식업체"
+   ],
+   "key_markets": [
+    "식품 제조시장",
+    "맞춤형 영양시장",
+    "교육·연구시장"
+   ],
+   "revenue_model": [
+    "3D·4D 푸드프린팅 기술 기반 제품 및 솔루션 판매",
+    "향후 개인 맞춤 영양 솔루션 B2B2C"
+   ],
+   "achievement_count": 3,
+   "products_count": 5
+  },
+  "financials": null,
+  "summary": "개인 맞춤 뉴트리테리얼 푸드 제공을 위한 고정밀 모노펌프 멀티 익스트루더 기반 3D 푸드 프린팅 스마트 제조 시스템  ·  특허 12건 · 고객 교육기관 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.101Z",
+  "updated_at": "2026-10-23T05:43:45.103Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 14,
+ "fields": {
+  "user": null,
+  "name": "엘엔피솔루션",
+  "industry": "바이오마커 기반기술",
+  "stage": "Seed",
+  "region": "강원 홍천군",
+  "funding_needed": 24000,
+  "team_size": 5,
+  "revenue": 0,
+  "founded_year": 2023,
+  "description": "[단계: 엔젤투자 · 시제품 제작]\nLNP AI SmartBench: CADD-AI 융합 기반 신약개발 플랫폼\n주요 사업: 사용자 친화적 GUI와 One-stop workflow를 제공해 실험 기반 연구자도 활용할 수 있는 AI 분자모델링 기반 연구 플랫폼 개발 / De novo Modeling 기반 AI 예측과 물리·화학 기반 분자모델링 분석을 결합 / 높은 신뢰도와 정밀도의 독창 솔루션으로 기술 우위를 달성하고 온프레미스 또는 클라우드 기반 AI 신약개발 플랫폼 공급\n수익모델: LNP AI SmartBench 플랫폼 판매, 연구용역 서비스\n주요 고객: 제약바이오 분야 연구 기업, 연구소\n주요 시장: AI 신약개발 시장, 제약바이오 연구시장\n제품: LNP AI SmartBench\n지식재산권/특허 약 3건\n주요 성과: 특허 국내출원 2건, 해외 PCT 1건, 상표권 등록 2건 / NVIDIA Inception Program 선정 / 강원지식재산유공자 특허청장상 / 국가신약개발과제 참여",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "인바운드 마케팅 및 학회 활용",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 3,
+   "follow_on_funding": 0,
+   "has_overseas": false,
+   "key_customers": [
+    "제약바이오 분야 연구 기업",
+    "연구소"
+   ],
+   "key_markets": [
+    "AI 신약개발 시장",
+    "제약바이오 연구시장"
+   ],
+   "revenue_model": [
+    "LNP AI SmartBench 플랫폼 판매",
+    "연구용역 서비스"
+   ],
+   "achievement_count": 4,
+   "products_count": 1
+  },
+  "financials": null,
+  "summary": "LNP AI SmartBench: CADD-AI 융합 기반 신약개발 플랫폼  ·  특허 3건 · 고객 제약바이오 분야 연구 기업 등",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.105Z",
+  "updated_at": "2026-10-23T05:43:45.107Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 15,
+ "fields": {
+  "user": null,
+  "name": "퍼포즈드",
+  "industry": "SW솔루션 · 데이터웨어",
+  "stage": "Seed",
+  "region": "서울 강남구",
+  "funding_needed": 15000,
+  "team_size": 4,
+  "revenue": 0,
+  "founded_year": 2022,
+  "description": "[단계: 엔젤투자 · 시제품 제작]\n혈당·건강 관리를 위한 AI 식단 코칭 서비스\n주요 사업: 기존 식단·건강관리 솔루션의 높은 비용과 일회성·저단계 개인화 한계를 개선한 AI 식단 관리 솔루션 개발 / 영양성분 분석기가 촬영된 식사 사진을 기반으로 영양성분을 분석 / AI 헬스 코치가 유지·목표에 따른 관리지표 변화와 코칭을 제공 / 제품 추천까지 연결하는 UX 제공\n수익모델: B2C 고객 대상 서비스, B2B 파트너십 기반 하이브리드 구독 모델\n주요 고객: 일반인, 대사질환 보유자, 당뇨병 환자\n주요 시장: B2C 건강관리 시장, B2B 헬스케어 제휴시장\n제품: AI 식단 코칭 서비스\n지식재산권/특허 약 4건\n주요 성과: 특허 국내출원 1건, 상표 국내출원 2건, 상표 해외출원 2건, 상표 국내등록 3건 / 초기창업패키지 우수졸업 / Stanford Consumer Accelerator 선정",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "안드로이드 애플리케이션 마켓 및 iOS 앱스토어 출시",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 4,
+   "follow_on_funding": 0,
+   "has_overseas": false,
+   "key_customers": [
+    "일반인",
+    "대사질환 보유자",
+    "당뇨병 환자"
+   ],
+   "key_markets": [
+    "B2C 건강관리 시장",
+    "B2B 헬스케어 제휴시장"
+   ],
+   "revenue_model": [
+    "B2C 고객 대상 서비스",
+    "B2B 파트너십 기반 하이브리드 구독 모델"
+   ],
+   "achievement_count": 3,
+   "products_count": 1
+  },
+  "financials": null,
+  "summary": "혈당·건강 관리를 위한 AI 식단 코칭 서비스  ·  특허 4건 · 고객 일반인 등",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.109Z",
+  "updated_at": "2026-10-23T05:43:45.110Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 16,
+ "fields": {
+  "user": null,
+  "name": "뉴패스바이오",
+  "industry": "의학 및 약학 연구개발업",
+  "stage": "Series A",
+  "region": "경기 성남시",
+  "funding_needed": 130000,
+  "team_size": 4,
+  "revenue": 0,
+  "founded_year": 2023,
+  "description": "[단계: 시리즈 A · R&D / BM 고도화]\n저분자화합물 기반 퇴행성관절염 치료제 개발\n주요 사업: 연골 퇴행 조직인자 OSCAR 수용체를 표적으로 하는 약물 개발 / OSCAR와 파골세포의 상호작용 및 골관절염 진행 관여기전 기반 치료전략 개발 / OSCAR-콜라겐 결합 저해 탐색 시스템 개발 / OSCAR 저해 hit 41종 확보 및 최종 hit NPB001 발굴\n수익모델: 2027년경 발병 전 사람을 대상으로 한 약물 판매 및 기술이전\n주요 고객: 퇴행성관절염 환자 및 발병 전 단계 대상자\n주요 시장: 글로벌 퇴행성관절염 치료제 시장\n제품: NPB001\n지식재산권/특허 약 5건\n주요 성과: 특허 국내출원 2건, 해외출원 3건\n해외 진출: 글로벌 제약사 신약 기술이전 및 협업을 통해 미국·유럽 진출 추진",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "글로벌 제약사 대상 기술이전 및 협업으로 미국·유럽 진출",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 5,
+   "follow_on_funding": 0,
+   "has_overseas": true,
+   "key_customers": [
+    "퇴행성관절염 환자 및 발병 전 단계 대상자"
+   ],
+   "key_markets": [
+    "글로벌 퇴행성관절염 치료제 시장"
+   ],
+   "revenue_model": [
+    "2027년경 발병 전 사람을 대상으로 한 약물 판매 및 기술이전"
+   ],
+   "achievement_count": 1,
+   "products_count": 1
+  },
+  "financials": null,
+  "summary": "저분자화합물 기반 퇴행성관절염 치료제 개발  ·  특허 5건 · 고객 퇴행성관절염 환자 및 발병 전 단계 대상자 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.113Z",
+  "updated_at": "2026-10-23T05:43:45.114Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 17,
+ "fields": {
+  "user": null,
+  "name": "마디",
+  "industry": "기타 융합바이오 제품·기술",
+  "stage": "Seed",
+  "region": "서울 강남구",
+  "funding_needed": 20000,
+  "team_size": 5,
+  "revenue": 0,
+  "founded_year": 2025,
+  "description": "[단계: 엔젤투자 · 시제품 제작]\nAI 기반 신약개발용 임상 의사시험 비용 절감 및 기간 단축형 의료 디지털 트윈 플랫폼\n주요 사업: 데이터 생성형 AI 기반 Digital Twin 기술로 신약개발 임상시험의 효율화와 윤리 문제 해결 / 임상시험에서 발생하는 Placebo Dilemma를 해결하는 핵심 기술 플랫폼 개발 / 암 및 희귀질환 RWD 기반 디지털 트윈 모델 구축·검증 / 임상시험에 적용하기 위한 기술 개발 지속\n수익모델: 현직 임상 교수진과 협업하여 암 및 희귀질환 Digital Twin을 임상시험에 사용하도록 원화 작업 진행\n주요 고객: 임상시험 수행 제약사, 임상연구자\n주요 시장: 신약개발 임상시험 시장, 희귀질환 연구시장\n제품: 의료 디지털 트윈 플랫폼\n주요 성과: 국내출원 3건 / 예비창업패키지 나투 IR 경진대회 최우수상 / 4IR Awards 메디컬 AI 대상",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "기업 고객 대상 직접 영업 B2B / 전략적 파트너십 기반 제품 공급",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 0,
+   "follow_on_funding": 0,
+   "has_overseas": false,
+   "key_customers": [
+    "임상시험 수행 제약사",
+    "임상연구자"
+   ],
+   "key_markets": [
+    "신약개발 임상시험 시장",
+    "희귀질환 연구시장"
+   ],
+   "revenue_model": [
+    "현직 임상 교수진과 협업하여 암 및 희귀질환 Digital Twin을 임상시험에 사용하도록 원화 작업 진행"
+   ],
+   "achievement_count": 3,
+   "products_count": 1
+  },
+  "financials": null,
+  "summary": "AI 기반 신약개발용 임상 의사시험 비용 절감 및 기간 단축형 의료 디지털 트윈 플랫폼  ·  고객 임상시험 수행 제약사 등",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.116Z",
+  "updated_at": "2026-10-23T05:43:45.118Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 18,
+ "fields": {
+  "user": null,
+  "name": "티엘바이오",
+  "industry": "수술용 치료기기",
+  "stage": "Seed",
+  "region": "경기 성남시",
+  "funding_needed": 20000,
+  "team_size": 3,
+  "revenue": 0,
+  "founded_year": 2022,
+  "description": "[단계: 엔젤투자 · 시제품 제작]\n일회용 척추질환 내시경 시스템 및 디지털 트윈 기반 시뮬레이터 개발\n주요 사업: 일회용 척추질환 내시경 시스템을 개발해 수술의 일회성과 편의성 극대화 / 환자의 CT·MRI 데이터를 활용한 디지털 트윈 기반 시뮬레이터 구축으로 수술 정확도 향상 / 의사의 수술 숙련도를 높여 환자 안전을 보장하고 척추 수술의 효율성과 경제성 개선\n수익모델: 국내 의료기기 내시경 제조사 대상 공급\n주요 고객: 척추전문병원, 대학병원\n주요 시장: 국내 척추 내시경 시장, 식품의약품안전처 승인 후 공급시장\n제품: 일회용 척추질환 내시경 시스템, 디지털 트윈 수술 시뮬레이터\n지식재산권/특허 약 3건\n주요 성과: 국내 특허 출원 3건, 실용신안 출원 1건, 상표 출원 2건",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "일회용 척추 내시경과 디지털 트윈 수술 시뮬레이터 결합",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 3,
+   "follow_on_funding": 0,
+   "has_overseas": false,
+   "key_customers": [
+    "척추전문병원",
+    "대학병원"
+   ],
+   "key_markets": [
+    "국내 척추 내시경 시장",
+    "식품의약품안전처 승인 후 공급시장"
+   ],
+   "revenue_model": [
+    "국내 의료기기 내시경 제조사 대상 공급"
+   ],
+   "achievement_count": 1,
+   "products_count": 2
+  },
+  "financials": null,
+  "summary": "일회용 척추질환 내시경 시스템 및 디지털 트윈 기반 시뮬레이터 개발  ·  특허 3건 · 고객 척추전문병원 등",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.121Z",
+  "updated_at": "2026-10-23T05:43:45.123Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 19,
+ "fields": {
+  "user": null,
+  "name": "오티톤메디컬",
+  "industry": "기타 치료 및 진단기기",
+  "stage": "Series A",
+  "region": "서울 금천구",
+  "funding_needed": 10000,
+  "team_size": 7,
+  "revenue": 0,
+  "founded_year": 2022,
+  "description": "[단계: 시리즈 A · BM 고도화]\nAI·PBM 통합 ENT 홈 케어 기기 및 플랫폼 개발\n주요 사업: 고막 촬영과 체온 측정 기능을 통합하고 AI로 가정에서 귀 건강 상태를 손쉽게 확인하는 기기 개발 / 고해상도 카메라와 적외선 온도센서를 결합해 고막 영상과 체온 측정 / 인공지능 알고리즘으로 염증 등 질환 가능성을 분석해 모바일 앱으로 결과 확인 / 근적외선 듀얼 파장을 이용한 귀 내부 염증 완화·조직 회복용 스마트 치료기 통합\n수익모델: 스마트 체온계 GMP 획득 후 MFDS 심사신청 및 체온계 판매\n주요 고객: 귀 건강 관리가 필요한 가정, 공공·생활시설\n주요 시장: B2B, B2C, B2G, B2H\n제품: AI·PBM ENT 홈 케어 기기\n지식재산권/특허 약 7건\n주요 성과: 특허 국내등록 5건, 일본등록 1건, PCT출원 1건, 해외출원 1건, 상표 국내등록 1건 / Mobile & App 혁신상, KES 혁신상, SLW 시민혁신상\n해외 진출: 일본 특허 등록 및 해외 출원을 기반으로 해외 시장 진출 추진",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "촬영·진단·체온측정·PBM 치료를 하나의 기기로 통합",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 7,
+   "follow_on_funding": 0,
+   "has_overseas": true,
+   "key_customers": [
+    "귀 건강 관리가 필요한 가정",
+    "공공·생활시설"
+   ],
+   "key_markets": [
+    "B2B",
+    "B2C",
+    "B2G",
+    "B2H"
+   ],
+   "revenue_model": [
+    "스마트 체온계 GMP 획득 후 MFDS 심사신청 및 체온계 판매"
+   ],
+   "achievement_count": 2,
+   "products_count": 1
+  },
+  "financials": null,
+  "summary": "AI·PBM 통합 ENT 홈 케어 기기 및 플랫폼 개발  ·  특허 7건 · 고객 귀 건강 관리가 필요한 가정 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.125Z",
+  "updated_at": "2026-10-23T05:43:45.126Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 20,
+ "fields": {
+  "user": null,
+  "name": "에스메드",
+  "industry": "봉합재·치료기기",
+  "stage": "Series A",
+  "region": "경북 경산시",
+  "funding_needed": 20000,
+  "team_size": 2,
+  "revenue": 0,
+  "founded_year": 2023,
+  "description": "[단계: Series A(Pre A) · R&D(유효성과 안전성)]\n세계 최초 고굴절계 흡수성 봉합용 PEO 색전제 개발\n주요 사업: 봉합치료 분야에서 혈관 색전술의 새로운 치료법으로 임상 사례를 통해 확인된 초단기 색전의 필요성과 가교 독성 없는 색전물질 중요성에 대응 / PEO 기반 고분자 가교 기술을 활용한 차세대 색전제를 개발 / 현재 해당 제품 EBR-20D를 신의료기술등재를 앞둔 근골격계 만성통증 색전술에 사용 / 무독성·비동물성·고안정성 장점을 바탕으로 의료 및 바이오소재 제품군 확대\n수익모델: 국내 직접판매, 국내 전문유통사 라이선스, 해외 전문유통사 라이선스\n주요 고객: 3차 의료기관, 전문병원\n주요 시장: 국내 근골격계 색전술 시장, Tigermed(CRO) 등 글로벌 기업 네트워크 기반 해외시장\n제품: EBR-20D\n지식재산권/특허 약 2건\n주요 성과: 특허 국내등록 2건\n해외 진출: Tigermed(CRO) 등 글로벌 기업을 통한 해외시장 진출 및 글로벌 기술 네트워크 확보",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "전시회·연구자 네트워크·학회 기반 판매 확대 / 글로벌 기업을 통한 해외시장 진출",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 2,
+   "follow_on_funding": 0,
+   "has_overseas": true,
+   "key_customers": [
+    "3차 의료기관",
+    "전문병원"
+   ],
+   "key_markets": [
+    "국내 근골격계 색전술 시장",
+    "Tigermed(CRO) 등 글로벌 기업 네트워크 기반 해외시장"
+   ],
+   "revenue_model": [
+    "국내 직접판매",
+    "국내 전문유통사 라이선스",
+    "해외 전문유통사 라이선스"
+   ],
+   "achievement_count": 1,
+   "products_count": 1
+  },
+  "financials": null,
+  "summary": "세계 최초 고굴절계 흡수성 봉합용 PEO 색전제 개발  ·  특허 2건 · 고객 3차 의료기관 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.129Z",
+  "updated_at": "2026-10-23T05:43:45.130Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 21,
+ "fields": {
+  "user": null,
+  "name": "골프티",
+  "industry": "정보통신·소프트웨어·스포츠테크",
+  "stage": "Pre-A",
+  "region": "대전 유성구",
+  "funding_needed": 0,
+  "team_size": 9,
+  "revenue": 0,
+  "founded_year": 2021,
+  "description": "Vision AI 기반 고정밀 골프 운동 분석·교정 및 해외 골프장 실시간 예약 플랫폼\n주요 사업: Vision AI를 활용한 고정밀 골프 운동 분석 및 자세 교정 시스템 개발 / AI 추천 알고리즘을 기반으로 해외 골프장을 실시간 예약하고 이용자 선호에 맞는 골프장·티타임·숙박·차량·캐디 부가서비스 제공 / KPGA 윈터투어와 미니투어 등을 대상으로 대회를 유치하고 골프 관련 상품의 해외 수출 플랫폼 운영\n수익모델: 해외 골프장 실시간 예약 중개 수수료, 숙박·차량·캐디 등 맞춤형 부가서비스 판매, 골프 대회 및 상품 해외 수출 연계\n주요 고객: 해외 골프 여행객, 아마추어 및 시니어 골퍼, 골프대회 참가자\n주요 시장: 대한민국, 태국, 베트남, 말레이시아\n제품: 골프티, Vision AI 골프 트레이닝 시스템\n지식재산권/특허 약 2건\n주요 성과: 누적 투자유치 약 7억원 / 국내 특허 출원 2건 / 태국 서비스 개시 후 해외 골프 예약 누적 2만 건 이상 달성 / 태국·베트남·말레이시아 160개 이상의 골프장과 제휴\n해외 진출: 태국·베트남·말레이시아 160개 이상의 제휴 골프장 확보 / 2022년 태국 서비스를 시작으로 누적 2만 건 이상의 예약 달성 / KPGA 협찬사 제품의 해외 직접 수출 추진",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "AI 기반 맞춤형 골프장 추천 / 해외 골프장 실시간 예약 / Vision AI 운동 분석 및 자세 교정 / 여행 부가서비스 통합 제공",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 2,
+   "follow_on_funding": 70000,
+   "has_overseas": true,
+   "key_customers": [
+    "해외 골프 여행객",
+    "아마추어 및 시니어 골퍼",
+    "골프대회 참가자"
+   ],
+   "key_markets": [
+    "대한민국",
+    "태국",
+    "베트남",
+    "말레이시아"
+   ],
+   "revenue_model": [
+    "해외 골프장 실시간 예약 중개 수수료",
+    "숙박·차량·캐디 등 맞춤형 부가서비스 판매",
+    "골프 대회 및 상품 해외 수출 연계"
+   ],
+   "achievement_count": 4,
+   "products_count": 2
+  },
+  "financials": null,
+  "summary": "Vision AI 기반 고정밀 골프 운동 분석·교정 및 해외 골프장 실시간 예약 플랫폼  ·  후속투자 7억 원 · 특허 2건 · 고객 해외 골프 여행객 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.133Z",
+  "updated_at": "2026-10-23T05:43:45.134Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 22,
+ "fields": {
+  "user": null,
+  "name": "엑스닷츠",
+  "industry": "양자기술 기반 에너지 관리 솔루션",
+  "stage": "Pre-A",
+  "region": "서울 성북구",
+  "funding_needed": 0,
+  "team_size": 6,
+  "revenue": 0,
+  "founded_year": 2022,
+  "description": "[단계: PoC]\n양자·AI 융합 기술을 이용한 차세대 에너지 측정·최적화 및 설비 고장 예측 솔루션\n주요 사업: NV 다이아몬드 기반 양자 센서로 초정밀 전력을 측정하고 엣지 컴퓨팅 기반 신속 추론 제공 / FPGA 활용 저전력·실시간 데이터 처리 및 제어 기술 개발 / 양자컴퓨팅과 AI 하이브리드 알고리즘을 이용한 TB급 초거대 데이터 최적화 연구 / 대형 건물·리조트·산업시설의 전력 최적화 및 설비 고장 예측 솔루션 제공\n수익모델: IoT 센서·양자 센서·엣지 디바이스 설치 패키지 판매, 에너지 절감액의 30%를 공유하는 SaaS 구독 모델\n주요 고객: 상업시설, 오피스, 리조트, 산업시설\n주요 시장: 스마트시티, 대형 공공건물, 정부 R&D, ESCO 프로젝트\n제품: 양자·AI 에너지 최적화 솔루션, 에너지 설비 고장 예측 솔루션\n지식재산권/특허 약 2건\n주요 성과: 누적 투자유치 약 4.2억원 / 국내 특허 출원 2건 / 환경창업대전 스타트업 부문 장려상 수상",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "NV 다이아몬드 양자 센서 / 양자·AI 하이브리드 최적화 / 실시간 저전력 엣지 처리 / 설비 고장 예측",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 2,
+   "follow_on_funding": 20000,
+   "has_overseas": false,
+   "key_customers": [
+    "상업시설",
+    "오피스",
+    "리조트",
+    "산업시설"
+   ],
+   "key_markets": [
+    "스마트시티",
+    "대형 공공건물",
+    "정부 R&D",
+    "ESCO 프로젝트"
+   ],
+   "revenue_model": [
+    "IoT 센서·양자 센서·엣지 디바이스 설치 패키지 판매",
+    "에너지 절감액의 30%를 공유하는 SaaS 구독 모델"
+   ],
+   "achievement_count": 3,
+   "products_count": 2
+  },
+  "financials": null,
+  "summary": "양자·AI 융합 기술을 이용한 차세대 에너지 측정·최적화 및 설비 고장 예측 솔루션  ·  후속투자 2억 원 · 특허 2건 · 고객 상업시설 등",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.136Z",
+  "updated_at": "2026-10-23T05:43:45.138Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 23,
+ "fields": {
+  "user": null,
+  "name": "에이치케이로지스틱스",
+  "industry": "지식서비스·제조부가서비스·기업물류지원서비스",
+  "stage": "Seed",
+  "region": "인천 서구",
+  "funding_needed": 0,
+  "team_size": 6,
+  "revenue": 0,
+  "founded_year": 2022,
+  "description": "[단계: 엔젤투자 · 시제품 제작]\n3D 화물 적재 시뮬레이션과 AI 지능형 배차를 결합한 기업용 물류 플랫폼\n주요 사업: 화물의 크기·수량·적재방식을 바탕으로 적합한 차량과 적재 방법을 제안하는 3D 적재 시뮬레이션 개발 / 화물차량 선택 오류와 현장 재측정으로 발생하는 업무 지연 및 추가 운송비 문제 해결 / 동일·유사 구간의 화물 데이터를 묶어 한 차량에 공동 배차하는 AI 지능형 배차 시스템 개발 / 차주의 기회비용과 화주의 운송비 부담을 줄이는 B2B 화물운송 중개 플랫폼 운영\n수익모델: B2B 화물운송 중개 수수료, 3D 적재 및 AI 배차 솔루션 제공\n주요 고객: 국내 운송관리시스템이 없는 중소 기업, 화주 기업, 화물차주\n주요 시장: 국내 기업물류 시장, 화물운송 중개 시장\n제품: 3D 적재 시뮬레이션, AI 지능형 배차 시스템\n지식재산권/특허 약 4건\n주요 성과: 누적 투자유치 약 1억원 / 국내 특허 출원 3건·등록 1건, 국내 상표 등록 2건 / 국토부장관상 수상",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "3D 화물 적재 시뮬레이션 / 유사 구간 공동배차 / AI 지능형 배차 / 운송비 및 공차율 절감",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 4,
+   "follow_on_funding": 10000,
+   "has_overseas": false,
+   "key_customers": [
+    "국내 운송관리시스템이 없는 중소 기업",
+    "화주 기업",
+    "화물차주"
+   ],
+   "key_markets": [
+    "국내 기업물류 시장",
+    "화물운송 중개 시장"
+   ],
+   "revenue_model": [
+    "B2B 화물운송 중개 수수료",
+    "3D 적재 및 AI 배차 솔루션 제공"
+   ],
+   "achievement_count": 3,
+   "products_count": 2
+  },
+  "financials": null,
+  "summary": "3D 화물 적재 시뮬레이션과 AI 지능형 배차를 결합한 기업용 물류 플랫폼  ·  후속투자 1억 원 · 특허 4건 · 고객 국내 운송관리시스템이 없는 중소 기업 등",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.141Z",
+  "updated_at": "2026-10-23T05:43:45.142Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 24,
+ "fields": {
+  "user": null,
+  "name": "마고",
+  "industry": "정보통신·소프트웨어·Voice AI",
+  "stage": "Seed",
+  "region": "경기 성남시",
+  "funding_needed": 0,
+  "team_size": 6,
+  "revenue": 0,
+  "founded_year": 2022,
+  "description": "고객센터에서 활용 가능한 감정·의도 분석 기반 엔터프라이즈 Voice AI 솔루션\n주요 사업: 상용 STT·TTS API 도입 과정에서 발생하는 엔터프라이즈 고객의 사용·운영 문제를 해결하는 플랫폼 개발 / Google·OpenAI 기술을 실제 고객 현장에 적용하며 축적한 경험을 기반으로 프롬프트에 의존하지 않고 현장 문제를 이해하는 엔터프라이즈 레벨 음성 AI Agent 개발 / 대규모 고객센터를 대상으로 온프레미스 환경에서도 사용할 수 있는 감정·의도 분석 Voice AI 제공\n수익모델: Voice AI API 사용료, 클라우드 및 온프레미스 구축비, On-device 솔루션 구축·라이선스 수익\n주요 고객: SK그룹, 교보생명, Adobe, LG유플러스\n주요 시장: 엔터프라이즈 B2B, 금융·보험 고객센터, 통신 고객센터\n제품: MAGO Voice AI, On-device Voice AI\n지식재산권/특허 약 6건\n주요 성과: 누적 투자유치 약 5.5억원 / 국내 특허 출원 3건·등록 3건 / SBS문화재단 연계 미디어콘텐츠 스타트업 콘테스트 3위 / KDB NextONE 데모데이 우수상 / 보건의료 빅데이터 활용 창업경진대회 장관상",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "음성 기반 감정·의도 분석 / 온프레미스 구축 지원 / On-device Voice AI / 현장 문제 이해형 AI Agent",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 6,
+   "follow_on_funding": 50000,
+   "has_overseas": false,
+   "key_customers": [
+    "SK그룹",
+    "교보생명",
+    "Adobe",
+    "LG유플러스",
+    "대규모 고객센터 운영 기업"
+   ],
+   "key_markets": [
+    "엔터프라이즈 B2B",
+    "금융·보험 고객센터",
+    "통신 고객센터"
+   ],
+   "revenue_model": [
+    "Voice AI API 사용료",
+    "클라우드 및 온프레미스 구축비",
+    "On-device 솔루션 구축·라이선스 수익"
+   ],
+   "achievement_count": 5,
+   "products_count": 2
+  },
+  "financials": null,
+  "summary": "고객센터에서 활용 가능한 감정·의도 분석 기반 엔터프라이즈 Voice AI 솔루션  ·  후속투자 5억 원 · 특허 6건 · 고객 SK그룹 등",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.144Z",
+  "updated_at": "2026-10-23T05:43:45.146Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 25,
+ "fields": {
+  "user": null,
+  "name": "토네디오",
+  "industry": "로봇·자동화기계 및 관련 IT·SW",
+  "stage": "Seed",
+  "region": "인천 미추홀구",
+  "funding_needed": 0,
+  "team_size": 2,
+  "revenue": 0,
+  "founded_year": 2025,
+  "description": "[단계: 엔젤투자 · 시제품 제작]\n자율비행 셀프 드론 촬영 서비스 고도화를 위한 촬영·편집 기술 개발\n주요 사업: 관광객이 앱에서 버튼 하나로 드론 촬영을 이용할 수 있는 셀프 드론 촬영 서비스 AUCA 개발 / 사용자가 드론을 직접 조종할 필요 없이 사전 설정된 비행 높이와 촬영 구도로 영상을 촬영하는 자율비행 시스템 제공 / 전문가가 설계한 촬영 템플릿과 AI 영상 편집 기술을 결합해 고품질 결과물을 빠르고 합리적인 가격에 제공\n수익모델: 여행객 대상 셀프 드론 촬영 서비스 이용료, AI 영상 편집 및 결과물 판매\n주요 고객: 20~30대 커플 여행객, 개인 관광객, 관광지 운영기관\n주요 시장: 관광지, 여행 콘텐츠 시장, 셀프 촬영 서비스 시장\n제품: 오카(AUCA)\n지식재산권/특허 약 2건\n주요 성과: 국내 특허 출원 2건",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "무조종 자율비행 촬영 / 원버튼 촬영 / 전문가 설계 촬영 템플릿 / AI 기반 자동 영상 편집",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 2,
+   "follow_on_funding": 0,
+   "has_overseas": false,
+   "key_customers": [
+    "20~30대 커플 여행객",
+    "개인 관광객",
+    "관광지 운영기관"
+   ],
+   "key_markets": [
+    "관광지",
+    "여행 콘텐츠 시장",
+    "셀프 촬영 서비스 시장"
+   ],
+   "revenue_model": [
+    "여행객 대상 셀프 드론 촬영 서비스 이용료",
+    "AI 영상 편집 및 결과물 판매"
+   ],
+   "achievement_count": 1,
+   "products_count": 1
+  },
+  "financials": null,
+  "summary": "자율비행 셀프 드론 촬영 서비스 고도화를 위한 촬영·편집 기술 개발  ·  특허 2건 · 고객 20~30대 커플 여행객 등",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.148Z",
+  "updated_at": "2026-10-23T05:43:45.150Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 26,
+ "fields": {
+  "user": null,
+  "name": "데이터플레어",
+  "industry": "해양오염 방지기술·탄소 MRV·AI 데이터 분석",
+  "stage": "Seed",
+  "region": "부산 남구",
+  "funding_needed": 0,
+  "team_size": 4,
+  "revenue": 0,
+  "founded_year": 2025,
+  "description": "[단계: 엔젤투자 · 시제품 제작]\nAI 기반 실제 운항데이터를 활용한 선박·항만 탄소배출 분석 및 MRV 플랫폼\n주요 사업: AIS 수신기와 대기오염 센서를 통해 선박의 CO2 데이터를 실시간 수집하고 AI로 분석해 선박별 배출량을 정밀 추적·관리 / 항만공사·해운사·터미널 운영사의 IMO 넷제로 정책과 AMP·육상전원공급 요구에 대응 / 기존 친환경 정책의 탄소 감축 효과를 실제 데이터로 검증하고 대기오염 방지 비용을 절감 / MRV 보고 자동화·탄소 크레딧 대응·탄소 포집 및 금융 서비스로 확장\n수익모델: AI 기반 항만 탄소·대기오염 모니터링 솔루션 판매, 운항·배출 데이터 판매, 탄소 연구용 플랫폼 서비스\n주요 고객: 항만공사, 해운사, 터미널 운영사, 공공기관\n주요 시장: 국내 항만, 글로벌 해운 시장, 탄소 MRV 시장\n제품: DataFlare 선박 탄소배출 분석 플랫폼\n지식재산권/특허 약 5건\n주요 성과: 공동대표 이상영(1980년생), 손순배(1981년생) / 누적 투자유치 2억원 / 국내 특허 출원 2건·등록 2건, 해외 특허 출원 1건, ISO 인증 1건, 지식재산권 등록 1건 / 한국해양진흥공사 해양 DX 전환기업 우수상 / 대구창조경제혁신센터 C-Lab 창업경진대회 은상 / CES 2026 Enterprise Tech 부문 혁신상\n해외 진출: 글로벌 파트너십을 통한 해외 항만 및 해운 시장 확장 추진 / IMO 탄소 규제 대응 솔루션으로 국제시장 진출 추진",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "실제 운항데이터 기반 탄소 측정 / AIS·대기오염센서 융합 / 선박별 정밀 배출량 추적 / MRV 보고 자동화",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 5,
+   "follow_on_funding": 20000,
+   "has_overseas": true,
+   "key_customers": [
+    "항만공사",
+    "해운사",
+    "터미널 운영사",
+    "공공기관",
+    "탄소·환경 연구기관"
+   ],
+   "key_markets": [
+    "국내 항만",
+    "글로벌 해운 시장",
+    "탄소 MRV 시장"
+   ],
+   "revenue_model": [
+    "AI 기반 항만 탄소·대기오염 모니터링 솔루션 판매",
+    "운항·배출 데이터 판매",
+    "탄소 연구용 플랫폼 서비스"
+   ],
+   "achievement_count": 6,
+   "products_count": 1
+  },
+  "financials": null,
+  "summary": "AI 기반 실제 운항데이터를 활용한 선박·항만 탄소배출 분석 및 MRV 플랫폼  ·  후속투자 2억 원 · 특허 5건 · 고객 항만공사 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.152Z",
+  "updated_at": "2026-10-23T05:43:45.153Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 27,
+ "fields": {
+  "user": null,
+  "name": "테이블에이아이",
+  "industry": "실시간 데이터 플랫폼·생성형 AI·AI Agents",
+  "stage": "Seed",
+  "region": "서울 강서구",
+  "funding_needed": 0,
+  "team_size": 3,
+  "revenue": 0,
+  "founded_year": 2022,
+  "description": "[단계: Seed · 솔루션 개발]\n생성형 AI를 활용한 실시간 빅데이터 처리 및 CEP 플랫폼\n주요 사업: Drag&Drop 기반 워크플로우로 실시간 데이터 처리 코드를 자동 생성하고 생성 결과를 클라우드 환경에 자동 배포 / 이벤트 룰 엔진과 CEP 기술을 이용해 복합 이벤트를 실시간 감지하고 비즈니스 상황에 즉각 대응 / LLMOps 및 AI Agent 기술을 적용해 대화 방식으로 실시간 이벤트 룰을 생성·변경 / 멀티 LLM 구조를 기반으로 목적에 맞는 모델을 선택하고 변경사항을 실시간 반영하는 무중단 데이터 서비스 개발\n수익모델: 실시간 데이터 플랫폼 구독료, 기업용 플랫폼 구축비, 클라우드 마켓플레이스 판매\n주요 고객: 실시간 데이터 처리가 필요한 기업, 대규모 이벤트 데이터를 운영하는 기업, 클라우드 기반 서비스 기업\n주요 시장: 기업용 빅데이터 시장, 생성형 AI Agent 시장, 클라우드 데이터 플랫폼 시장\n제품: Table AI 실시간 데이터 플랫폼\n지식재산권/특허 약 1건\n주요 성과: 누적 투자유치 3억원 / 해외 특허 출원 1건 / 창업성장기술개발사업 디딤돌 과제 수행 완료\n해외 진출: AWS Marketplace를 통한 글로벌 판매 추진",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "Drag&Drop 코드 자동 생성 / 실시간 CEP 이벤트 감지 / 대화형 이벤트 룰 생성 / 멀티 LLM 기반 무중단 모델 변경",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 1,
+   "follow_on_funding": 30000,
+   "has_overseas": true,
+   "key_customers": [
+    "실시간 데이터 처리가 필요한 기업",
+    "대규모 이벤트 데이터를 운영하는 기업",
+    "클라우드 기반 서비스 기업"
+   ],
+   "key_markets": [
+    "기업용 빅데이터 시장",
+    "생성형 AI Agent 시장",
+    "클라우드 데이터 플랫폼 시장"
+   ],
+   "revenue_model": [
+    "실시간 데이터 플랫폼 구독료",
+    "기업용 플랫폼 구축비",
+    "클라우드 마켓플레이스 판매"
+   ],
+   "achievement_count": 3,
+   "products_count": 1
+  },
+  "financials": null,
+  "summary": "생성형 AI를 활용한 실시간 빅데이터 처리 및 CEP 플랫폼  ·  후속투자 3억 원 · 특허 1건 · 고객 실시간 데이터 처리가 필요한 기업 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.155Z",
+  "updated_at": "2026-10-23T05:43:45.157Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 28,
+ "fields": {
+  "user": null,
+  "name": "리원엑스",
+  "industry": "정보통신·소프트웨어·세무테크",
+  "stage": "Seed",
+  "region": "서울 강남구",
+  "funding_needed": 0,
+  "team_size": 10,
+  "revenue": 0,
+  "founded_year": 2023,
+  "description": "[단계: 엔젤투자]\n세무 특화 AI와 알고리즘을 활용한 IT 세무 기장 플랫폼\n주요 사업: 세무 분야의 낮은 디지털화 수준과 복잡하고 반복적인 수작업으로 발생하는 오류 및 서비스 품질 문제를 해결하는 플랫폼 개발 / 세무 업무 프로세스 분석과 세무 특화 자동 자료 수집·관리 기능 개발 / 세무 알고리즘과 세무 업무 AI 기술을 적용해 세무사와 세무대리인의 기장 업무를 자동화\n수익모델: 세무 기장 SaaS 구독료\n주요 고객: 세무사, 세무대리인, 세무법인\n주요 시장: 국내 세무 기장 시장, 세무 업무 자동화 시장\n제품: 리원엑스 IT 세무 기장 플랫폼\n지식재산권/특허 약 3건\n주요 성과: 누적 투자유치 약 6억원 / 국내 특허 출원 3건, 국내 상표 등록 1건",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "세무 특화 AI / 자동 자료 수집 및 관리 / 세무 알고리즘 기반 기장 자동화 / 웹 기반 SaaS",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 3,
+   "follow_on_funding": 60000,
+   "has_overseas": false,
+   "key_customers": [
+    "세무사",
+    "세무대리인",
+    "세무법인"
+   ],
+   "key_markets": [
+    "국내 세무 기장 시장",
+    "세무 업무 자동화 시장"
+   ],
+   "revenue_model": [
+    "세무 기장 SaaS 구독료"
+   ],
+   "achievement_count": 2,
+   "products_count": 1
+  },
+  "financials": null,
+  "summary": "세무 특화 AI와 알고리즘을 활용한 IT 세무 기장 플랫폼  ·  후속투자 6억 원 · 특허 3건 · 고객 세무사 등",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.159Z",
+  "updated_at": "2026-10-23T05:43:45.161Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 29,
+ "fields": {
+  "user": null,
+  "name": "텍스타일디자인뱅크",
+  "industry": "AI 텍스타일 디자인·컴퓨터 프로그래밍 서비스",
+  "stage": "Seed",
+  "region": "서울 강남구",
+  "funding_needed": 0,
+  "team_size": 5,
+  "revenue": 0,
+  "founded_year": 2023,
+  "description": "[단계: 엔젤투자 · 시제품 제작]\n카테고리별 파인튜닝 생성형 AI를 활용한 텍스타일 디자인 제작 및 원단 샘플 발주 플랫폼\n주요 사업: 전 세계 90개국 대상 텍스타일 디자인 수출 중개 경험을 기반으로 AI 텍스타일 디자인 제작 및 미국 저작권 등록 서비스 제공 / 카테고리별로 파인튜닝한 생성형 AI를 이용해 상업용 텍스타일 디자인을 제작 / 플랫폼에서 제작한 텍스타일 디자인의 원단 샘플을 간편하게 발주할 수 있도록 서비스 확장\n수익모델: 웹 플랫폼 AI 텍스타일 디자인 제작 이용료, 레퍼런스 이미지 기반 원스톱 디자인 제작비, 미국 저작권 등록 대행료, 원단 샘플 발주 중개 수익\n주요 고객: 패션 기업, 원단 기업, 인테리어 기업, 가구 기업\n주요 시장: 글로벌 텍스타일 디자인 시장, 패션·의류 시장, 인테리어·가구 시장\n제품: AI 텍스타일 디자인 제작 서비스, 원단 샘플 발주 서비스\n지식재산권/특허 약 3건\n주요 성과: 누적 투자유치 약 1억원 / 국내 특허 출원 2건·등록 1건, 국내 상표권 1건, 국내 디자인권 2건, 미국 저작권 등록 2건, 국내 컴퓨터프로그램 저작권 등록 1건 / 여성창업경진대회 이사장상 수상 / 제18회 디지털이노베이션 IT·플랫폼 부문 대상 / 비대면 스타트업 IR 설명회 대상 수상\n해외 진출: 전 세계 90개국을 대상으로 텍스타일 디자인 수출 중개 / 미국 저작권 등록 서비스 제공",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "카테고리별 파인튜닝 AI / 원리핏 가능한 디자인 생성 / 미국 저작권 등록 연계 / 디자인부터 원단 샘플까지 원스톱 제공",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 3,
+   "follow_on_funding": 10000,
+   "has_overseas": true,
+   "key_customers": [
+    "패션 기업",
+    "원단 기업",
+    "인테리어 기업",
+    "가구 기업",
+    "텍스타일 디자인이 필요한 브랜드"
+   ],
+   "key_markets": [
+    "글로벌 텍스타일 디자인 시장",
+    "패션·의류 시장",
+    "인테리어·가구 시장"
+   ],
+   "revenue_model": [
+    "웹 플랫폼 AI 텍스타일 디자인 제작 이용료",
+    "레퍼런스 이미지 기반 원스톱 디자인 제작비",
+    "미국 저작권 등록 대행료"
+   ],
+   "achievement_count": 5,
+   "products_count": 2
+  },
+  "financials": null,
+  "summary": "카테고리별 파인튜닝 생성형 AI를 활용한 텍스타일 디자인 제작 및 원단 샘플 발주 플랫폼  ·  후속투자 1억 원 · 특허 3건 · 고객 패션 기업 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.163Z",
+  "updated_at": "2026-10-23T05:43:45.164Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 30,
+ "fields": {
+  "user": null,
+  "name": "에이쓰리",
+  "industry": "로봇 제어·기계·소재·지능화기술",
+  "stage": "Seed",
+  "region": "경남 창원시",
+  "funding_needed": 0,
+  "team_size": 8,
+  "revenue": 0,
+  "founded_year": 2023,
+  "description": "[단계: 시제품 제작 · 기술·서비스 초기모델 구현]\nIDA 기반 자율운영 AI 플랫폼 및 제조·산업 특화 AI Agent 개발\n주요 사업: IDA(Intent-Driven Autonomous AI) 플랫폼 개발 및 공급 / 인텐트 기반 자율운영 AI 플랫폼과 sLLM·RAG 멀티 에이전트 오케스트레이션 산업용 AI 엔진 제공 / 제조·물류·안전 특화 AI 에이전트 솔루션 개발 / 계약 리스크 분석, 산업안전·위험성 평가, 에너지·경제성·품질·재고 분석 특화 Agent 개발\n수익모델: IDA 플랫폼 공급 및 라이선스, 제조 AI Agent 구축비, 산업별 AI 엔진 및 유지보수 서비스\n주요 고객: 두산그룹, 삼성물산, 현대엘리베이터, 파인인터\n주요 시장: 제조업, 물류산업, 산업안전, 스마트팩토리\n제품: IDA(Intent-Driven Autonomous AI), sLLM·RAG 멀티 에이전트 오케스트레이터, 제조 AI Agent\n지식재산권/특허 약 7건\n주요 성과: 누적 투자유치 약 2억원 / 기술특허 7건 출원, 디자인권 1건 등록",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "Intent-Driven Autonomous AI / sLLM·RAG 멀티 에이전트 오케스트레이션 / 산업별 특화 AI Agent / 자율운영 제조 실행",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 7,
+   "follow_on_funding": 20000,
+   "has_overseas": false,
+   "key_customers": [
+    "두산그룹",
+    "삼성물산",
+    "현대엘리베이터",
+    "파인인터"
+   ],
+   "key_markets": [
+    "제조업",
+    "물류산업",
+    "산업안전",
+    "스마트팩토리"
+   ],
+   "revenue_model": [
+    "IDA 플랫폼 공급 및 라이선스",
+    "제조 AI Agent 구축비",
+    "산업별 AI 엔진 및 유지보수 서비스"
+   ],
+   "achievement_count": 2,
+   "products_count": 3
+  },
+  "financials": null,
+  "summary": "IDA 기반 자율운영 AI 플랫폼 및 제조·산업 특화 AI Agent 개발  ·  후속투자 2억 원 · 특허 7건 · 고객 두산그룹 등",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.167Z",
+  "updated_at": "2026-10-23T05:43:45.168Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 31,
+ "fields": {
+  "user": null,
+  "name": "메타에너지프런티어",
+  "industry": "에너지·자원·신재생에너지·스마트 조명",
+  "stage": "Seed",
+  "region": "서울 중구",
+  "funding_needed": 0,
+  "team_size": 3,
+  "revenue": 0,
+  "founded_year": 2022,
+  "description": "[단계: 엔젤투자 · 시제품 제작]\n미활용 조명에너지 재생을 위한 인공광전지 융합형 고효율 스마트 조명 기술\n주요 사업: 건물 내부 미활용 조명광을 전기로 전환하는 인공광전지 기반 스마트 조명 에너지 솔루션 개발 / 고효율 인공광전지를 LED 조명과 융합해 실내 조명 전력을 재생·절감하는 Lumivolt 기술 개발 / IoT 기반 자가발전형 조명 센서 플랫폼 Lumisense를 이용한 환경센싱 연동 제어 / 건물의 조명에너지 원단위를 낮추고 RE100·탄소중립 대응형 조명 생태계 구축\n수익모델: 조명·배터리 업체 대상 조명에너지 모듈 OEM 공급, 조명공사 및 스마트 조명 시스템 B2B·B2G 공급, 지자체 LED 교체 및 학교 조명 개선 사업, 고효율 기자재 NET·NEP 인증 기반 공공시장 판매\n주요 고객: 국내외 조명 제조사, 건설사, 스마트빌딩 운영사, 지자체\n주요 시장: 스마트빌딩, 공공조명, 스마트시티, 고효율 에너지 기자재 시장\n제품: Lumivolt, Lumisense\n지식재산권/특허 약 18건\n주요 성과: 공동대표 유기천(1979년생), 이재준(1966년생) / 누적 투자유치 약 3억원 / 국내 보유 특허 18건 / 대한민국 굿컴퍼니 대상 Good-R&D Award 수상 / 넷제로 챌린지 X 동국 메이커 IR 경진대회 우수상 / 서울창업센터 관악 기술창업 아이디어 경진대회 우수상\n해외 진출: 스마트시티·산업전시회 CES 및 Light+Building 참가 추진 / NET·고효율 기자재 인증을 기반으로 해외 조명시장 진출 추진",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "미활용 조명광의 전력 재생 / LED·인공광전지 융합 / 자가발전형 IoT 센서 / RE100 및 탄소중립 대응",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 18,
+   "follow_on_funding": 30000,
+   "has_overseas": true,
+   "key_customers": [
+    "국내외 조명 제조사",
+    "건설사",
+    "스마트빌딩 운영사",
+    "지자체",
+    "학교 및 공공기관"
+   ],
+   "key_markets": [
+    "스마트빌딩",
+    "공공조명",
+    "스마트시티",
+    "고효율 에너지 기자재 시장"
+   ],
+   "revenue_model": [
+    "조명·배터리 업체 대상 조명에너지 모듈 OEM 공급",
+    "조명공사 및 스마트 조명 시스템 B2B·B2G 공급",
+    "지자체 LED 교체 및 학교 조명 개선 사업"
+   ],
+   "achievement_count": 7,
+   "products_count": 2
+  },
+  "financials": null,
+  "summary": "미활용 조명에너지 재생을 위한 인공광전지 융합형 고효율 스마트 조명 기술  ·  후속투자 3억 원 · 특허 18건 · 고객 국내외 조명 제조사 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.171Z",
+  "updated_at": "2026-10-23T05:43:45.172Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 32,
+ "fields": {
+  "user": null,
+  "name": "퍼슬리",
+  "industry": "디지털 헬스케어·AI 질환 예측·환자관리",
+  "stage": "Seed",
+  "region": "서울 중구",
+  "funding_needed": 0,
+  "team_size": 5,
+  "revenue": 2000,
+  "founded_year": 2025,
+  "description": "ePROM 데이터를 활용해 암 재발을 조기에 예측하는 AI 기반 디지털 헬스케어 모델\n주요 사업: PHR과 ePROM을 기반으로 환자의 치료 과정을 24시간 선제 관리하는 AI 헬스 컴패니언 제공 / 투약·검사실 결과·통증·검사 일정·의료진 소통 공백을 AI가 실시간으로 파악해 맞춤 안내와 질문정보 제공 / 암 환자의 순응도 유지, 재발 조기 인지 및 치료 여정 전체 자동화·최적화를 지원하는 Proactive AI 기술 개발\n수익모델: B2C 웹·앱 프리미엄 구독, 임상시험·오피스·리조트 등 B2B 제약 및 보험 서비스, 병원 ePROM 리포트 및 환자관리 솔루션\n주요 고객: 암 환자, 암 환자 보호자, 병원 및 의료진, 제약사\n주요 시장: 대한민국, 미국, 글로벌 암 환자관리 시장\n제품: Persly AI Health Companion, 카카오톡 환자관리 챗봇\n지식재산권/특허 약 13건\n주요 성과: 공동대표 오상준(1990년생), 남궁현(2002년생) / 앤틀러코리아 Pre-seed 투자 유치 / B2C 웹 구독 모델 ARR 2,000만원 달성 / AI 의료데이터 기반 기술 특허 13건 출원 / PHR 3만 건, ePROM 17만 건 및 질환 1,200종 이상의 데이터 확보 / 유방암·전립선암 코호트에서 31.8~50% 리텐션 확보\n해외 진출: 미국 암 환자 및 보호자 중심 서비스 확장 / 글로벌 마케팅을 통해 출시 9개월 만에 MAU 14,400명 달성",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "PHR·ePROM 통합 분석 / 암 재발 조기 예측 / 24시간 AI 환자관리 / 선제적 Proactive AI",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 13,
+   "follow_on_funding": 0,
+   "has_overseas": true,
+   "key_customers": [
+    "암 환자",
+    "암 환자 보호자",
+    "병원 및 의료진",
+    "제약사",
+    "보험사"
+   ],
+   "key_markets": [
+    "대한민국",
+    "미국",
+    "글로벌 암 환자관리 시장"
+   ],
+   "revenue_model": [
+    "B2C 웹·앱 프리미엄 구독",
+    "임상시험·오피스·리조트 등 B2B 제약 및 보험 서비스",
+    "병원 ePROM 리포트 및 환자관리 솔루션"
+   ],
+   "achievement_count": 6,
+   "products_count": 2
+  },
+  "financials": null,
+  "summary": "ePROM 데이터를 활용해 암 재발을 조기에 예측하는 AI 기반 디지털 헬스케어 모델  ·  연매출 2,000만 원 · 특허 13건 · 고객 암 환자 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.174Z",
+  "updated_at": "2026-10-23T05:43:45.176Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 33,
+ "fields": {
+  "user": null,
+  "name": "팀제로코드",
+  "industry": "소프트웨어·멀티모달 AI·글로벌 거래 지원",
+  "stage": "Seed",
+  "region": "서울 강남구",
+  "funding_needed": 0,
+  "team_size": 5,
+  "revenue": 0,
+  "founded_year": 2024,
+  "description": "[단계: 엔젤투자 · 시제품 제작]\n멀티모달 아이덴티티 임베딩과 강화학습 기반 글로벌 거래 엔진 및 실시간 전문 통역 서비스\n주요 사업: 기업 소재지·현장·대화·참여이력 등 다양한 정보를 분석해 기업 간 협력 가능성을 정교하게 판단하는 매칭 엔진 개발 / 프로필 기반 추천을 넘어 현장에서 발생하는 정성 데이터를 반영해 실제 거래 성사 가능성이 높은 파트너를 추천 / 기업별 전문용어와 맥락을 자동 반영하는 실시간 통역·상담 기술 제공 / 전시회·무역상담회·대학·병원 등 글로벌 환경에서 언어 장벽 없이 비즈니스 커뮤니케이션이 가능하도록 지원\n수익모델: B2B SaaS 구독료, 기업용 라이선스, 비즈니스 현장 통역·매칭 서비스 이용료\n주요 고객: 중소 수출기업, 병원 및 의료관광기관, 산업전시회 주최기관, 글로벌 거래 지원기관\n주요 시장: 국내외 전시·무역 프로그램, 정부기관 해외진출 사업, 전시회 및 의료기관\n제품: aness 글로벌 거래 엔진, aness 전문 통역 AI\n지식재산권/특허 약 5건\n주요 성과: 누적 투자유치 약 1.8억원 / 국내 특허 출원 5건 / 강남구 X Open Innovation 사업 참가 / KOTRA 해외진출 서비스 공모전 우수상 / 숭실대학교 및 한국M&A거래소와 MOU 체결\n해외 진출: KOTRA 해외진출 서비스 공모전 우수상 수상 / 국제 전시회 및 무역상담회 대상 서비스 공급 추진",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "멀티모달 기업 아이덴티티 분석 / 현장 정성데이터 반영 매칭 / 전문용어·맥락 자동 반영 통역 / 강화학습 기반 거래 성공 가능성 예측",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 5,
+   "follow_on_funding": 80000,
+   "has_overseas": true,
+   "key_customers": [
+    "중소 수출기업",
+    "병원 및 의료관광기관",
+    "산업전시회 주최기관",
+    "글로벌 거래 지원기관"
+   ],
+   "key_markets": [
+    "국내외 전시·무역 프로그램",
+    "정부기관 해외진출 사업",
+    "전시회 및 의료기관"
+   ],
+   "revenue_model": [
+    "B2B SaaS 구독료",
+    "기업용 라이선스",
+    "비즈니스 현장 통역·매칭 서비스 이용료"
+   ],
+   "achievement_count": 5,
+   "products_count": 2
+  },
+  "financials": null,
+  "summary": "멀티모달 아이덴티티 임베딩과 강화학습 기반 글로벌 거래 엔진 및 실시간 전문 통역 서비스  ·  후속투자 8억 원 · 특허 5건 · 고객 중소 수출기업 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.178Z",
+  "updated_at": "2026-10-23T05:43:45.180Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 34,
+ "fields": {
+  "user": null,
+  "name": "지니우스",
+  "industry": "디지털콘텐츠·게임·교육·AR 스마트토이",
+  "stage": "Pre-A",
+  "region": "대전 대덕구",
+  "funding_needed": 0,
+  "team_size": 9,
+  "revenue": 0,
+  "founded_year": 2020,
+  "description": "[단계: Seed · Pre-A]\nAI·AR 기반 아날로그 스마트토이와 글로벌 온·오프라인 교육 플랫폼\n주요 사업: AR 기반 무센서 객체 인식 기술을 활용한 스마트 체스·큐브·보드게임 개발 / AI 기반 학습 난이도 조절, 온라인 대전, 비대면 튜터 매칭 서비스 제공 / 별도 앱 없이 이용 가능한 오프라인 학습장치와 온라인 교육 플랫폼 결합\n수익모델: 스마트토이 통합 디바이스 판매, 앱 내 구독 및 광고, 교육기관·학교·학원 공급계약, 글로벌 리테일 및 온라인 판매\n주요 고객: 아동 및 청소년, 교육시장 학부모, 학교·학원·교육기관, 글로벌 체스·큐브 커뮤니티\n주요 시장: 대한민국, 미국, 유럽, 일본\n제품: AI·AR 스마트 체스, 스마트 큐브·보드게임, 글로벌 교육 플랫폼\n지식재산권/특허 약 3건\n주요 성과: Seed 및 Pre-A 단계 투자 유치 / 국내외 특허 5건 이상 보유, 미국·유럽·일본 특허 등록 및 AR 기반 깊이인식 기술 저작권 등록\n해외 진출: Amazon·Shopee 등 글로벌 이커머스 판매 추진 / 미국·유럽·일본 특허 등록 / CES·SPS 등 글로벌 전시회 참가 준비",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "AR 무센서 객체 인식 / AI 난이도 조절 / 앱 없이 이용 가능한 스마트토이 / 오프라인 완구와 온라인 교육의 결합",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 3,
+   "follow_on_funding": 0,
+   "has_overseas": true,
+   "key_customers": [
+    "아동 및 청소년",
+    "교육시장 학부모",
+    "학교·학원·교육기관",
+    "글로벌 체스·큐브 커뮤니티"
+   ],
+   "key_markets": [
+    "대한민국",
+    "미국",
+    "유럽",
+    "일본",
+    "글로벌 교육완구 시장"
+   ],
+   "revenue_model": [
+    "스마트토이 통합 디바이스 판매",
+    "앱 내 구독 및 광고",
+    "교육기관·학교·학원 공급계약"
+   ],
+   "achievement_count": 2,
+   "products_count": 3
+  },
+  "financials": null,
+  "summary": "AI·AR 기반 아날로그 스마트토이와 글로벌 온·오프라인 교육 플랫폼  ·  특허 3건 · 고객 아동 및 청소년 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.183Z",
+  "updated_at": "2026-10-23T05:43:45.185Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 35,
+ "fields": {
+  "user": null,
+  "name": "제닉스",
+  "industry": "소프트웨어·AI 재능 진단·에듀테크",
+  "stage": "Series A",
+  "region": "세종 나성동",
+  "funding_needed": 0,
+  "team_size": 2,
+  "revenue": 0,
+  "founded_year": 2025,
+  "description": "멀티모달 다차원 재능 진단과 성장 피드백을 제공하는 AI Agent\n주요 사업: 창의성·감성지능·문제해결력·자기주도성 등 미래사회 핵심역량을 AI로 정밀 분석 / 단순 점수화를 넘어 과제 수행 결과와 행동 데이터를 다차원 분석해 개인의 강점과 잠재력 발굴 / LLM·GNN·XAI를 결합해 비정형 교육데이터를 실시간 분석 / 서술형 답안·토론 기록·창작물·프로젝트 산출물의 강점과 약점을 자동 도출하고 맞춤 성장전략 제시\n수익모델: 온라인 재능 진단 이용료, 통합 성장 서비스 구독료, 교육기관용 진단 솔루션 라이선스\n주요 고객: 개인 학습자, 민간 교육기업, 공교육 및 교육청\n주요 시장: 국내 에듀테크 시장, 교육평가 시장, 공교육 AI 전환 시장\n제품: Genixx AI Agent\n지식재산권/특허 약 2건\n주요 성과: 누적 투자유치 약 1억원 / 특허 출원 2건 진행",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "다차원 재능 분석 / 멀티모달 교육데이터 처리 / 설명가능 AI 기반 피드백 / 개인별 맞춤 성장전략",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 2,
+   "follow_on_funding": 10000,
+   "has_overseas": false,
+   "key_customers": [
+    "개인 학습자",
+    "민간 교육기업",
+    "공교육 및 교육청"
+   ],
+   "key_markets": [
+    "국내 에듀테크 시장",
+    "교육평가 시장",
+    "공교육 AI 전환 시장"
+   ],
+   "revenue_model": [
+    "온라인 재능 진단 이용료",
+    "통합 성장 서비스 구독료",
+    "교육기관용 진단 솔루션 라이선스"
+   ],
+   "achievement_count": 2,
+   "products_count": 1
+  },
+  "financials": null,
+  "summary": "멀티모달 다차원 재능 진단과 성장 피드백을 제공하는 AI Agent  ·  후속투자 1억 원 · 특허 2건 · 고객 개인 학습자 등",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.188Z",
+  "updated_at": "2026-10-23T05:43:45.190Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 36,
+ "fields": {
+  "user": null,
+  "name": "유어케이스",
+  "industry": "이동통신·외국인 생활지원·AI 챗봇",
+  "stage": "Seed",
+  "region": "서울 서초구",
+  "funding_needed": 0,
+  "team_size": 7,
+  "revenue": 0,
+  "founded_year": 2024,
+  "description": "[단계: 엔젤투자 · 시제품 제작]\n개인화 AI 챗봇을 활용한 외국인 맞춤 통신 추천 및 한국생활 통합지원 플랫폼\n주요 사업: 한국을 방문하거나 장기 체류하는 외국인의 통신 가입·개통 문제를 해결하는 개인화 AI 챗봇 개발 / 국적·비자·체류기간과 이용조건에 따라 최적 통신상품을 자동 추천·개통 / 기존 통신 대리점의 수기 정책 매칭 과정을 AI Agent가 자동 처리하도록 구조화 / 숙박·비자·뷰티·의료 등 한국생활 전반으로 확장 가능한 외국인 정착용 라이프스타일 플랫폼 구축\n수익모델: eSIM·USIM·후불·선불 통신상품 판매 수수료, 숙소·뷰티·비자·생활 서비스 제휴 커미션, 일본 현지 사전결제 K-Lifestyle 패키지 판매\n주요 고객: 한국 방문 일본인, 한국 거주 일본인, 국내 방문 및 체류 외국인\n주요 시장: 한국 인바운드 관광시장, 외국인 통신시장, 외국인 정착지원 시장\n제품: Hanamichi, 외국인 통신 추천 AI 챗봇\n주요 성과: 누적 투자유치 약 2.5억원 / 통신 정책 매칭 기반 개인화 통신상품 추천 시스템 특허 출원 준비 / 다국어 On-device 통역 기술 기초연구 및 디딤돌 R&D 지원사업 수행 / 팁스 및 관광기업 혁신바우처 선정 / 외국인 통신 개통 1,000건 이상 달성 / 국내 인바운드 외국인 여행업계 다수 파트너십 체결\n해외 진출: 일본 현지 사전결제 상품 운영 / 일본 여행사와 파트너십 체결 / 향후 일본인 중심에서 전체 외국인으로 서비스 확대",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "국적·비자·체류기간 기반 통신상품 추천 / 다국어 On-device 통역 / RAG 기반 정책 매칭 / 외국인 생활정보 통합지원",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 0,
+   "follow_on_funding": 50000,
+   "has_overseas": true,
+   "key_customers": [
+    "한국 방문 일본인",
+    "한국 거주 일본인",
+    "국내 방문 및 체류 외국인"
+   ],
+   "key_markets": [
+    "한국 인바운드 관광시장",
+    "외국인 통신시장",
+    "외국인 정착지원 시장"
+   ],
+   "revenue_model": [
+    "eSIM·USIM·후불·선불 통신상품 판매 수수료",
+    "숙소·뷰티·비자·생활 서비스 제휴 커미션",
+    "일본 현지 사전결제 K-Lifestyle 패키지 판매"
+   ],
+   "achievement_count": 6,
+   "products_count": 2
+  },
+  "financials": null,
+  "summary": "개인화 AI 챗봇을 활용한 외국인 맞춤 통신 추천 및 한국생활 통합지원 플랫폼  ·  후속투자 5억 원 · 고객 한국 방문 일본인 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.192Z",
+  "updated_at": "2026-10-23T05:43:45.193Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 37,
+ "fields": {
+  "user": null,
+  "name": "에스엠해썹",
+  "industry": "푸드테크·AI 생산관리·품질예측",
+  "stage": "Seed",
+  "region": "경기 오산시",
+  "funding_needed": 0,
+  "team_size": 18,
+  "revenue": 0,
+  "founded_year": 2024,
+  "description": "푸드테크 AI Agent 기반 식품 생산·품질예측 및 공정관리 플랫폼\n주요 사업: 다품종 소량생산과 공정 표준화의 어려움으로 발생하는 식품 품질 편차와 불량 문제를 AI로 관리 / 식품 공정 데이터를 기반으로 이상을 사전에 예측하고 생산효율을 높이는 푸드테크 AI 플랫폼 구축 / 수분·염도 등 품질 특성과 온도·압력·속도 등 설비 변수를 실시간 분석해 완제품 품질을 예측 / 공정 제어값을 제시하고 관리자의 승인하에 제어가 이뤄지도록 하며 실제 데이터로 AI 모델을 지속 고도화\n수익모델: 월 30만원대 구독형 SaaS, 기업 맞춤형 구축 공급, 유지보수 및 추가 모듈 판매\n주요 고객: 식품 제조업체, HACCP 인증 사업장, 스마트팩토리 도입 기업\n주요 시장: 국내 식품제조 시장, 스마트팩토리 시장, 글로벌 식품안전 시장\n제품: SMHACCP AI 생산·품질 플랫폼\n지식재산권/특허 약 4건\n주요 성과: 누적 투자유치 약 1.4억원 / 특허 4건, 저작권 4건, 상표권 5건 / 중소기업 AI 전환 우수사례 공모전 최우수상 및 장관상 / 패스트트랙 농식품 데모데이 우수상 / 스마트공장 공급기업 역량진단 우수기업 레벨3 선정 / 신용보증기금 NEST 및 농식품 기술창업 액셀러레이터 육성지원사업 선정\n해외 진출: 2026년 베트남 PoC 실증 추진 / 2027년 싱가포르 법인 설립을 통한 글로벌 진출 추진",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "AI 기반 품질 사전예측 / 실시간 공정변수 분석 / 관리자 승인형 공정 제어 / HACCP·스마트팩토리 연계",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 4,
+   "follow_on_funding": 40000,
+   "has_overseas": true,
+   "key_customers": [
+    "식품 제조업체",
+    "HACCP 인증 사업장",
+    "스마트팩토리 도입 기업"
+   ],
+   "key_markets": [
+    "국내 식품제조 시장",
+    "스마트팩토리 시장",
+    "글로벌 식품안전 시장"
+   ],
+   "revenue_model": [
+    "월 30만원대 구독형 SaaS",
+    "기업 맞춤형 구축 공급",
+    "유지보수 및 추가 모듈 판매"
+   ],
+   "achievement_count": 8,
+   "products_count": 1
+  },
+  "financials": null,
+  "summary": "푸드테크 AI Agent 기반 식품 생산·품질예측 및 공정관리 플랫폼  ·  후속투자 4억 원 · 특허 4건 · 고객 식품 제조업체 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.195Z",
+  "updated_at": "2026-10-23T05:43:45.197Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 38,
+ "fields": {
+  "user": null,
+  "name": "아워스팟",
+  "industry": "소프트웨어·로컬 육아·방과후 스케줄링",
+  "stage": "Series A",
+  "region": "서울 마포구",
+  "funding_needed": 0,
+  "team_size": 5,
+  "revenue": 0,
+  "founded_year": 2022,
+  "description": "[단계: Series A · 시장검증]\n초등 저학년 육아 문제를 해결하는 로컬데이터 기반 방과후 스케줄러 및 돌봄 서비스\n주요 사업: 초등 1~3학년 자녀를 둔 가정의 등·하원, 간식, 숙제, 클래스 문제를 해결하는 로컬 라이프스타일 케어 브랜드 운영 / 로컬 오프라인 매장을 기반으로 픽업·간식·숙제·클래스 서비스를 제공 / 아이의 개별 스케줄을 관리하는 멤버십 기반 방과후 케어 서비스 제공 / 로컬에서 수집되는 학습·육아 데이터를 통해 키즈패밀리 맞춤형 클래스를 제공하는 데이터 솔루션 확장\n수익모델: 로컬 육아 서비스 멤버십 구독료, 온라인 육아 솔루션 중개 수수료, 클래스 및 돌봄 프로그램 이용료\n주요 고객: 7~9세 자녀를 둔 가정, 초등 저학년 학부모, 맞벌이 가정\n주요 시장: 서울 지역 초등 방과후 돌봄시장, 로컬 육아 서비스 시장\n제품: 아워스팟 방과후 케어, 방과후 스케줄러\n지식재산권/특허 약 1건\n주요 성과: 공동대표 장지혜(1996년생), 윤홍석(1998년생) / 누적 투자유치 약 2억원 / TIPS 선정 전 고용 3명에서 선정 후 5명으로 확대 / 국내 특허 출원 1건, 국내 상표권 8건 / 현대건설 오픈이노베이션 선정 및 아파트 커뮤니티 협업모델 추진",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "로컬 오프라인 매장 기반 돌봄 / 픽업·간식·숙제·수업 통합관리 / 멤버십형 방과후 케어 / 학습·육아 데이터 기반 추천",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 1,
+   "follow_on_funding": 20000,
+   "has_overseas": false,
+   "key_customers": [
+    "7~9세 자녀를 둔 가정",
+    "초등 저학년 학부모",
+    "맞벌이 가정"
+   ],
+   "key_markets": [
+    "서울 지역 초등 방과후 돌봄시장",
+    "로컬 육아 서비스 시장"
+   ],
+   "revenue_model": [
+    "로컬 육아 서비스 멤버십 구독료",
+    "온라인 육아 솔루션 중개 수수료",
+    "클래스 및 돌봄 프로그램 이용료"
+   ],
+   "achievement_count": 5,
+   "products_count": 2
+  },
+  "financials": null,
+  "summary": "초등 저학년 육아 문제를 해결하는 로컬데이터 기반 방과후 스케줄러 및 돌봄 서비스  ·  후속투자 2억 원 · 특허 1건 · 고객 7~9세 자녀를 둔 가정 등",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.199Z",
+  "updated_at": "2026-10-23T05:43:45.200Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 39,
+ "fields": {
+  "user": null,
+  "name": "아르바임",
+  "industry": "디지털콘텐츠·글로벌 마케팅·멀티모달 AI",
+  "stage": "R&D · BM 고도화 · 사업화 진입",
+  "region": "서울 강남구",
+  "funding_needed": 0,
+  "team_size": 12,
+  "revenue": 0,
+  "founded_year": 2020,
+  "description": "중소기업의 글로벌 마케팅을 위한 멀티모달 AI 기반 리뷰·평가·정산 솔루션\n주요 사업: K-Beauty 브랜드의 글로벌 진출 과정에서 발생하는 현지 리뷰 부족 문제를 해결 / 영상 리뷰 UGC의 품질·전환율·참여도를 AI로 분석하는 G6 리뷰 품질지수 기술 개발 / 분석된 지표를 기반으로 브랜드와 크리에이터를 자동 매칭하는 엔진 구축 / TikTok Shop 등 글로벌 숏폼 커머스에서 매출 전환율을 높이는 AI 기술 개발\n수익모델: 해외 인플루언서 캠페인 대행, 메가셀러 Usage Rights 기반 라이선스, TikTok Shop 판매 매출 10% 공유, AI 리뷰 분석·매칭 SaaS 구독\n주요 고객: Dr. Melaxin, VE GREEN, CEPOLAB, 글로벌 진출을 희망하는 K-Beauty 브랜드\n주요 시장: 미국, 영국, 동남아시아, 글로벌 K-Beauty 시장\n제품: GREYD, G6 리뷰 품질지수\n지식재산권/특허 약 4건\n주요 성과: 누적 투자유치 5억원 / 본사 및 해외 포함 고용인원 12명 / AI 리뷰 영상 분석 및 자동 매칭 관련 특허 등록 4건 / K-Beauty 글로벌 확장을 위한 UGC 기반 데이터 커머스 모델 구축 / GREYD App 베타·리뷰 분석·자동 매칭 출시 준비\n해외 진출: TikTok Shop 미국·영국·동남아시아 시장 운영 / Instagram Reels 및 YouTube Shorts 캠페인 / Amazon Creator Connection 연계",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "G6 리뷰 품질지수 / 브랜드·크리에이터 자동 매칭 / UGC 전환율 예측 / 글로벌 리뷰어 네트워크",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 4,
+   "follow_on_funding": 50000,
+   "has_overseas": true,
+   "key_customers": [
+    "Dr. Melaxin",
+    "VE GREEN",
+    "CEPOLAB",
+    "글로벌 진출을 희망하는 K-Beauty 브랜드"
+   ],
+   "key_markets": [
+    "미국",
+    "영국",
+    "동남아시아",
+    "글로벌 K-Beauty 시장"
+   ],
+   "revenue_model": [
+    "해외 인플루언서 캠페인 대행",
+    "메가셀러 Usage Rights 기반 라이선스",
+    "TikTok Shop 판매 매출 10% 공유"
+   ],
+   "achievement_count": 5,
+   "products_count": 2
+  },
+  "financials": null,
+  "summary": "중소기업의 글로벌 마케팅을 위한 멀티모달 AI 기반 리뷰·평가·정산 솔루션  ·  후속투자 5억 원 · 특허 4건 · 고객 Dr. Melaxin 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.202Z",
+  "updated_at": "2026-10-23T05:43:45.203Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 40,
+ "fields": {
+  "user": null,
+  "name": "바이오플레이",
+  "industry": "스마트 콜드체인·AIoT·의약품 물류",
+  "stage": "Seed",
+  "region": "경기 화성시",
+  "funding_needed": 0,
+  "team_size": 1,
+  "revenue": 0,
+  "founded_year": 2022,
+  "description": "[단계: 엔젤투자 · 시제품 제작]\nAI 기반 정밀 의약품 운송·보관 스마트 콜드체인과 AIoT 창고 운영 자동화 시스템\n주요 사업: 정온 운송용기와 자동 온도기록장치의 운영·관리를 통합한 의약품 콜드체인 플랫폼 개발 / 기업별 IoT 기술을 적용한 LTE 기반 실시간 온도 모니터링 센서 및 IoT 인식형 스마트 패키징 개발 / EPP·EPS 용기 및 파우치를 자체 개발해 특허 출원·등록 / 의약품·백신·신선식품 등 온도에 민감한 화물의 운송과 보관을 AI 기반으로 자동화\n수익모델: 검체 및 의약품 정온 운송 서비스, 스마트 콜드체인 솔루션 공급, 정온 운송용기 및 IoT 센서 판매, AIoT 창고관리 시스템 구축\n주요 고객: 생물학적 의약품 제조사, 의약품 유통사, 물류사, 운송사\n주요 시장: 국내 의약품 콜드체인, 백신 및 검체 물류, 러시아 의약품 콜드체인 시장\n제품: BioPlay 스마트 콜드체인 플랫폼, IoT 정온 운송 패키지, AIoT 창고관리 자동화 시스템\n지식재산권/특허 약 8건\n주요 성과: 씨엔티테크 엔젤투자 유치 / 국내 특허 출원 2건·등록 5건, 해외 특허 1건, 디자인권 2건 / 국내 난임 세포 전문 연구소와 검체 운송 서비스 공급계약 체결 / 국내 의약품 유통 점유율 1위 기업에 센서 공급 / 서울바이오허브 R&D 전환분야 지원사업 선정 / 중기부 창업성장기술개발사업 R&D 첫걸음 선정\n해외 진출: 러시아 현지 파트너와 협력해 러시아 의약품 콜드체인 솔루션 공급 활동 진행",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "LTE 기반 실시간 온도 모니터링 / IoT 인식형 스마트 패키징 / AI 기반 창고관리 자동화 / 정온 운송용기·기록장치 통합관리",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 8,
+   "follow_on_funding": 0,
+   "has_overseas": true,
+   "key_customers": [
+    "생물학적 의약품 제조사",
+    "의약품 유통사",
+    "물류사",
+    "운송사",
+    "검체 연구기관"
+   ],
+   "key_markets": [
+    "국내 의약품 콜드체인",
+    "백신 및 검체 물류",
+    "러시아 의약품 콜드체인 시장"
+   ],
+   "revenue_model": [
+    "검체 및 의약품 정온 운송 서비스",
+    "스마트 콜드체인 솔루션 공급",
+    "정온 운송용기 및 IoT 센서 판매"
+   ],
+   "achievement_count": 8,
+   "products_count": 3
+  },
+  "financials": null,
+  "summary": "AI 기반 정밀 의약품 운송·보관 스마트 콜드체인과 AIoT 창고 운영 자동화 시스템  ·  특허 8건 · 고객 생물학적 의약품 제조사 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.205Z",
+  "updated_at": "2026-10-23T05:43:45.207Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 41,
+ "fields": {
+  "user": null,
+  "name": "리피즈",
+  "industry": "소프트웨어·푸드테크·주방 자동화",
+  "stage": "Seed",
+  "region": "서울 성동구",
+  "funding_needed": 0,
+  "team_size": 6,
+  "revenue": 0,
+  "founded_year": 2022,
+  "description": "[단계: 시제품 제작 · 시장검증]\nRAG·LLM·LSTM 기반 외식업 매출·재고 예측 및 주방 운영 자동화 시스템\n주요 사업: RAG·LLM·LSTM을 결합해 외식업 매출과 재고를 실시간 예측하고 운영을 자동화 / 외식업 주방의 비효율적인 조리 과정을 인공지능과 로봇기술로 자동화 / 조리로봇·로봇바텐더·클라우드 플랫폼·레트로핏 조리모듈을 융합해 주방 업무의 90% 이상 자동화를 목표로 통합솔루션 개발\n수익모델: 주방 자동화 하드웨어 설치비, 카트리지형·레토르트 식품 판매, SaaS형 매출·재고 데이터 서비스, 외식업 운영 자동화 구독료\n주요 고객: 외식 프랜차이즈, F&B 산업 사업자, 다점포 외식기업, 주방 자동화 수요기업\n주요 시장: 국내 외식업, 프랜차이즈 시장, 푸드 로보틱스 시장\n제품: 리피즈 외식업 운영 자동화 SaaS, 클라우드 로봇주방\n지식재산권/특허 약 6건\n주요 성과: 누적 투자유치 약 1억원 / 국내 특허 출원 5건·등록 1건, 국내 상표 등록 1건 / 청년창업사관학교 및 예비창업자 패키지 협업 진행 / 국내 1,300개 매장과 30개 프랜차이즈 제휴 추진\n해외 진출: 국내 1,300개 매장 및 30개 프랜차이즈와 협업 추진",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "RAG·LLM·LSTM 통합 예측 / 매출·재고 자동 예측 / 레트로핏 조리모듈 / 클라우드 기반 로봇주방",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 6,
+   "follow_on_funding": 10000,
+   "has_overseas": true,
+   "key_customers": [
+    "외식 프랜차이즈",
+    "F&B 산업 사업자",
+    "다점포 외식기업",
+    "주방 자동화 수요기업"
+   ],
+   "key_markets": [
+    "국내 외식업",
+    "프랜차이즈 시장",
+    "푸드 로보틱스 시장"
+   ],
+   "revenue_model": [
+    "주방 자동화 하드웨어 설치비",
+    "카트리지형·레토르트 식품 판매",
+    "SaaS형 매출·재고 데이터 서비스"
+   ],
+   "achievement_count": 4,
+   "products_count": 2
+  },
+  "financials": null,
+  "summary": "RAG·LLM·LSTM 기반 외식업 매출·재고 예측 및 주방 운영 자동화 시스템  ·  후속투자 1억 원 · 특허 6건 · 고객 외식 프랜차이즈 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.209Z",
+  "updated_at": "2026-10-23T05:43:45.211Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 42,
+ "fields": {
+  "user": null,
+  "name": "뉴럴트윈",
+  "industry": "소프트웨어·리테일테크·AI 컴퓨터 에이전트",
+  "stage": "MVP 개발",
+  "region": "서울 강남구",
+  "funding_needed": 0,
+  "team_size": 4,
+  "revenue": 0,
+  "founded_year": 2025,
+  "description": "AI 컴퓨터 에이전트 기반 오프라인 리테일 비즈니스 최적화·자동화 솔루션\n주요 사업: 오프라인 리테일 매장의 비표준 운영과 의사결정 문제를 해결하는 AI 컴퓨터 에이전트 개발 / 매출증대·매장운영·인력운영 등 운영 전반의 의사결정을 예측하고 실행해 CAPEX·OPEX를 절감 / 센서·컴퓨터비전 데이터 수집, 데이터 표준화, AI 시뮬레이션과 예측을 결합해 오프라인 리테일 비즈니스를 최적화·자동화\n수익모델: 라이선스 기반 SaaS 구독료, 기능별 Add-on 서비스, PoC 프로젝트 비용\n주요 고객: 리테일 브랜드, 실물 매장 운영기업, 쇼핑몰, 프랜차이즈\n주요 시장: 국내외 오프라인 리테일 시장, 프랜차이즈 운영시장\n제품: NeuralTwin Retail Computer Agent\n주요 성과: 누적 투자유치 1억원 / 디지털트윈·리테일 분석 관련 특허 출원 준비 / 국내 패션 리테일 매장 PoC 서울·보스턴·파리·맨체스터 기반 글로벌 팀 구성\n해외 진출: 다양한 국가 및 지역 PoC 추진",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "AI 기반 매장 시뮬레이션 / 운영 의사결정 자동화 / 센서·컴퓨터비전 데이터 통합 / CAPEX·OPEX 최적화",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 0,
+   "follow_on_funding": 10000,
+   "has_overseas": true,
+   "key_customers": [
+    "리테일 브랜드",
+    "실물 매장 운영기업",
+    "쇼핑몰",
+    "프랜차이즈"
+   ],
+   "key_markets": [
+    "국내외 오프라인 리테일 시장",
+    "프랜차이즈 운영시장"
+   ],
+   "revenue_model": [
+    "라이선스 기반 SaaS 구독료",
+    "기능별 Add-on 서비스",
+    "PoC 프로젝트 비용"
+   ],
+   "achievement_count": 3,
+   "products_count": 1
+  },
+  "financials": null,
+  "summary": "AI 컴퓨터 에이전트 기반 오프라인 리테일 비즈니스 최적화·자동화 솔루션  ·  후속투자 1억 원 · 고객 리테일 브랜드 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.213Z",
+  "updated_at": "2026-10-23T05:43:45.214Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 43,
+ "fields": {
+  "user": null,
+  "name": "슬립웨이브",
+  "industry": "디지털 헬스케어·수면관리 SaaS·생체신호 분석",
+  "stage": "Series A",
+  "region": "서울 강서구",
+  "funding_needed": 0,
+  "team_size": 10,
+  "revenue": 0,
+  "founded_year": 2024,
+  "description": "[단계: Series A · BM 고도화]\n실시간 생체신호 기반 인터랙티브 수면개선 SaaS\n주요 사업: 웨어러블에서 수집한 고해상도 PPG 신호를 실시간 분석해 HR·HRV 등 핵심 생체지표를 의료기기 수준으로 도출 / 미세한 움직임과 노이즈를 제거하고 ECG·HRV 융합 학습모델로 결과의 정확도를 개선 / 뇌파와 생체신호 변화를 반영해 바이노럴 비트 기반 뇌파동조 사운드를 생성하는 맞춤형 인터랙티브 수면관리 서비스 개발 / 개인별 수면단계·위상 기반 맞춤 사운드와 바이오피드백 콘텐츠 제공\n수익모델: 앱 기반 소비자 구독료, 기업고객용 솔루션 라이선스, 헬스케어 기업 협력 서비스\n주요 고객: 일반 소비자, 복지·의료·헬스케어 서비스 기업, 보험사\n주요 시장: 수면관리 시장, 디지털 치료 및 웰니스 시장, 기업복지 헬스케어 시장\n제품: Sleepwave\n지식재산권/특허 약 11건\n주요 성과: 누적 투자유치 약 7억원 / 국내 특허 등록 7건, 해외 특허 출원 4건, 국내 상표 등록 3건 / 서울경제진흥원 워크노믹스 지원사업 선정 / 기술보증기금 벤처캠프 16기 선정 / 삼성화재 유니콘브릿지 및 호반혁신기술공모전 선정·수상",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "실시간 PPG·HRV 분석 / 노이즈 제거 생체신호 알고리즘 / 바이노럴 비트 수면 사운드 / 개인별 인터랙티브 수면 피드백",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 11,
+   "follow_on_funding": 70000,
+   "has_overseas": false,
+   "key_customers": [
+    "일반 소비자",
+    "복지·의료·헬스케어 서비스 기업",
+    "보험사"
+   ],
+   "key_markets": [
+    "수면관리 시장",
+    "디지털 치료 및 웰니스 시장",
+    "기업복지 헬스케어 시장"
+   ],
+   "revenue_model": [
+    "앱 기반 소비자 구독료",
+    "기업고객용 솔루션 라이선스",
+    "헬스케어 기업 협력 서비스"
+   ],
+   "achievement_count": 5,
+   "products_count": 1
+  },
+  "financials": null,
+  "summary": "실시간 생체신호 기반 인터랙티브 수면개선 SaaS  ·  후속투자 7억 원 · 특허 11건 · 고객 일반 소비자 등",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.217Z",
+  "updated_at": "2026-10-23T05:43:45.219Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 44,
+ "fields": {
+  "user": null,
+  "name": "루트파인더즈",
+  "industry": "소프트웨어·음성인식·접근성 결제",
+  "stage": "Series A",
+  "region": "충남 천안시",
+  "funding_needed": 0,
+  "team_size": 10,
+  "revenue": 0,
+  "founded_year": 2023,
+  "description": "[단계: Series A · 시장검증]\n화자 검증과 음성 워터마크를 결합한 시각장애인용 음성결제·콘텐츠 플랫폼\n주요 사업: ECAPA-TDNN 기반 음성 워터마킹 및 화자 검증으로 시각장애인의 디지털 결제 접근성 문제 해결 / AES 암호화로 결제정보를 보호하고 안전하고 자율적인 음성결제 환경 구축 / 스크린리더와 완전 호환되는 음성 중심 UI를 적용해 카드 등록·결제·내역 조회를 자율 수행 / 뉴스·쇼핑·게임 등 콘텐츠와 음성결제를 연결한 EasyPlus 플랫폼 운영\n수익모델: B2C 구독형 콘텐츠 판매, B2B 음성결제 API 이용료, 콘텐츠 입점 수수료, B2G 실증사업\n주요 고객: 시각장애인, 고령자, 지체장애인, 디지털 접근성 취약계층\n주요 시장: 접근성 결제시장, 복지·공공 디지털 서비스, 음성인식 핀테크 시장\n제품: EasyPlus, 음성결제 API\n지식재산권/특허 약 4건\n주요 성과: 누적 투자유치 4.4억원 / 국내 특허 등록 3건, PCT 국제특허 출원 1건 / 제8회 소셜벤처 혁신 경연대회 대상 / CES Innovation Awards Accessibility & AgeTech 부문 수상 외 6건\n해외 진출: 미국 해외법인 설립 / 국내외 유관기관 및 콘텐츠사와 MOU 5건 체결",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "ECAPA-TDNN 화자 검증 / 음성 워터마킹 / AES 암호화 / 스크린리더 완전 호환",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 4,
+   "follow_on_funding": 40000,
+   "has_overseas": true,
+   "key_customers": [
+    "시각장애인",
+    "고령자",
+    "지체장애인",
+    "디지털 접근성 취약계층"
+   ],
+   "key_markets": [
+    "접근성 결제시장",
+    "복지·공공 디지털 서비스",
+    "음성인식 핀테크 시장"
+   ],
+   "revenue_model": [
+    "B2C 구독형 콘텐츠 판매",
+    "B2B 음성결제 API 이용료",
+    "콘텐츠 입점 수수료"
+   ],
+   "achievement_count": 4,
+   "products_count": 2
+  },
+  "financials": null,
+  "summary": "화자 검증과 음성 워터마크를 결합한 시각장애인용 음성결제·콘텐츠 플랫폼  ·  후속투자 4억 원 · 특허 4건 · 고객 시각장애인 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.221Z",
+  "updated_at": "2026-10-23T05:43:45.223Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 45,
+ "fields": {
+  "user": null,
+  "name": "더윤슬",
+  "industry": "소프트웨어·수출 리스크 관리·글로벌 무역 SaaS",
+  "stage": "Series A",
+  "region": "제주 제주시",
+  "funding_needed": 0,
+  "team_size": 6,
+  "revenue": 0,
+  "founded_year": 2023,
+  "description": "[단계: Series A · 시장출시]\n수출 리스크 감지와 대상국 맞춤형 정보 생성을 지원하는 AI 기반 수출 OP 솔루션\n주요 사업: 국가별 규제·관세 변화·물류 지연·가격 및 시장성 판단 등 글로벌 수출과정의 비효율을 해결하는 RAG·LLM 기반 AI OP 솔루션 개발 / Globhublink가 보유한 관세청·환율·국가별 규제·물류 API 데이터를 통합해 국가별 수출 리스크를 사전 감지 / 관세 시뮬레이션·시장분석·수출신고 자동화 지원 / AI 기반 DRO 챗봇과 API를 제공하는 B2B SaaS 구축\n수익모델: 해외판매 위탁대행 수수료, 수출 OP 플랫폼 구독료, 무역 API 이용료, 수출 마케팅 서비스\n주요 고객: 해외판매를 원하는 중소기업, 소상공인, 수출 초보기업\n주요 시장: 글로벌 이커머스, 중소기업 수출시장, 무역 디지털전환 시장\n제품: Globhublink, AI 수출 OP 솔루션, AI DRO 챗봇\n지식재산권/특허 약 4건\n주요 성과: 누적 투자유치 약 5.5억원 / 국내 특허 등록 1건·출원 3건, 상표 등록 8건 / SSG.COM·트렌드메카 등 다수 기업과 글로벌 위탁운영 계약\n해외 진출: Globhublink를 통해 8개국 13개 판매채널 운영 / 2024~2025년 SSG.COM·트렌드메카 등과 글로벌 위탁운영 계약 / 2025년 호주 KATCH와 MOU 체결",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "국가별 수출 리스크 사전감지 / 관세 시뮬레이션 / 수출신고 자동화 / RAG·LLM 기반 무역 챗봇",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 4,
+   "follow_on_funding": 50000,
+   "has_overseas": true,
+   "key_customers": [
+    "해외판매를 원하는 중소기업",
+    "소상공인",
+    "수출 초보기업"
+   ],
+   "key_markets": [
+    "글로벌 이커머스",
+    "중소기업 수출시장",
+    "무역 디지털전환 시장"
+   ],
+   "revenue_model": [
+    "해외판매 위탁대행 수수료",
+    "수출 OP 플랫폼 구독료",
+    "무역 API 이용료"
+   ],
+   "achievement_count": 3,
+   "products_count": 3
+  },
+  "financials": null,
+  "summary": "수출 리스크 감지와 대상국 맞춤형 정보 생성을 지원하는 AI 기반 수출 OP 솔루션  ·  후속투자 5억 원 · 특허 4건 · 고객 해외판매를 원하는 중소기업 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.225Z",
+  "updated_at": "2026-10-23T05:43:45.226Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 46,
+ "fields": {
+  "user": null,
+  "name": "하이비스",
+  "industry": "소프트웨어·AI 운동관리·디지털 헬스케어",
+  "stage": "Seed",
+  "region": "경기 화성시",
+  "funding_needed": 0,
+  "team_size": 6,
+  "revenue": 0,
+  "founded_year": 2023,
+  "description": "내담자 운동데이터 저장·유통과 생성형 AI 운동 프로그램·보조 코칭 플랫폼\n주요 사업: 의료·운동시설의 회원 운동데이터 통합관리 SaaS Linko 운영 / 관리자·회원용 앱과 AI 웹을 통해 운영 자동화 및 맞춤 코칭 제공 / 누적 운동데이터 1,650만 건, 370개 이상의 시설 및 활성 사용자 7만 명 데이터를 기반으로 AI 운동프로그램 생성과 실시간 보조 코칭 고도화 / 데이터 웨어하우스와 AI 모델을 구축해 개인화 운동 구성·센서 피드백·난이도 조절·부상 예방 지원\n수익모델: 시설용 Linko SaaS 구독료, AI 운동프로그램 자동생성 기능, 보조 코칭 기능 판매, B2C 운동 콘텐츠 마켓플레이스\n주요 고객: 피트니스·운동처방 센터, 학교·공공 스포츠기관, 병원·보건의료기관, 일반 운동 사용자\n주요 시장: 피트니스 SaaS, 재활운동, 디지털 헬스케어, AI 코칭 시장\n제품: Linko, AI 운동 코치\n주요 성과: 누적 투자유치 약 1억원 / 핵심 알고리즘 관련 특허 6건 준비 / 370개 이상의 시설 도입, WAU 7만 명 이상, 누적 운동데이터 1,650만 건\n해외 진출: 해외 체육 체인 및 파트너와 글로벌 확장 추진 / 국내 선출원을 기반으로 PCT 특허 확장 로드맵 수립",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "1,650만 건 운동데이터 / AI 운동프로그램 자동생성 / 실시간 보조 코칭 / 센서 기반 난이도 조절·부상예방",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 0,
+   "follow_on_funding": 10000,
+   "has_overseas": true,
+   "key_customers": [
+    "피트니스·운동처방 센터",
+    "학교·공공 스포츠기관",
+    "병원·보건의료기관",
+    "일반 운동 사용자"
+   ],
+   "key_markets": [
+    "피트니스 SaaS",
+    "재활운동",
+    "디지털 헬스케어",
+    "AI 코칭 시장"
+   ],
+   "revenue_model": [
+    "시설용 Linko SaaS 구독료",
+    "AI 운동프로그램 자동생성 기능",
+    "보조 코칭 기능 판매"
+   ],
+   "achievement_count": 3,
+   "products_count": 2
+  },
+  "financials": null,
+  "summary": "내담자 운동데이터 저장·유통과 생성형 AI 운동 프로그램·보조 코칭 플랫폼  ·  후속투자 1억 원 · 고객 피트니스·운동처방 센터 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.228Z",
+  "updated_at": "2026-10-23T05:43:45.229Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 47,
+ "fields": {
+  "user": null,
+  "name": "여명거리",
+  "industry": "소프트웨어·생성형 AI·글로벌 콘텐츠 마케팅",
+  "stage": "Seed",
+  "region": "서울 종로구",
+  "funding_needed": 0,
+  "team_size": 5,
+  "revenue": 0,
+  "founded_year": 2023,
+  "description": "[단계: 엔젤투자 · 시제품 제작]\n글로벌 콘텐츠 ROI 극대화를 위한 고정밀 다국어 xAI 콘텐츠 최적화 기술\n주요 사업: 소상공인의 콘텐츠 제작·업로드·성과분석 등 SNS 마케팅 전 과정을 AI로 자동화 / 기존 AI 도구가 제공하지 못하는 지역별 실질적 마케팅 자동화 지원 / 콘텐츠 생성부터 스케줄링·성과예측·최적화까지 전 과정을 처리하는 플랫폼 개발 / 다국어 xAI 생성기술과 성과 최적화 엔진을 고도화해 실제 마케팅 성과 향상\n수익모델: 오토케 플랫폼 구독료, AI 콘텐츠 생성·스케줄링·성과분석 기능 판매\n주요 고객: 국내 소상공인, 글로벌 판매를 준비하는 중소사업자, SNS 마케팅 대행사\n주요 시장: 국내 700만 소상공인 시장, 글로벌 소셜마케팅 SaaS 시장\n제품: 오토케\n지식재산권/특허 약 5건\n주요 성과: 누적 투자유치 약 3억원 / 국내 특허 출원 4건, 해외 특허 출원 1건, 국내 상표 출원 2건 / 정주영창업경진대회 대상 / 벤처창업경진대회 대상\n해외 진출: 다국어 콘텐츠 생성 및 글로벌 마케팅 서비스 확장 추진",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "다국어 xAI 콘텐츠 생성 / 콘텐츠 성과 예측 / SNS 마케팅 전 과정 자동화 / 지역별 콘텐츠 최적화",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 5,
+   "follow_on_funding": 30000,
+   "has_overseas": true,
+   "key_customers": [
+    "국내 소상공인",
+    "글로벌 판매를 준비하는 중소사업자",
+    "SNS 마케팅 대행사"
+   ],
+   "key_markets": [
+    "국내 700만 소상공인 시장",
+    "글로벌 소셜마케팅 SaaS 시장"
+   ],
+   "revenue_model": [
+    "오토케 플랫폼 구독료",
+    "AI 콘텐츠 생성·스케줄링·성과분석 기능 판매"
+   ],
+   "achievement_count": 4,
+   "products_count": 1
+  },
+  "financials": null,
+  "summary": "글로벌 콘텐츠 ROI 극대화를 위한 고정밀 다국어 xAI 콘텐츠 최적화 기술  ·  후속투자 3억 원 · 특허 5건 · 고객 국내 소상공인 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.231Z",
+  "updated_at": "2026-10-23T05:43:45.233Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 48,
+ "fields": {
+  "user": null,
+  "name": "마일코퍼레이션",
+  "industry": "소프트웨어·상업용 부동산·AI SDR",
+  "stage": "Seed",
+  "region": "서울 강남구",
+  "funding_needed": 0,
+  "team_size": 6,
+  "revenue": 0,
+  "founded_year": 2023,
+  "description": "[단계: 시제품 제작 및 실용화]\n멀티 에이전트 기반 상업용 부동산 데이터 SDR 어시스턴트\n주요 사업: 고용인원 증감·채용공고·건축물대장·등기부등본·대내외 PR 등 온라인 데이터를 수집해 이전 수요가 있는 잠재 임차기업을 발굴 / 고객에게 전화하는 SDR 업무를 자동 수행하는 MOA SDR Agent 개발 / 잠재 임차기업의 요구와 상황에 맞춰 매물 조건을 취합 / 공인중개사들의 매물을 탐색·비교해 최적 매물을 발굴하는 MOA Finder Agent 개발\n수익모델: 공인중개법인·사무소 파트너십 기반 장기계약, 중개수수료의 30% 커미션, 상업용 부동산 AI SDR 서비스 이용료\n주요 고객: 전용면적 100~1,000㎡ 매물을 찾는 임차기업, 상업용 부동산 공인중개사, 건물주, PM·FM 기업\n주요 시장: GBD 상업용 부동산, 기업 사무실 임대차, 상업용 부동산 중개시장\n제품: MOA SDR Agent, MOA Finder Agent\n지식재산권/특허 약 3건\n주요 성과: 누적 투자유치 약 2억원 / 국내 특허 출원 3건, 상표권 등록 1건 / GBD 일대 30곳 이상의 공인중개법인·사무소와 파트너십 체결 / 정주영창업경진대회 13 성장트랙 우수상",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "온라인 데이터 기반 이전수요 탐지 / 멀티 AI Agent / 자동 SDR 영업 / 임차조건 기반 매물 비교",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 3,
+   "follow_on_funding": 20000,
+   "has_overseas": false,
+   "key_customers": [
+    "전용면적 100~1,000㎡ 매물을 찾는 임차기업",
+    "상업용 부동산 공인중개사",
+    "건물주",
+    "PM·FM 기업"
+   ],
+   "key_markets": [
+    "GBD 상업용 부동산",
+    "기업 사무실 임대차",
+    "상업용 부동산 중개시장"
+   ],
+   "revenue_model": [
+    "공인중개법인·사무소 파트너십 기반 장기계약",
+    "중개수수료의 30% 커미션",
+    "상업용 부동산 AI SDR 서비스 이용료"
+   ],
+   "achievement_count": 4,
+   "products_count": 2
+  },
+  "financials": null,
+  "summary": "멀티 에이전트 기반 상업용 부동산 데이터 SDR 어시스턴트  ·  후속투자 2억 원 · 특허 3건 · 고객 전용면적 100~1,000㎡ 매물을 찾는 임차기업 등",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.235Z",
+  "updated_at": "2026-10-23T05:43:45.236Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 49,
+ "fields": {
+  "user": null,
+  "name": "링더벨",
+  "industry": "정밀화학·화장품 소재·바이오소재",
+  "stage": "Series A",
+  "region": "서울 영등포구",
+  "funding_needed": 0,
+  "team_size": 5,
+  "revenue": 0,
+  "founded_year": 2024,
+  "description": "[단계: Pre-Series A]\n제주 누룩 발효효모 엑소좀 기반 피부기능별 분리형 하이드로겔 마스크팩\n주요 사업: 제주 전통 누룩에서 분리·동정한 고유 효모 S. cerevisiae RTB-01을 기반으로 피부기능별 베제타 하이드로겔 소재 및 유효 엑소좀 원료 개발 / 발효 원료의 효능·안전성 평가와 세포·핵 분석 및 피부 항산화 테스트 수행 / 개발된 발효여과물·엑소좀을 적용해 상·하안면 기능별 Dual-Zone 하이드로겔 마스크팩 구현 / 광채·진정·탄력·리프팅 등 부위별 피부개선 기능을 검증하고 글로벌 시장별 포지셔닝 추진\n수익모델: 발효효모 엑소좀 원료 판매, Dual-Zone 하이드로겔 마스크팩 판매, 한국·미국·일본 파트너를 통한 수출\n주요 고객: K-Beauty에 관심 있는 글로벌 소비자, 화장품 브랜드, 화장품 제조사\n주요 시장: 대한민국, 미국, 중국, 일본\n제품: Dual-Zone 하이드로겔 마스크팩, RTB-01 발효효모 엑소좀\n지식재산권/특허 약 2건\n주요 성과: 누적 투자유치 약 2.6억원 / 국내 특허 등록 1건·출원 1건, 디자인 등록 4건·출원 3건, 국내 상표 등록 4건·출원 5건, 해외 상표 등록 4건·출원 4건 / 벤처기업·창업기업·기업부설연구소 등록 완료\n해외 진출: 중국·일본·베트남·인도네시아·대만·인도 시장 진출 추진 / 미국·일본 파트너와 협업해 수출 진행",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "제주 누룩 유래 RTB-01 / 발효효모 엑소좀 / 상·하안면 분리형 Dual-Zone / 부위별 피부기능 맞춤 하이드로겔",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 2,
+   "follow_on_funding": 60000,
+   "has_overseas": true,
+   "key_customers": [
+    "K-Beauty에 관심 있는 글로벌 소비자",
+    "화장품 브랜드",
+    "화장품 제조사"
+   ],
+   "key_markets": [
+    "대한민국",
+    "미국",
+    "중국",
+    "일본",
+    "베트남"
+   ],
+   "revenue_model": [
+    "발효효모 엑소좀 원료 판매",
+    "Dual-Zone 하이드로겔 마스크팩 판매",
+    "한국·미국·일본 파트너를 통한 수출"
+   ],
+   "achievement_count": 3,
+   "products_count": 2
+  },
+  "financials": null,
+  "summary": "제주 누룩 발효효모 엑소좀 기반 피부기능별 분리형 하이드로겔 마스크팩  ·  후속투자 6억 원 · 특허 2건 · 고객 K-Beauty에 관심 있는 글로벌 소비자 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.238Z",
+  "updated_at": "2026-10-23T05:43:45.240Z"
+ }
+},
+{
+ "model": "core.startupprofile",
+ "pk": 50,
+ "fields": {
+  "user": null,
+  "name": "벨루가",
+  "industry": "소프트웨어·인지측정·치매 예방 디지털 헬스케어",
+  "stage": "2026년 상반기 상용화 예정",
+  "region": "경기 성남시",
+  "funding_needed": 0,
+  "team_size": 1,
+  "revenue": 0,
+  "founded_year": 2022,
+  "description": "치매 조기 탐지와 예방을 위한 자가 인지측정 및 강화훈련 플랫폼\n주요 사업: 인지기능 자가측정 도구와 치매 예방 및 두뇌 건강을 위한 인지훈련 콘텐츠 개발 / AI 최적화를 통해 인지훈련 프로그램을 개인별로 초기화 / 언어별 인지콘텐츠 현지화와 효능성 입증 영상시험이 가능한 통합 인지훈련 플랫폼 개발 / 고령자 및 인지 관련 기관의 사용자 데이터를 축적해 인지기능 측정과 훈련 정확도를 고도화\n수익모델: 개인 이용자 대상 B2C 인지훈련 구독, 글로벌 인지건강 서비스, 헬스케어·시니어케어 기업 대상 B2B 플랫폼, 인지콘텐츠 유통 및 라이선스\n주요 고객: 고령자, 다양한 헬스케어·시니어케어 기업, 인지 관련 연구기관, 인지콘텐츠 공급기업\n주요 시장: 치매 예방시장, 시니어 헬스케어, 인지훈련 콘텐츠 시장, 글로벌 디지털 헬스케어\n제품: BECA, AI 인지훈련 프로그램\n지식재산권/특허 약 1건\n주요 성과: 누적 투자유치 약 22억원 / 향후 5년간 40명 이상 추가 채용 예정 / 국제 학술지 논문 2건 게재·심사 및 특허 1건 등록 / 향후 2년간 국제 학술지 논문 1건과 특허 2건 이상 추가 계획 / 인지훈련 콘텐츠 카카오게임즈와 퍼블리싱 계약 완료\n해외 진출: 언어별 인지콘텐츠 개발을 통한 글로벌 서비스 준비 / 인지콘텐츠를 활용하는 B2C 및 B2B 글로벌 진출 추진",
+  "founder_experience_years": 0,
+  "prior_exits": 0,
+  "mau": 0,
+  "retention_rate": 0,
+  "mom_growth": 0,
+  "market_size": 0,
+  "market_growth": 0,
+  "cac": 0,
+  "ltv": 0,
+  "burn_rate": 0,
+  "runway_months": 0,
+  "differentiation": "자가 인지기능 측정 / AI 개인화 인지훈련 / 다국어 콘텐츠 현지화 / 인지콘텐츠 B2B 유통",
+  "equity_structure": "",
+  "legal_structure": "",
+  "founder_motivation": "",
+  "vision": "",
+  "team_culture": "",
+  "founder_education": "무관",
+  "signals": {
+   "patents": 1,
+   "follow_on_funding": 220000,
+   "has_overseas": true,
+   "key_customers": [
+    "고령자",
+    "다양한 헬스케어·시니어케어 기업",
+    "인지 관련 연구기관",
+    "인지콘텐츠 공급기업"
+   ],
+   "key_markets": [
+    "치매 예방시장",
+    "시니어 헬스케어",
+    "인지훈련 콘텐츠 시장",
+    "글로벌 디지털 헬스케어"
+   ],
+   "revenue_model": [
+    "개인 이용자 대상 B2C 인지훈련 구독",
+    "글로벌 인지건강 서비스",
+    "헬스케어·시니어케어 기업 대상 B2B 플랫폼"
+   ],
+   "achievement_count": 5,
+   "products_count": 2
+  },
+  "financials": null,
+  "summary": "치매 조기 탐지와 예방을 위한 자가 인지측정 및 강화훈련 플랫폼  ·  후속투자 22억 원 · 특허 1건 · 고객 고령자 등 · 해외 진출",
+  "pitch_deck": "",
+  "ir_deck": "",
+  "ir_summary": "",
+  "ir_summary_status": "none",
+  "ir_summary_public": false,
+  "summary_view_count": 0,
+  "created_at": "2026-10-23T05:43:45.242Z",
+  "updated_at": "2026-10-23T05:43:45.243Z"
+ }
+},
+{
+ "model": "core.like",
+ "pk": 1,
+ "fields": {
+  "vc": 11,
+  "startup": 13,
+  "by": "startup",
+  "created_at": "2026-10-23T05:44:06.526Z"
+ }
+},
+{
+ "model": "core.like",
+ "pk": 2,
+ "fields": {
+  "vc": 11,
+  "startup": 13,
+  "by": "vc",
+  "created_at": "2026-10-23T05:44:06.542Z"
+ }
+},
+{
+ "model": "core.match",
+ "pk": 1,
+ "fields": {
+  "vc": 11,
+  "startup": 13,
+  "status": "matched",
+  "matched_at": "2026-10-23T05:44:06.547Z",
+  "requested_by": "",
+  "vc_nda_agreed_at": null,
+  "startup_nda_agreed_at": null,
+  "briefing_vc": "",
+  "briefing_startup": "",
+  "briefing_source": "",
+  "deep_analysis": "",
+  "deep_source": "",
+  "created_at": "2026-10-23T05:44:06.547Z",
+  "updated_at": "2026-10-23T05:44:06.547Z"
+ }
+},
+{
+ "model": "core.notification",
+ "pk": 1,
+ "fields": {
+  "recipient": [
+   "demo_vc"
+  ],
+  "message": "💜 탑테이블님이 회원님(VC)에게 좋아요를 보냈습니다!",
+  "link_startup": 13,
+  "link_vc": 11,
+  "is_read": false,
+  "created_at": "2026-10-23T05:44:06.529Z"
+ }
+},
+{
+ "model": "core.notification",
+ "pk": 2,
+ "fields": {
+  "recipient": [
+   "demo_startup"
+  ],
+  "message": "💜 베이스벤처스님이 회원님의 스타트업에 좋아요를 보냈습니다!",
+  "link_startup": 13,
+  "link_vc": 11,
+  "is_read": false,
+  "created_at": "2026-10-23T05:44:06.545Z"
+ }
+},
+{
+ "model": "core.notification",
+ "pk": 3,
+ "fields": {
+  "recipient": [
+   "demo_startup"
+  ],
+  "message": "💕 매칭 성사! 베이스벤처스와(과) 서로 좋아요했습니다.",
+  "link_startup": 13,
+  "link_vc": 11,
+  "is_read": false,
+  "created_at": "2026-10-23T05:44:06.549Z"
+ }
+},
+{
+ "model": "core.notification",
+ "pk": 4,
+ "fields": {
+  "recipient": [
+   "demo_vc"
+  ],
+  "message": "💕 매칭 성사! 탑테이블와(과) 서로 좋아요했습니다.",
+  "link_startup": 13,
+  "link_vc": 11,
+  "is_read": false,
+  "created_at": "2026-10-23T05:44:06.551Z"
+ }
+},
+{
+ "model": "authtoken.token",
+ "pk": "669346975a99abc75fbf55e3601584ad7a7005be",
+ "fields": {
+  "user": [
+   "demo_vc"
+  ],
+  "created": "2026-10-23T05:44:06.462Z"
+ }
+},
+{
+ "model": "authtoken.token",
+ "pk": "c36f8469485948300b4fea9355cd2c8fd710aeba",
+ "fields": {
+  "user": [
+   "demo_startup"
+  ],
+  "created": "2026-10-23T05:44:06.249Z"
+ }
+}
+]
