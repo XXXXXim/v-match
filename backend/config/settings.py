@@ -100,6 +100,8 @@ if DATABASE_URL:
         conn_max_age=0,            # 서버리스: 요청이 끝나면 연결을 닫는다
         conn_health_checks=True,
     )
+    # 풀러(트랜잭션 모드)를 거치는 연결에서는 서버 측 커서를 쓸 수 없다.
+    DATABASES['default']['DISABLE_SERVER_SIDE_CURSORS'] = True
 
 AUTH_PASSWORD_VALIDATORS = [
     {'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator'},

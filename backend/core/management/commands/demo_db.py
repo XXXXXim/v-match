@@ -30,14 +30,22 @@ def _single_runner():
     if connection.vendor != 'postgresql':
         yield
         return
+    import os
+
     import psycopg
 
-    db = connection.settings_dict
-    lock_conn = psycopg.connect(
-        dbname=db['NAME'], user=db['USER'], password=db['PASSWORD'],
-        host=db['HOST'], port=db['PORT'] or None, autocommit=True,
-        **db.get('OPTIONS', {}),
-    )
+    # 커넥션 풀러(PgBouncer 등)를 거치면 세션 잠금이 다른 사용자에게 넘어가 영영 안 풀릴 수 있다.
+    # 그래서 잠금은 풀러를 거치지 않는 직접 연결 주소로 건다(Neon: DATABASE_URL_UNPOOLED).
+    direct = os.environ.get('DATABASE_URL_UNPOOLED') or os.environ.get('POSTGRES_URL_NON_POOLING')
+    if direct:
+        lock_conn = psycopg.connect(direct, autocommit=True)
+    else:
+        db = connection.settings_dict
+        lock_conn = psycopg.connect(
+            dbname=db['NAME'], user=db['USER'], password=db['PASSWORD'],
+            host=db['HOST'], port=db['PORT'] or None, autocommit=True,
+            **db.get('OPTIONS', {}),
+        )
     try:
         lock_conn.execute('SELECT pg_advisory_lock(%s)', [LOCK_ID])
         yield
