@@ -148,7 +148,9 @@ def login(request):
 @api_view(['POST'])
 @permission_classes([IsAuthenticated])
 def logout(request):
-    Token.objects.filter(user=request.user).delete()
+    # 데모 모드에서 데모 계정 토큰을 지우면 다른 인스턴스와 토큰이 어긋나므로 남겨 둔다.
+    if not (settings.VMATCH_DEMO_MODE and request.user.username in settings.VMATCH_DEMO_USERNAMES):
+        Token.objects.filter(user=request.user).delete()
     return Response({'message': '로그아웃 되었습니다.'})
 
 

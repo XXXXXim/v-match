@@ -132,6 +132,11 @@ CORS_ALLOWED_ORIGINS = [
     'http://127.0.0.1:5173',
 ]
 
+# ----- 공개 데모 모드 -----
+# 서버리스 데모는 인스턴스마다 DB 사본을 따로 가지므로, 데모 계정 토큰은 시드 DB에 미리 넣어 두고 지우지 않는다.
+VMATCH_DEMO_MODE = _env_bool('VMATCH_DEMO_MODE', False)
+VMATCH_DEMO_USERNAMES = ('demo_vc', 'demo_startup')
+
 # ----- V-Match AI 설명 레이어 -----
 # (.env 는 파일 상단에서 이미 로드함)
 # AI 분석 리포트(핵심): 표준 OpenAI(Chat Completions). 키 없으면 템플릿 폴백.

@@ -24,7 +24,7 @@ const routes = [
   { path: '/', name: 'home', component: HomeView },
   { path: '/get-started', name: 'get-started', component: GetStartedView },
   { path: '/signup', name: 'signup', component: SignUpView },
-  { path: '/login', name: 'login', component: SignInView },
+  { path: '/login', name: 'login', component: SignInView, alias: '/signin' },
   { path: '/verify-email', name: 'verify-email', component: VerifyEmailView, meta: { requiresAuth: true } },
   { path: '/vc-profile', name: 'vc-profile', component: VCProfileView, meta: { requiresAuth: true } },
   { path: '/startup-profile', name: 'startup-profile', component: StartupProfileView, meta: { requiresAuth: true } },
@@ -39,6 +39,8 @@ const routes = [
   { path: '/mypage', name: 'mypage', component: MyPageView, meta: { requiresAuth: true } },
   { path: '/community/coffeechats', name: 'coffeechats', component: CoffeeChatListView, meta: { requiresAuth: true } },
   { path: '/community/coffeechats/:id', name: 'coffeechat-thread', component: CoffeeChatThreadView, meta: { requiresAuth: true } },
+  // 없는 주소로 들어오면 빈 화면 대신 홈으로 보낸다.
+  { path: '/:pathMatch(.*)*', redirect: '/' },
 ]
 
 const router = createRouter({

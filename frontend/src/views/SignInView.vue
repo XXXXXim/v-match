@@ -50,7 +50,7 @@ const onSubmit = async () => {
         <button type="button" @click="useDemo('demo_vc')">VC로 로그인</button>
         <button type="button" @click="useDemo('demo_startup')">스타트업으로 로그인</button>
       </div>
-      <p class="demo-note">두 계정이 서로 좋아요를 누르면 매칭되고 AI 실사 리포트가 열립니다. 데모 데이터는 주기적으로 초기화됩니다.</p>
+      <p class="demo-note">데모 VC와 스타트업은 이미 매칭돼 있어요. 로그인 후 상단 매칭 메뉴에서 AI 실사 리포트를 확인해 보세요. 데모 데이터는 주기적으로 초기화됩니다.</p>
     </div>
 
     <label>아이디</label>
