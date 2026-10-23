@@ -90,6 +90,17 @@ DATABASES = {
     }
 }
 
+# DATABASE_URL 이 있으면 Postgres 를 쓴다(예: Vercel + Neon). 없으면 위의 SQLite 그대로.
+# 서버리스는 요청마다 인스턴스가 바뀔 수 있어, 모든 인스턴스가 같은 DB 를 봐야 로그인·좋아요가 유지된다.
+DATABASE_URL = os.environ.get('DATABASE_URL') or os.environ.get('POSTGRES_URL')
+if DATABASE_URL:
+    import dj_database_url
+    DATABASES['default'] = dj_database_url.parse(
+        DATABASE_URL,
+        conn_max_age=0,            # 서버리스: 요청이 끝나면 연결을 닫는다
+        conn_health_checks=True,
+    )
+
 AUTH_PASSWORD_VALIDATORS = [
     {'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator'},
     {'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator'},
