@@ -1,0 +1,31 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  django:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    env:
+      # 테스트 전용 값. 운영 키가 아니다.
+      DJANGO_SECRET_KEY: ci-test-only-not-a-real-secret
+      # 운영 설정(DEBUG off, 보안 헤더 on) 그대로 검사하고, 테스트 클라이언트가 HTTP라 HTTPS 리다이렉트만 끈다.
+      DJANGO_DEBUG: "false"
+      DJANGO_SSL_REDIRECT: "false"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      # 기능 테스트 + 보안 회귀 테스트. AI 호출은 키가 없으면 폴백 경로로 동작한다.
+      - name: Run tests
+        run: python manage.py test core
