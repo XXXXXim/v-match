@@ -1,5 +1,7 @@
 # V-Match
 
+[![tests](https://github.com/XXXXXim/v-match/actions/workflows/tests.yml/badge.svg)](https://github.com/XXXXXim/v-match/actions/workflows/tests.yml)
+
 > **VC와 스타트업을 양방향으로 연결하는 AI 투자 매칭 플랫폼**
 > 결정론적 FIT 점수로 추천하고, LLM이 실사(Due Diligence) 형식의 분석 리포트를 만들어 줍니다.
 
