@@ -1,8 +1,8 @@
 """Vercel 서버리스 진입점 — Django(backend/)를 WSGI 앱으로 띄운다.
 
 DB 는 두 가지 방식을 지원한다.
-- DATABASE_URL 이 있으면(권장): 모든 인스턴스가 같은 Postgres 를 쓴다. 서버가 시작될 때
-  마이그레이션하고, 비어 있으면 데모 데이터를 넣는다. 매일 한 번 Cron 이 처음 상태로 되돌린다.
+- DATABASE_URL 이 있으면(권장): 모든 인스턴스가 같은 Postgres 를 쓴다. 마이그레이션과 데모 데이터는
+  배포 빌드 때 한 번 준비하고, 매일 한 번 Cron 이 처음 상태로 되돌린다.
 - 없으면: 시드된 SQLite 를 /tmp 로 복사해 쓴다. 인스턴스마다 DB 가 따로라서
   방문자가 새로 만든 데이터는 다른 인스턴스에서 안 보일 수 있다.
 
@@ -37,9 +37,5 @@ from django.core.wsgi import get_wsgi_application  # noqa: E402
 
 app = get_wsgi_application()
 
-if USE_POSTGRES:
-    from django.core.management import call_command  # noqa: E402
-    from django.db import connections  # noqa: E402
-
-    call_command("demo_db", "ensure", verbosity=0)
-    connections.close_all()  # 준비용 연결은 닫고, 요청은 새 연결로 처리
+# Postgres 준비(마이그레이션·데모 데이터)는 배포 빌드 단계(scripts/vercel_build.sh)에서 끝낸다.
+# 요청 처리 중에는 준비 작업을 하지 않으므로 첫 방문자도 기다리지 않는다.

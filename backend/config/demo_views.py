@@ -23,3 +23,26 @@ def reset_demo(request):
         return JsonResponse({'error': 'unauthorized'}, status=401)
     call_command('demo_db', 'reset', verbosity=0)
     return JsonResponse({'reset': True})
+
+
+@require_GET
+def demo_health(request):
+    """데모 상태 점검: 어떤 DB 를 쓰는지, 데이터가 있는지, DB 왕복이 얼마나 걸리는지. 비밀값은 내보내지 않는다."""
+    import time
+
+    from django.conf import settings
+    from django.db import connection
+
+    if not settings.VMATCH_DEMO_MODE:
+        raise Http404
+    from accounts.models import User
+
+    t0 = time.perf_counter()
+    users = User.objects.count()
+    ms = round((time.perf_counter() - t0) * 1000)
+    return JsonResponse({
+        'db': connection.vendor,
+        'users': users,
+        'query_ms': ms,
+        'region': os.environ.get('VERCEL_REGION', ''),
+    })

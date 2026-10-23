@@ -102,6 +102,8 @@ if DATABASE_URL:
     )
     # 풀러(트랜잭션 모드)를 거치는 연결에서는 서버 측 커서를 쓸 수 없다.
     DATABASES['default']['DISABLE_SERVER_SIDE_CURSORS'] = True
+    # DB 에 닿지 않으면 무한정 기다리지 말고 10초 안에 실패한다(요청이 멈춘 채로 남지 않게).
+    DATABASES['default'].setdefault('OPTIONS', {})['connect_timeout'] = 10
 
 AUTH_PASSWORD_VALIDATORS = [
     {'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator'},
