@@ -1,0 +1,97 @@
+{
+  "pairs": 1000,
+  "vcs": 20,
+  "startups": 50,
+  "determinism_rate": 1.0,
+  "in_range_rate": 1.0,
+  "distribution": {
+    "mean": 52.1,
+    "stdev": 11.2,
+    "min": 26,
+    "p10": 37,
+    "median": 52,
+    "p90": 67,
+    "max": 76,
+    "distinct_values": 48
+  },
+  "vc_top5_with_ties_rate": 1.0,
+  "monotonicity": {
+    "checks": 7000,
+    "violations": 0,
+    "pass_rate": 1.0,
+    "examples": []
+  },
+  "thesis": {
+    "industry_matched_pairs": 509,
+    "industry_unmatched_pairs": 491,
+    "mean_matched": 59.4,
+    "mean_unmatched": 44.5
+  },
+  "data_contract": {
+    "vc_industry_label_coverage": 0.211,
+    "unknown_vc_industry_labels": [
+      "12 New Industries",
+      "Advanced Materials",
+      "Aerospace",
+      "AgriFood",
+      "Agriculture",
+      "Automotive",
+      "Big Data",
+      "Bio/Healthcare",
+      "ClimateTech",
+      "Commerce",
+      "Data",
+      "Data Platform",
+      "DeepTech",
+      "Digital Transformation",
+      "Display",
+      "ESG",
+      "Eco/Energy",
+      "Energy",
+      "FinTech",
+      "Fisheries",
+      "FoodTech",
+      "Future Mobility",
+      "Gaming",
+      "Hydrogen",
+      "ICT",
+      "Intelligent Robot",
+      "Manufacturing",
+      "Marine",
+      "Materials/Components",
+      "Medical",
+      "Metaverse",
+      "Mobile",
+      "Network",
+      "Platform",
+      "Red Bio",
+      "Robotics",
+      "Secondary Battery",
+      "Semiconductor",
+      "Service",
+      "SilverTech",
+      "Tech",
+      "VR/AR"
+    ],
+    "vcs_with_no_industry_match": [
+      "충남대학교기술지주",
+      "슈미트",
+      "부산지역대학연합기술지주",
+      "대덕벤처파트너스",
+      "쿨리지코너인베스트먼트",
+      "아이빌트"
+    ],
+    "eval_emphasis_coverage": 0.518,
+    "unknown_eval_emphasis": [
+      "impact",
+      "scalability",
+      "technology"
+    ],
+    "stage_normalized_rate": 0.94,
+    "unnormalized_stages": [
+      "2026년 상반기 상용화 예정",
+      "MVP 개발",
+      "R&D · BM 고도화 · 사업화 진입"
+    ]
+  }
+}
